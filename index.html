@@ -32,6 +32,17 @@
 #publicMap .public-map-live.is-ready{opacity:1;pointer-events:auto}
 #publicMap .maplibregl-map{height:100%;width:100%;font-family:inherit}
 #publicMap .public-map-pin{height:20px;width:20px;padding:0;border:3px solid white;border-radius:50%;box-shadow:0 2px 8px #213b3480;cursor:pointer}
+
+/* Named public stops and other public villages. No private-home location or village data. */
+#publicMap .atlas-named-pin{display:flex;align-items:center;gap:5px;white-space:nowrap;cursor:pointer;user-select:none;filter:drop-shadow(0 2px 2px rgba(13,34,28,.22));}
+#publicMap .atlas-named-pin.left{flex-direction:row-reverse;}
+#publicMap .atlas-named-pin .atlas-pin-dot{width:19px;height:19px;min-width:19px;border:3px solid #fff;border-radius:50%;box-shadow:0 1px 6px #09291c6d;display:inline-block;}
+#publicMap .atlas-named-pin .atlas-map-label{font:700 12px/1.25 system-ui,-apple-system,Roboto,sans-serif;background:#fffdf4f2;border:1px solid #dce7dd;border-radius:7px;color:#173a30;padding:5px 7px;box-shadow:0 2px 7px #1b3b2a1a;}
+#publicMap .atlas-named-pin.village .atlas-pin-dot{height:9px;width:9px;min-width:9px;border:1px solid #fff;background:#718b79;}
+#publicMap .atlas-named-pin.village .atlas-map-label{font-size:11px;font-weight:650;background:#fafcf7dd;border:0;padding:3px 5px;box-shadow:0 1px 3px #1b3b2a17;}
+#publicMap .atlas-named-pin .atlas-map-label.atlas-collided{visibility:hidden!important;}
+#publicMap .atlas-named-pin:focus-visible{outline:3px solid #dc9858;outline-offset:3px;}
+@media(max-width:650px){#publicMap .atlas-named-pin .atlas-map-label{font-size:11px;padding:4px 5px;}#publicMap .atlas-named-pin.village .atlas-map-label{font-size:10px;padding:3px 4px;}}
 #publicMap .maplibregl-popup-content{color:#234839;padding:12px 15px;font-size:12px;line-height:1.6;border-radius:9px}
 #publicMap .maplibregl-popup-content a{color:#0c6953;font-weight:700}
 #publicMap .maplibregl-ctrl-attrib{font-size:10px}
@@ -59,13 +70,13 @@
 
 <section class="hidden" id="destinationsPanel">
  <div class="public-lead"><h2>Explore public places across Chania</h2><p>Landscape, food, wine and outdoor-tour inspiration for the strongest Atlas ideas. Experiences hosted in <b>Mountain Village</b> use a general placeholder name: its actual location is private and has no map pin. Every pin represents a <b>public destination</b>, not a private host venue or visitor pickup point. Background map place names are hidden.</p></div>
- <div class="public-map-shell"><div class="public-map-head"><h3>Destination map</h3><span>Tap public pins · Background place names hidden</span></div>
+ <div class="public-map-shell"><div class="public-map-head"><h3>Destination map</h3><span>Named public places · Your private village is not identified</span></div>
   <div id="publicMap" role="region" aria-label="Map of public tourist destinations in Chania"></div>
   <div class="pub-legend"><span><i class="pub-dot mountain"></i> Mountain / gorge</span><span><i class="pub-dot foothill"></i> Winery / foothills</span><span><i class="pub-dot valley"></i> Village / valley</span><span><i class="pub-dot coast"></i> Coast / town</span></div>
  </div>
- <p class="pub-note">Pins indicate public places or approximate public meeting areas, not exact trailheads or venue entrances. The map does not calculate routes or distances from any private property. Live map tiles need internet; a basic map remains visible offline.</p>
+ <p class="pub-note">Public destinations and nearby towns have visible names; zoom in to see crowded labels. Your private village and property are not identified. Pins are approximate, not precise venue entrances. The interactive basemap needs internet; a named overview remains available offline.</p>
  <div class="pub-dest-grid" id="publicDestCards"></div>
- <div class="pub-private"><b>Location privacy:</b> No house, private olive trees, land parcel, access road, private coordinates or personal map links appear here. Mountain Village experiences intentionally have no map marker. Confirm permissions, safety and partner arrangements before advertising a tour.</div>
+ <div class="pub-private"><b>Location privacy:</b> No house, private olive trees, land parcel, access road, private coordinates or personal map links appear here. Private experiences intentionally have no map marker. Confirm permissions, safety and partner arrangements before advertising a tour.</div>
 </section>
 <section class="hidden" id="numbersPanel"><div class="surface"><h2 class="subhead">Tour contribution calculator</h2><p class="muted">Test gross sales, commission, variable costs and monthly vehicle repayments. All values are editable assumptions, not profits or guaranteed bookings.</p><div class="numbers"><div><label class="field">Experience<select id="calcExp"></select></label><label class="field">Guests (maximum 6)<input type="number" id="calcGuests" min="1" max="6" value="6"></label><label class="field">Selling price (€)<input type="number" id="calcPrice" min="0"></label><label class="field">Marketplace commission (%)<input type="number" id="calcCommission" min="0" max="100" value="25"></label></div><div><label class="field">Variable cost per guest (€)<input type="number" id="calcVariable" min="0" value="20"></label><label class="field">Fixed costs per tour (€)<input type="number" id="calcTrip" min="0" value="70"></label><label class="field">Tours per month<input type="number" id="calcTours" min="0" value="8"></label><label class="field">Monthly car-loan payment (€)<input type="number" id="calcLoan" min="0" value="650"></label></div></div><div class="result" id="calcResult"></div><p class="small muted">Before VAT, income tax, your own wage, commercial insurance, maintenance beyond assumed costs, accountant, permits and other overheads.</p></div></section>
 <section class="hidden" id="roadmapPanel"><div class="surface"><h2 class="subhead">May–December 2027</h2><p class="muted">Your tourist office is independent and unnamed. Your future olive-harvest venture remains a separate business idea.</p><div id="steps"></div></div></section>
@@ -104,6 +115,7 @@ document.addEventListener('error', function(event) {
 
 
 const PUBLIC_DESTINATIONS = [{"id":"chania","name":"Chania Old Harbour","label":"Chania Harbour","lat":35.5175,"lon":24.0179,"kind":"Coast / heritage","tag":"coast","idea":11,"why":"City pickup, history, photography and an alternative urban starting point.","url":"https://www.visitgreece.gr/en/islands/Creta/Chania"},{"id":"manousakis","name":"Manousakis Winery · Vatolakkos","label":"Manousakis Winery","lat":35.44953,"lon":23.88764,"kind":"Winery / foothills","tag":"foothill","idea":5,"why":"A genuine winery offering tours and tastings; a partnership would require approval.","url":"https://www.manousakiswinery.com/visit"},{"id":"botanical","name":"Botanical Park & Gardens of Crete","label":"Botanical Park","lat":35.41833,"lon":23.93944,"kind":"Nature / foothills","tag":"foothill","idea":11,"why":"Public visitor attraction for plants, food and guided nature experiences.","url":"https://www.botanical-park.com/how-to-come/"},{"id":"kydoni","name":"Kydoni Gorge · Karanou","label":"Kydoni Gorge","lat":35.40064,"lon":23.91717,"kind":"Gorge / mountain","tag":"mountain","idea":10,"why":"A documented gorge walk near a public mountain village; confirm trail conditions.","url":"https://visitchania.gr/en/places-to-visit/kydoni-gorge/"},{"id":"lakkoi","name":"Lakkoi village","label":"Lakkoi","lat":35.39704,"lon":23.94087,"kind":"Village / mountain","tag":"mountain","idea":11,"why":"Mountain village and surrounding landscape for landscape or culture tours.","url":"https://mapcarta.com/12863018"},{"id":"meskla","name":"Meskla village","label":"Meskla","lat":35.40314,"lon":23.95608,"kind":"Village / valley","tag":"valley","idea":10,"why":"Foothill village suitable for hiking and countryside itineraries.","url":"https://mapcarta.com/12860080"},{"id":"sarakina","name":"Sarakina Gorge · Meskla","label":"Sarakina Gorge","lat":35.39619,"lon":23.96093,"kind":"Gorge / mountain","tag":"mountain","idea":10,"why":"Outdoor terrain option; validate trail access, difficulty and safety first.","url":"https://mapcarta.com/N4961357841"},{"id":"omalos","name":"Omalos Plateau","label":"Omalos","lat":35.34388,"lon":23.90454,"kind":"Plateau / high mountain","tag":"mountain","idea":10,"why":"Mountain scenery and a larger half-day or full-day route possibility.","url":"https://mapcarta.com/12858284"}];
+const PUBLIC_NEARBY_TOWNS = [{"name":"Skines","lat":35.43233,"lon":23.91919,"side":"left"},{"name":"Karanou","lat":35.40064,"lon":23.91717,"side":"left"},{"name":"Vatolakkos","lat":35.44936,"lon":23.89278,"side":"right"},{"name":"Alikianos","lat":35.45408,"lon":23.91168,"side":"right"},{"name":"Fournes","lat":35.43758,"lon":23.94068,"side":"right"},{"name":"Agia","lat":35.47236,"lon":23.93099,"side":"right"}];
 let publicMapInstance=null, publicMapLoading=false, publicMapRendered=false;
 function publicLink(p){return 'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.name+', Chania, Crete, Greece')}
 function renderPublicDestinations(){
@@ -114,9 +126,35 @@ function renderPublicDestinations(){
  // A genuine offline fallback, with public pins only. Not a navigational chart and not an origin for private routes.
  const minLon=23.855,maxLon=24.055,minLat=35.315,maxLat=35.542;
  const xy=p=>[66+(p.lon-minLon)/(maxLon-minLon)*622,35+(maxLat-p.lat)/(maxLat-minLat)*376];
- const dots=PUBLIC_DESTINATIONS.map(p=>{
-   const [x,y]=xy(p), color={mountain:'#be8147',foothill:'#428f6b',valley:'#5192a2',coast:'#367cc1'}[p.tag]||'#b88a4d';
-   return `<a href="${esc(publicLink(p))}" target="_blank" rel="noopener noreferrer"><title>${esc(p.name)} — public destination</title><circle cx="${x}" cy="${y}" r="12" fill="#ffffffb0"/><circle cx="${x}" cy="${y}" r="8" fill="${color}" stroke="#fff" stroke-width="2"/></a>`;
+ const allPublicMapLabels=[
+  ...PUBLIC_DESTINATIONS.map(p=>({name:p.label,lat:p.lat,lon:p.lon,kind:'stop',tag:p.tag,place:p})),
+  ...PUBLIC_NEARBY_TOWNS.map(p=>({name:p.name,lat:p.lat,lon:p.lon,kind:'village',place:p}))
+ ];
+ const placed=[];
+ const dots=allPublicMapLabels.map(p=>{
+   const [x,y]=xy(p), isStop=p.kind==='stop';
+   const color=isStop?({mountain:'#be8147',foothill:'#428f6b',valley:'#5192a2',coast:'#367cc1'}[p.tag]||'#b88a4d'):'#708a78';
+   const labelW=Math.max(52,p.name.length*(isStop?7.1:6.9)+16),labelH=22;
+   // Find an unobscured position for names in the offline schematic.
+   const offsets=[[12,-29],[12,9],[-labelW-11,-29],[-labelW-11,9],[14,-52],[-labelW-11,32],[14,34]];
+   let labelBox=null;
+   for(const [ox,oy] of offsets){
+     const bx=Math.max(3,Math.min(760-labelW-3,x+ox)),by=Math.max(3,Math.min(450-labelH-3,y+oy));
+     const candidate={x:bx,y:by,w:labelW,h:labelH};
+     if(!placed.some(a=>candidate.x<a.x+a.w+3&&candidate.x+candidate.w+3>a.x&&candidate.y<a.y+a.h+3&&candidate.y+candidate.h+3>a.y)){
+       labelBox=candidate;break;
+     }
+   }
+   let badge='';
+   if(labelBox){placed.push(labelBox);
+     const b=labelBox;
+     badge=`<path d="M${x.toFixed(1)} ${y.toFixed(1)} L${(b.x+b.w/2).toFixed(1)} ${(b.y+b.h/2).toFixed(1)}" stroke="#74897d" stroke-width="1" opacity=".48"/>
+       <rect x="${b.x.toFixed(1)}" y="${b.y.toFixed(1)}" width="${b.w.toFixed(1)}" height="${b.h}" rx="5" fill="${isStop?'#fffdfa':'#f3f8f1'}" stroke="#cbdccd" stroke-width="1"/>
+       <text x="${(b.x+7).toFixed(1)}" y="${(b.y+15).toFixed(1)}" font-family="system-ui,Arial,sans-serif" font-weight="${isStop?'700':'600'}" font-size="${isStop?'12':'11'}" fill="#1b4538">${esc(p.name)}</text>`;
+   }
+   const link=publicLink(p.place);
+   return `<a href="${esc(link)}" target="_blank" rel="noopener noreferrer"><title>${esc(p.name)} — public place</title>${badge}
+     <circle cx="${x}" cy="${y}" r="${isStop?8:4.7}" fill="${color}" stroke="#fff" stroke-width="${isStop?2.5:1.7}"/></a>`;
  }).join('');
  const fallback=`<svg viewBox="0 0 760 450" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Schematic of public destinations in Western Crete; live interactive map loads when internet is available" xmlns="http://www.w3.org/2000/svg">
  <defs><linearGradient id="seaGrad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d8edf0"/><stop offset="1" stop-color="#f0f4ed"/></linearGradient><linearGradient id="landGrad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dbe9d1"/><stop offset="1" stop-color="#a6c9a7"/></linearGradient></defs>
@@ -162,18 +200,46 @@ async function loadPublicMap(){
     // This is done BEFORE the live map becomes visible to avoid flashing the village name.
     (map.getStyle().layers||[]).filter(layer=>layer.type==='symbol').forEach(layer=>map.setLayoutProperty(layer.id,'visibility','none'));
     const bounds=new ml.LngLatBounds();
-    PUBLIC_DESTINATIONS.forEach(p=>{
-     const color={mountain:'#be8147',foothill:'#428f6b',valley:'#5192a2',coast:'#367cc1'}[p.tag]||'#2e8a69';
-     const pin=document.createElement('button');pin.type='button';pin.className='public-map-pin';pin.style.backgroundColor=color;
-     pin.setAttribute('aria-label','Show '+p.name);pin.title=p.label;
-     const popup=new ml.Popup({offset:17,maxWidth:'250px'}).setHTML(`<strong>${esc(p.name)}</strong><div>${esc(p.kind)}</div><a href="${esc(publicLink(p))}" target="_blank" rel="noopener noreferrer">View in Google Maps ↗</a>`);
-     new ml.Marker({element:pin,anchor:'center'}).setLngLat([p.lon,p.lat]).setPopup(popup).addTo(map);
-     bounds.extend([p.lon,p.lat]);
-    });
+    const namedMarkers=[];
+    function addNamedMarker(p, isStop){
+      const color=isStop?({mountain:'#be8147',foothill:'#428f6b',valley:'#5192a2',coast:'#367cc1'}[p.tag]||'#2e8a69'):'#708a78';
+      const side=p.side||(['meskla','sarakina','botanical','chania'].includes(p.id)?'left':'right');
+      const el=document.createElement('div');
+      el.className='atlas-named-pin '+side+(isStop?' stop':' village');
+      el.setAttribute('role','button');el.tabIndex=0;
+      el.setAttribute('aria-label','Explore public place: '+(p.name||p.label));
+      const dot=document.createElement('span');dot.className='atlas-pin-dot';dot.style.backgroundColor=color;
+      const label=document.createElement('span');label.className='atlas-map-label';label.textContent=(isStop?p.label:p.name);
+      el.appendChild(dot);el.appendChild(label);
+      const link=publicLink(p);
+      const popup=new ml.Popup({offset:16,maxWidth:'260px'}).setHTML(`<strong>${esc(p.name)}</strong><div>${esc(p.kind||'Public village')}</div><a href="${esc(link)}" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a>`);
+      new ml.Marker({element:el,anchor:side==='left'?'right':'left'}).setLngLat([p.lon,p.lat]).setPopup(popup).addTo(map);
+      el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();el.click()}});
+      namedMarkers.push({el,label,priority:isStop?1:2});
+      if(isStop)bounds.extend([p.lon,p.lat]);
+    }
+    PUBLIC_DESTINATIONS.forEach(p=>addNamedMarker(p,true));
+    PUBLIC_NEARBY_TOWNS.forEach(p=>addNamedMarker(p,false));
+    // Keep names legible on a small phone screen without hiding any of the public location dots.
+    function declutterNames(){
+      const mapRect=liveLayer.getBoundingClientRect(),reserved=[];
+      namedMarkers.sort((a,b)=>a.priority-b.priority);
+      for(const item of namedMarkers){
+        item.label.classList.remove('atlas-collided');
+        const r=item.label.getBoundingClientRect();
+        const clipped=r.right<mapRect.left+5||r.left>mapRect.right-5||r.bottom<mapRect.top+5||r.top>mapRect.bottom-5;
+        const collision=reserved.some(q=>r.left<q.right+3&&r.right+3>q.left&&r.top<q.bottom+3&&r.bottom+3>q.top);
+        if(clipped||collision){item.label.classList.add('atlas-collided');}
+        else{reserved.push(r);}
+      }
+    }
+    map.on('moveend',()=>requestAnimationFrame(declutterNames));
+    map.on('zoomend',()=>requestAnimationFrame(declutterNames));
+    map.on('resize',()=>requestAnimationFrame(declutterNames));
     map.fitBounds(bounds,{padding:window.innerWidth<650?36:55,maxZoom:11,duration:0});
     publicMapInstance=map;
     // Keep the offline preview beneath the loaded map, rather than replacing it with an error image.
-    requestAnimationFrame(()=>{map.resize();liveLayer.classList.add('is-ready')});
+    requestAnimationFrame(()=>{map.resize();liveLayer.classList.add('is-ready');requestAnimationFrame(declutterNames)});
    }catch(e){console.warn('Public map initialization failed; showing offline preview',e);map.remove();liveLayer.remove();}
    publicMapLoading=false;
   });
