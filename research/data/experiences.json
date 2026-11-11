@@ -29,7 +29,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.874,
+      "latitude": 35.053,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Moires",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0002",
@@ -58,7 +64,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.874,
+      "latitude": 35.053,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Moires",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0003",
@@ -87,7 +99,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.874,
+      "latitude": 35.053,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Moires",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0004",
@@ -116,7 +134,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.874,
+      "latitude": 35.053,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Moires",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0005",
@@ -145,7 +169,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.742,
+      "latitude": 35.463,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Astrikas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0006",
@@ -174,7 +204,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.742,
+      "latitude": 35.463,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Astrikas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0007",
@@ -203,7 +239,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.742,
+      "latitude": 35.463,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Astrikas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0008",
@@ -232,7 +274,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.742,
+      "latitude": 35.463,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Astrikas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0009",
@@ -261,7 +309,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.742,
+      "latitude": 35.463,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Astrikas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0010",
@@ -290,7 +344,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.134,
+      "latitude": 35.51,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Sternes",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0011",
@@ -319,7 +379,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.134,
+      "latitude": 35.51,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Sternes",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0012",
@@ -348,7 +414,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0013",
@@ -377,7 +449,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0014",
@@ -406,7 +484,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.06,
+      "latitude": 35.409,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Drakona",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0015",
@@ -435,7 +519,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.605,
+      "latitude": 35.368,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Pigi",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0016",
@@ -464,7 +554,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0017",
@@ -493,7 +589,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0018",
@@ -522,7 +624,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0019",
@@ -551,7 +659,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0020",
@@ -580,7 +694,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0021",
@@ -609,7 +729,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0022",
@@ -638,7 +764,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0023",
@@ -667,7 +799,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.267,
+      "latitude": 35.399,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Paidochori",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0024",
@@ -696,7 +834,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.383,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Emprosneros",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0025",
@@ -725,7 +869,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0026",
@@ -754,7 +904,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0027",
@@ -783,7 +939,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0028",
@@ -812,7 +974,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.139,
+      "latitude": 35.285,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Athanatoi",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0029",
@@ -841,7 +1009,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.139,
+      "latitude": 35.285,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Athanatoi",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0030",
@@ -870,7 +1044,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.139,
+      "latitude": 35.285,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Athanatoi",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0031",
@@ -899,7 +1079,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.139,
+      "latitude": 35.285,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Athanatoi",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0032",
@@ -928,7 +1114,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.139,
+      "latitude": 35.285,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Athanatoi",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0033",
@@ -957,7 +1149,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.996,
+      "latitude": 35.14,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agia Varvara",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0034",
@@ -986,7 +1184,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.996,
+      "latitude": 35.14,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agia Varvara",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0035",
@@ -1015,7 +1219,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.996,
+      "latitude": 35.14,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agia Varvara",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0036",
@@ -1044,7 +1254,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.335,
+      "latitude": 35.261,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Charaso",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0037",
@@ -1073,7 +1289,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.335,
+      "latitude": 35.261,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Charaso",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0038",
@@ -1102,7 +1324,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.335,
+      "latitude": 35.261,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Charaso",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0039",
@@ -1131,7 +1359,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.335,
+      "latitude": 35.261,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Charaso",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0040",
@@ -1160,7 +1394,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.145,
+      "latitude": 35.34,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0041",
@@ -1189,7 +1429,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.145,
+      "latitude": 35.34,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0042",
@@ -1218,7 +1464,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.1,
+      "latitude": 34.99,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Asterousia",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0043",
@@ -1247,7 +1499,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.1,
+      "latitude": 34.99,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Asterousia",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0044",
@@ -1276,7 +1534,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.1,
+      "latitude": 34.99,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Asterousia",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0045",
@@ -1305,7 +1569,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.1,
+      "latitude": 34.99,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Asterousia",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0046",
@@ -1334,7 +1604,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0047",
@@ -1363,7 +1639,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0048",
@@ -1392,7 +1674,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0049",
@@ -1421,7 +1709,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0050",
@@ -1450,7 +1744,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0051",
@@ -1479,7 +1779,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0052",
@@ -1508,7 +1814,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0053",
@@ -1537,7 +1849,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0054",
@@ -1566,7 +1884,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0055",
@@ -1595,7 +1919,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0056",
@@ -1624,7 +1954,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0057",
@@ -1653,7 +1989,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.473,
+      "latitude": 35.367,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Rethymno",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0058",
@@ -1682,7 +2024,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.77,
+      "latitude": 35.226,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Psiloritis",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0059",
@@ -1711,7 +2059,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.028,
+      "latitude": 35.365,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: White Mountains",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0060",
@@ -1740,7 +2094,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.408,
+      "latitude": 35.191,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Sellia",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0061",
@@ -1769,7 +2129,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.681,
+      "latitude": 35.324,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Margarites",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0062",
@@ -1798,7 +2164,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.473,
+      "latitude": 35.367,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Rethymno",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0063",
@@ -1827,7 +2199,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.473,
+      "latitude": 35.367,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Rethymno",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0064",
@@ -1856,7 +2234,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.145,
+      "latitude": 35.34,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0065",
@@ -1885,7 +2269,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.948,
+      "latitude": 35.45,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Vatolakkos",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0066",
@@ -1914,7 +2304,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.166,
+      "latitude": 35.232,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Archanes",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0067",
@@ -1943,7 +2339,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.166,
+      "latitude": 35.232,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Archanes",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0068",
@@ -1972,7 +2374,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.145,
+      "latitude": 35.34,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0069",
@@ -2001,7 +2409,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.145,
+      "latitude": 35.34,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0070",
@@ -2030,7 +2444,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.145,
+      "latitude": 35.34,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0071",
@@ -2059,7 +2479,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.462,
+      "latitude": 35.284,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Malia",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0072",
@@ -2088,7 +2514,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.462,
+      "latitude": 35.284,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Malia",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0073",
@@ -2117,7 +2549,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.285,
+      "latitude": 35.229,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Alagni",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0074",
@@ -2146,7 +2584,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.052,
+      "latitude": 35.215,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Dafnes",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0075",
@@ -2175,7 +2619,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.028,
+      "latitude": 35.365,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: White Mountains",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0076",
@@ -2204,7 +2654,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.028,
+      "latitude": 35.365,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: White Mountains",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0077",
@@ -2233,7 +2689,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.552,
+      "latitude": 35.283,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Rethymno mountains",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0078",
@@ -2262,7 +2724,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.058,
+      "latitude": 35.381,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Chania mountains",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0079",
@@ -2291,7 +2759,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.12,
+      "latitude": 35.205,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion mountains",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0080",
@@ -2320,7 +2794,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.653,
+      "latitude": 35.493,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Kissamos",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0081",
@@ -2349,7 +2829,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.653,
+      "latitude": 35.493,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Kissamos",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0082",
@@ -2378,7 +2864,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.653,
+      "latitude": 35.493,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Kissamos",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0083",
@@ -2407,7 +2899,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.912,
+      "latitude": 35.346,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Omalos",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0084",
@@ -2436,7 +2934,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.991,
+      "latitude": 35.403,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Theriso",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0085",
@@ -2465,7 +2969,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.653,
+      "latitude": 35.493,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Kissamos",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0086",
@@ -2494,7 +3004,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0087",
@@ -2523,7 +3039,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.653,
+      "latitude": 35.493,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Kissamos",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0088",
@@ -2552,7 +3074,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.591,
+      "latitude": 35.584,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Balos",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0089",
@@ -2581,7 +3109,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.536,
+      "latitude": 35.271,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Elafonissi",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0090",
@@ -2610,7 +3144,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.909,
+      "latitude": 35.518,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Platanias",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0091",
@@ -2639,7 +3179,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.121,
+      "latitude": 35.446,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Malaxa",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0092",
@@ -2668,7 +3214,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.991,
+      "latitude": 35.403,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Theriso",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0093",
@@ -2697,7 +3249,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.948,
+      "latitude": 35.45,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Vatolakkos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0094",
@@ -2726,7 +3284,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.121,
+      "latitude": 35.446,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Malaxa",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0095",
@@ -2755,7 +3319,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.121,
+      "latitude": 35.446,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Malaxa",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0096",
@@ -2784,7 +3354,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.121,
+      "latitude": 35.446,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Malaxa",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0097",
@@ -2813,7 +3389,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.97,
+      "latitude": 35.28,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Samaria Gorge",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0098",
@@ -2842,7 +3424,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.97,
+      "latitude": 35.28,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Samaria Gorge",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0099",
@@ -2871,7 +3459,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.97,
+      "latitude": 35.28,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Samaria Gorge",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0100",
@@ -2900,7 +3494,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.581,
+      "latitude": 35.249,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Patsos Gorge",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0101",
@@ -2929,7 +3529,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.653,
+      "latitude": 35.493,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Kissamos",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0102",
@@ -2958,7 +3564,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.706,
+      "latitude": 34.877,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Chrissi Island",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0103",
@@ -2987,7 +3599,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.019,
+      "latitude": 35.512,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Chania",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0104",
@@ -3016,7 +3634,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0105",
@@ -3045,7 +3669,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0106",
@@ -3074,7 +3704,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0107",
@@ -3103,7 +3739,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0108",
@@ -3132,7 +3774,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0109",
@@ -3161,7 +3809,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0110",
@@ -3190,7 +3844,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0111",
@@ -3219,7 +3879,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     }
   ]
 }

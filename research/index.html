@@ -4,15 +4,28 @@
 <style>
 :root{--bg:#f5f5f0;--paper:#fff;--ink:#1b3733;--muted:#658079;--border:#dbe4dc;--forest:#133f35;--green:#15735c;--aqua:#dbf1e6;--gold:#b7783c;--blue:#3c73aa;--shadow:0 10px 24px #0e352415}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--bg);font:14px/1.5 system-ui,-apple-system,'Segoe UI',Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}a{color:var(--green)}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid #d5954b;outline-offset:2px}header{background:linear-gradient(115deg,#0e2f2a,#245a47 78%);color:white;padding:24px max(16px,calc((100vw - 1450px)/2)) 26px}.brandline{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.eyebrow{text-transform:uppercase;letter-spacing:.17em;font-size:11px;font-weight:850;color:#bde3d1}h1{font:normal clamp(32px,4.5vw,58px)/1.06 Georgia,serif;letter-spacing:-.045em;margin:22px 0 8px}header p{color:#d2e7dc;max-width:770px;margin:0}.hero-stats{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}.stat{border:1px solid #ffffff32;background:#ffffff0c;min-width:122px;border-radius:12px;padding:10px 15px}.stat b{font-size:21px;line-height:1.1;display:block}.stat span{font-size:11px;color:#c7e4d6}.btn{background:white;border:1px solid var(--border);padding:9px 13px;border-radius:10px;color:var(--ink);font-weight:730;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:6px;white-space:nowrap}.btn:hover{border-color:var(--green)}.btn.dark{background:var(--green);border-color:var(--green);color:white}.btn.soft{background:#e7f3e8}.btn.ghost{background:#ffffff16;border:1px solid #ffffff50;color:white}.btn.tiny{padding:7px 10px;font-size:12px}.wrap{max-width:1480px;margin:auto;padding:16px 14px 65px}.tabs{display:flex;gap:5px;overflow:auto;border-bottom:1px solid var(--border);margin-bottom:16px;padding:2px 0 11px}.tabs button{flex:0 0 auto;border:0;background:transparent;color:#62766b;padding:10px 13px;border-radius:9px;font-weight:750}.tabs button.active{background:#deeee4;color:#0c654e}.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}.field{padding:11px 12px;border-radius:11px;border:1px solid #cbdacf;background:white;color:var(--ink);min-height:42px}.field.search{min-width:180px;flex:2 1 260px}.toolbar .field:not(.search){min-width:135px;flex:1 1 135px}.chipline{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0 15px}.chip{background:white;border:1px solid var(--border);padding:8px 12px;border-radius:25px;color:#527165;font-size:12px;font-weight:750}.chip.on{background:#176f58;color:#fff;border-color:#176f58}.summary{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin:12px 0;color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.card{overflow:hidden;background:var(--paper);border:1px solid var(--border);border-radius:14px;box-shadow:0 5px 10px #183b2407;display:flex;flex-direction:column;min-width:0}.card:hover{box-shadow:var(--shadow)}.photo{height:158px;background:linear-gradient(140deg,#dce9df,#e4e9dd);position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}.photo img{width:100%;height:100%;object-fit:cover}.photo .empty{color:#47625a;text-align:center;font-size:12px;padding:12px}.empty .emoji{font-size:40px;line-height:1.2;display:block;margin-bottom:7px}.tag{background:#fffffff2;border:1px solid #ffffffb8;border-radius:20px;font-size:11px;padding:5px 9px;color:#315348;font-weight:760}.photo .tag{position:absolute;top:10px;left:9px}.heart{position:absolute;right:9px;top:8px;background:#fffffff0;border:0;border-radius:30px;width:35px;height:35px;font-size:19px;color:#8d9d94}.heart.sel{color:#b75d51}.body{padding:13px 14px 10px;flex:1}.overline{font-size:11px;letter-spacing:.035em;text-transform:uppercase;color:#758a7e;font-weight:780}.card h3{margin:6px 0;font-size:16px;line-height:1.27}.card h3 button{border:0;background:transparent;color:inherit;text-align:left;padding:0;font-weight:800;line-height:inherit}.desc{color:#58746b;font-size:12px;line-height:1.47;min-height:50px;margin-top:7px}.facts{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;color:#60736a;font-size:11px}.facts span{background:#f0f6f0;padding:5px 7px;border-radius:7px}.card-bottom{border-top:1px solid var(--border);padding:11px 14px 12px;display:flex;gap:8px;align-items:center;justify-content:space-between}.price{font-weight:900;font-size:19px;color:#134a3b}.price small{display:block;color:#83908a;font-size:10px;font-weight:550;line-height:1.2}.score{font-weight:900;font-size:19px;color:#167154;text-align:right}.score small{font-size:10px;color:#779087;display:block;font-weight:600}.panel{background:white;border:1px solid var(--border);border-radius:15px;padding:20px;margin:12px 0}.panel h2{font:normal 29px Georgia,serif;margin:0 0 10px}.muted{color:#698075}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.buttonrow{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0}.view{display:none}.view.active{display:block}.map-layout{display:grid;grid-template-columns:1.65fr 1fr;gap:14px}.maparea{height:570px;border-radius:13px;overflow:hidden;background:#e3ebe7;position:relative}.mapblank{display:flex;align-items:center;justify-content:center;padding:30px;text-align:center;color:#44645c;height:100%}.mapinfo{max-height:570px;overflow:auto}.maplist{border-bottom:1px solid var(--border);padding:11px 4px}.maplist b{display:block}.maplist button{background:none;border:0;padding:0;color:var(--green);text-decoration:underline}.maplibregl-popup-content{border-radius:12px!important;box-shadow:0 6px 26px #163d263b!important;color:var(--ink)}.popname{font-weight:800;font-size:13px;margin:0 0 5px}.mapbadge{font-weight:700;color:var(--green)}.poplink{display:inline-block;margin-top:4px}.minilist{display:grid;gap:10px}.minicard{border:1px solid var(--border);padding:12px;border-radius:11px;background:#fff;display:flex;justify-content:space-between;gap:14px}.minicard strong{font-size:14px}.minicard small{display:block;color:var(--muted)}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.formgrid label{font-size:12px;font-weight:750;display:grid;gap:5px}.formgrid input,.formgrid select,.formgrid textarea{width:100%}.formgrid .wide{grid-column:span 2}.rule{border:0;border-top:1px solid var(--border);margin:17px 0}.notice{padding:12px;border-radius:10px;background:#eaf3ed;color:#31574c;font-size:12px}.warn{background:#fbf4e6;color:#76603f}.weights{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.weight{padding:12px;border:1px solid var(--border);border-radius:10px}.weight label{font-weight:750;display:flex;justify-content:space-between;font-size:12px}.weight input{width:100%}.detailBackdrop{display:none;position:fixed;inset:0;background:#092820ad;z-index:150;align-items:stretch;justify-content:flex-end}.detailBackdrop.open{display:flex}.detailDrawer{max-width:640px;width:100%;background:var(--bg);height:100%;overflow:auto;box-shadow:-15px 0 40px #0003}.detailTop{background:#fff;padding:14px;position:sticky;top:0;display:flex;align-items:center;justify-content:space-between;gap:8px;z-index:3;border-bottom:1px solid var(--border)}.detailHero{width:100%;height:255px;object-fit:cover;background:#e5ede4}.detailInner{padding:17px}.detailInner h2{font:normal 32px/1.15 Georgia,serif;margin:9px 0}.keyfacts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:16px 0}.keyfacts div{background:#edf3ec;padding:10px;border-radius:10px}.keyfacts b{display:block}.keyfacts small{color:#73867e}.notearea{width:100%;min-height:108px;padding:12px;border:1px solid var(--border);border-radius:10px;resize:vertical}.footer{color:#799086;font-size:11px;text-align:center;padding-top:22px}.countbar{font-size:12px;color:var(--muted)}.photoCredit{font-size:10px;color:#789183}.backtop{cursor:pointer}.status{font-size:11px;color:#3c705e;font-weight:700}.thumbmark{background:#176d57;color:white;font-weight:850;border:2px solid white;box-shadow:0 2px 8px #0004;border-radius:18px;height:28px;min-width:28px;padding:3px 5px;text-align:center}.hidden{display:none!important}
 @media(max-width:1150px){.cards{grid-template-columns:repeat(3,1fr)}}@media(max-width:860px){.cards{grid-template-columns:repeat(2,1fr)}.map-layout{grid-template-columns:1fr}.mapinfo{max-height:320px}.weights{grid-template-columns:1fr}.grid3{grid-template-columns:1fr}}@media(max-width:560px){header{padding:19px 15px 24px}.wrap{padding:12px 10px 50px}.cards{grid-template-columns:1fr}.photo{height:205px}.grid2,.formgrid{grid-template-columns:1fr}.formgrid .wide{grid-column:span 1}.panel{padding:14px}.maparea{height:410px}.detailHero{height:230px}.detailInner{padding:14px}.detailInner h2{font-size:27px}.stat{min-width:103px;padding:8px 11px}.brandline .btn{font-size:11px}}
+
+/* v2: mountain research, private-distance comparison and clustered map */
+.mountain-chip{display:inline-flex;align-items:center;border-radius:7px;padding:4px 8px;font-weight:780;font-size:11px;white-space:nowrap;background:#eef0ed;color:#425c51}
+.mountain-chip.mt-core{background:#f8e9d2;color:#865219}.mountain-chip.mt-near{background:#e6ebf7;color:#355e86}.mountain-chip.mt-rural{background:#e9f2e8;color:#396443}.mountain-chip.mt-other{background:#eeeeed;color:#626768}
+.distance-pill{background:#ebf6f0;color:#205840;border-radius:7px;font-size:11px;padding:5px 7px;font-weight:720}
+.base-panel{background:#ecf6ee;border:1px solid #cadecc;border-radius:12px;padding:13px;margin:12px 0}.base-panel h3{margin:0 0 6px;font-size:17px}.base-tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.base-tools input{width:135px;max-width:100%;min-width:0}.base-status{font-size:12px;color:#35654f;font-weight:700;margin-top:8px}.maplist .distance-pill{display:inline-block;margin-top:6px}
+.map-label{font-size:11px;line-height:1.3;color:#667d71}.badge-list{display:flex;flex-wrap:wrap;gap:5px;margin:7px 0}.record-location{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:11px 0}.mtnhero{padding:12px 14px;background:#fff6e7;border-left:4px solid #b77628;margin:10px 0;border-radius:8px}
+.maplibregl-popup-content .btn{padding:5px 8px;margin-top:5px}.placeList{max-height:245px;overflow:auto;min-width:min(270px,70vw)}.placeList article{border-top:1px solid #e1e7e1;padding:8px 0}.placeList article:first-child{border:0}.placeList b{display:block}.legend-pill{display:inline-block;font-size:11px;border-radius:20px;padding:5px 8px;background:#ecf1ea}
+@media(max-width:560px){.base-tools input{width:calc(50% - 7px)}.map-layout{grid-template-columns:1fr}.mapinfo{max-height:420px}}
 </style></head><body>
-<header><div class="brandline"><div class="eyebrow">Crete · Experience Intelligence · Research workspace</div><div class="buttonrow"><button class="btn ghost tiny" id="quickExport">↓ Export database</button><button class="btn ghost tiny" id="quickAdd">＋ Add experience</button></div></div><h1>Discover more. Build better.</h1><p>Real experiences across Crete, catalogued with operators, published prices, locations, original photo sources and personal-fit rankings. Keep the research. Shortlist what belongs in your future business.</p><div class="hero-stats"><div class="stat"><b id="totalMetric">—</b><span>Real listings</span></div><div class="stat"><b id="regionsMetric">4</b><span>Crete regions</span></div><div class="stat"><b id="pricedMetric">—</b><span>Published prices</span></div><div class="stat"><b id="shortMetric">0</b><span>Your shortlist</span></div><div class="stat"><b>Weekly</b><span>Discovery research</span></div></div></header>
+<header><div class="brandline"><div class="eyebrow">Crete · Experience Intelligence · Research workspace</div><div class="buttonrow"><button class="btn ghost tiny" id="quickExport">↓ Export database</button><button class="btn ghost tiny" id="quickAdd">＋ Add experience</button></div></div><h1>Discover more. Build better.</h1><p>Real experiences across Crete, catalogued with operators, published prices, locations, original photo sources and suitability for mountain and rural concepts. Explore, compare, shortlist and brainstorm.</p><div class="hero-stats"><div class="stat"><b id="totalMetric">—</b><span>Real listings</span></div><div class="stat"><b id="regionsMetric">4</b><span>Crete regions</span></div><div class="stat"><b id="pricedMetric">—</b><span>Published prices</span></div><div class="stat"><b id="shortMetric">0</b><span>Your shortlist</span></div><div class="stat"><b>Weekly</b><span>Discovery research</span></div></div></header>
 <div class="wrap"><nav class="tabs" aria-label="Views"><button data-tab="explore" class="active">Explore database</button><button data-tab="map">Map & locations</button><button data-tab="shortlist">My shortlist</button><button data-tab="inbox">Weekly review</button><button data-tab="ideas">Idea lab & ranking</button><button data-tab="data">Data & updates</button></nav>
-<section class="view active" id="explore"><div class="toolbar"><input class="field search" id="search" type="search" placeholder="Search experience, operator, village, activity…"><select class="field" id="region"><option value="">All Crete</option><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select><select class="field" id="category"><option value="">Every activity</option></select><select class="field" id="terrain"><option value="">All landscapes</option></select><select class="field" id="price"><option value="">Any price</option><option value="40">Up to €40</option><option value="70">Up to €70</option><option value="100">Up to €100</option><option value="150">Up to €150</option><option value="unknown">Unpriced</option></select><select class="field" id="sort"><option value="fit">Highest suitability</option><option value="new">Recently checked</option><option value="price">Cheapest published price</option><option value="title">Name A–Z</option></select></div><div class="chipline" id="chips"></div><div class="summary"><span id="countText">Loading experiences…</span><div class="buttonrow"><button id="photosToggle" class="btn tiny">Original photos only</button><button id="summerToggle" class="btn tiny">Summer-ready only</button></div></div><div class="cards" id="cards"></div></section>
-<section class="view" id="map"><div class="panel"><h2>Crete-wide experience map</h2><p class="muted">Actual road/terrain map with public activity locations. Markers represent approximate named towns or tourism areas, <b>not exact addresses</b>. No private land, home or access location is stored. Filter by region to narrow the map.</p><div class="toolbar"><select id="mapRegion" class="field"><option value="">All Crete</option><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select><select class="field" id="mapCat"><option value="">All activities</option></select><button class="btn tiny" id="mapReset">Fit all public locations</button></div><div class="map-layout"><div class="maparea" id="map"><div class="mapblank">Interactive map loads when connected to the internet. All public listings remain accessible in the directory alongside it.</div></div><div class="panel mapinfo" style="margin:0"><h3 style="margin-top:0">Public experiences on map</h3><div class="countbar" id="mapCount"></div><div id="mapList"></div></div></div><p class="photoCredit">Map tiles © OpenStreetMap contributors, via OpenFreeMap. Markers intentionally indicate approximate public localities. The map requires internet.</p></div></section>
+<section class="view active" id="explore"><div class="toolbar"><input class="field search" id="search" type="search" placeholder="Search experience, operator, village, activity…"><select class="field" id="region"><option value="">All Crete</option><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select><select class="field" id="category"><option value="">Every activity</option></select><select class="field" id="terrain"><option value="">All landscapes</option></select><select class="field" id="mountainFilter" aria-label="Mountain orientation"><option value="">Every mountain type</option><option value="Mountain-led">⛰️ Mountain-led</option><option value="Mountain-adjacent">🏞️ Mountain-adjacent</option><option value="Rural / mixed">🌿 Rural / mixed</option><option value="Non-mountain">🏙️ Non-mountain</option><option value="mountain-any">Mountain-led + adjacent</option></select><select class="field" id="price"><option value="">Any price</option><option value="40">Up to €40</option><option value="70">Up to €70</option><option value="100">Up to €100</option><option value="150">Up to €150</option><option value="unknown">Unpriced</option></select><select class="field" id="sort"><option value="fit">Highest suitability</option><option value="mountain">Most mountain-oriented</option><option value="distance">Nearest to my private base</option><option value="new">Recently checked</option><option value="price">Cheapest published price</option><option value="title">Name A–Z</option></select></div><div class="chipline" id="chips"></div><div class="summary"><span id="countText">Loading experiences…</span><div class="buttonrow"><button id="photosToggle" class="btn tiny">Original photos only</button><button id="summerToggle" class="btn tiny">Summer-ready only</button></div></div><div class="cards" id="cards"></div></section>
+<section class="view" id="map"><div class="panel"><h2>Crete-wide experience map</h2><p class="muted">Actual road/terrain map with public activity locations. Every listing is georeferenced to its public venue locality when known, otherwise to a clearly marked regional estimate. Shared area pins group experiences so overlapping listings stay accessible. No private base location is embedded in the website.</p><div class="toolbar"><select id="mapRegion" class="field"><option value="">All Crete</option><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select><select class="field" id="mapCat"><option value="">All activities</option></select><select class="field" id="mapMountain"><option value="">All landscapes</option><option value="Mountain-led">Mountain-led</option><option value="Mountain-adjacent">Mountain-adjacent</option><option value="mountain-any">Mountain + foothills</option></select><button class="btn tiny" id="mapReset">Fit all public locations</button></div><div class="base-panel"><h3>Compare everything with my private base</h3>
+<p class="muted" style="margin:0 0 10px">Enter coordinates from your own map or use the map selection tool. Saved <b>only in this browser</b>; excluded from the published database, notes exports and shared map markers. Distances are straight-line estimates, never driving times.</p>
+<div class="base-tools"><input class="field" id="baseLat" type="number" step="any" min="34" max="36" placeholder="Latitude (34–36)" aria-label="Private latitude"><input class="field" id="baseLon" type="number" step="any" min="23" max="27" placeholder="Longitude (23–27)" aria-label="Private longitude"><button class="btn dark tiny" id="saveBase">Save privately</button><button class="btn tiny" id="pickBase">Choose on map</button><button class="btn tiny" id="clearBase">Forget base</button></div>
+<div id="baseStatus" class="base-status" role="status">No private base saved on this device.</div></div>
+<div class="map-layout"><div class="maparea" id="mapCanvas"><div class="mapblank">Interactive map loads when connected to the internet. All public listings remain accessible in the directory alongside it.</div></div><div class="panel mapinfo" style="margin:0"><h3 style="margin-top:0">All experiences / public map locations</h3><p class="map-label">Tap a cluster or grouped locality to choose among overlapping experiences. Locations marked “regional estimate” are not verified venue coordinates.</p><div class="countbar" id="mapCount"></div><div id="mapList"></div></div></div><p class="photoCredit">Map tiles © OpenStreetMap contributors, via OpenFreeMap. Markers intentionally indicate approximate public localities. The map requires internet.</p></div></section>
 <section class="view" id="shortlist"><div class="panel"><h2>Your shortlist</h2><p class="muted">Your own decisions are saved in this browser only. They are not published to GitHub or sent to the operators. Export your work regularly.</p><div class="minilist" id="shortList"></div></div></section>
 <section class="view" id="inbox"><div class="panel"><h2>Weekly review inbox</h2><p class="muted">Every Tuesday the research check looks for new Crete experiences, listing changes and price signals. Import the new JSON records here, inspect them, then move them into your shortlist.</p><div class="buttonrow"><button class="btn dark" id="importInbox">Import weekly JSON</button><button class="btn" id="showUnreviewed">Review all unchecked listings</button><button class="btn" id="exportNotes">Export notes & decisions</button></div><div class="notice">The scheduled research sends findings in ChatGPT. This static GitHub Pages site cannot change its shared database automatically without an authorized GitHub update. Imports change your browser copy; export/commit to publish.</div><h3>To review</h3><div class="minilist" id="reviewList"></div></div></section>
-<section class="view" id="ideas"><div class="panel"><h2>What suits your business?</h2><p class="muted">Adjust weights to prioritize a small, summer-oriented, land-based business based around Chania. Scores are research heuristics, <b>not</b> operator ratings, financial forecasts, or permit approvals. Actual competitor price is separate.</p><div class="weights"><div class="weight"><label>Chania / West preference <b id="wregionVal">12</b></label><input type="range" id="wregion" min="0" max="24" value="12"></div><div class="weight"><label>Summer relevance <b id="wsummerVal">12</b></label><input type="range" id="wsummer" min="0" max="24" value="12"></div><div class="weight"><label>Land & rural preference <b id="wlandVal">12</b></label><input type="range" id="wland" min="0" max="24" value="12"></div></div><div class="buttonrow"><button class="btn dark" id="viewTop">View ranked top ideas</button><button class="btn" id="resetWeights">Reset weights</button></div><h3>Highest suitability right now</h3><div class="minilist" id="ideaTop"></div></div><div class="panel"><h2>How I would use it</h2><div class="grid3"><div><b>Research</b><p class="muted">Keep every real listing, including sea activities you don't intend to run.</p></div><div><b>Evaluate</b><p class="muted">Compare feasibility, operating season, equipment and the offer's differentiation.</p></div><div><b>Decide</b><p class="muted">Mark a shortlist. Separately check demand, transport and food regulations before investing.</p></div></div></div></section>
-<section class="view" id="data"><div class="panel"><h2>Database & publishing</h2><p class="muted">The downloadable JSON and CSV are the portable research source of truth. Add or merge real experiences here without rewriting the entire website.</p><div class="buttonrow"><button class="btn dark" id="exportDB">Export full database (.json)</button><button class="btn" id="exportCSV">Export spreadsheet (.csv)</button><button class="btn" id="importDB">Import / merge JSON</button><button class="btn" id="openAdd">Add experience</button><button class="btn" id="exportPersonal">Back up personal notes</button><button class="btn" id="restorePersonal">Restore notes</button></div><div class="notice warn"><b>Privacy:</b> This is a research database built from public operator listings. Do not enter personal property coordinates, routes, village identity or confidential business plans in records you intend to publish. Notes are local to this browser unless you deliberately export them.</div><div class="grid2" style="margin-top:18px"><div><h3>How updates work</h3><p>1. Weekly research provides new or changed listings.</p><p>2. Use <b>Import / merge JSON</b> to update this browser. Same ID or source/title records are merged rather than duplicated.</p><p>3. Export the full JSON, replace <code>data/experiences.json</code> in your GitHub repository, and push. Your public website updates from that file automatically.</p></div><div><h3>Methodology</h3><p>Published prices are starting advertised prices in EUR and can change. Per-person, per-vehicle and private group prices are explicitly distinguished. Empty price means unverified.</p><p>Original photographic thumbnails are hotlinked only for sources that were located; other cards link directly to the operator's own photo page. No stock images or AI-generated photos are represented as competitor photos.</p><p>Research checked: <b id="lastResearch">2026-11-11</b>. Some tours are seasonal, sold out, or require advance confirmation.</p></div></div><hr class="rule"><h3>Add a real experience</h3><div class="formgrid" id="addForm"><label>Experience name<input class="field" id="addTitle" placeholder="e.g. Orchard bread workshop"></label><label>Operator<input class="field" id="addOperator" placeholder="Official operator name"></label><label>Region<select class="field" id="addRegion"><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select></label><label>Village or public locality<input class="field" id="addPlace" placeholder="Public location only"></label><label>Category<select class="field" id="addCategory"></select></label><label>Terrain<select class="field" id="addTerrain"></select></label><label>Advertised price in EUR (optional)<input class="field" id="addPrice" type="number" min="0" step="0.01" placeholder="Leave empty if unverified"></label><label>Price basis<select class="field" id="addBasis"><option value="person">per person</option><option value="vehicle">per vehicle</option><option value="group">per group</option><option value="tour">per tour</option><option value="pot">per item</option></select></label><label class="wide">Direct booking or source URL<input class="field" id="addURL" type="url" placeholder="https://official-operator-site.com/experience"></label><label class="wide">Original operator photo URL (optional)<input class="field" id="addPhoto" type="url" placeholder="https://...jpg"></label><label class="wide">What guests actually do<textarea class="field" id="addDescription" rows="2" placeholder="What is included and where the idea comes from"></textarea></label><label>Season<input class="field" id="addSeason" value="Year-round / check schedule"></label><label>Duration<input class="field" id="addDuration" placeholder="2 h"></label></div><div class="buttonrow"><button id="saveAdd" class="btn dark">Save to my browser database</button><button id="clearAdd" class="btn">Clear form</button></div><div id="addFeedback" class="countbar"></div></div></section><div class="footer">Crete Experience Intelligence · 2026–27 · Personal research and benchmarking tool · Not affiliated with listed operators · All competitor images belong to their respective owners.</div></div>
+<section class="view" id="ideas"><div class="panel"><h2>Mountain-first brainstorming</h2><p class="muted">Adjust weights to prioritize a small, summer-oriented, land-based business anywhere on Crete. Mountain-led, mountain-adjacent, rural and non-mountain entries are distinguished independently of their activity category. Rankings are editable research heuristics, <b>not</b> verified elevation, operator ratings, financial forecasts, or permit approvals. Actual competitor price is separate.</p><div class="weights"><div class="weight"><label>Chania / West preference <b id="wregionVal">12</b></label><input type="range" id="wregion" min="0" max="24" value="12"></div><div class="weight"><label>Summer relevance <b id="wsummerVal">12</b></label><input type="range" id="wsummer" min="0" max="24" value="12"></div><div class="weight"><label>Land & rural preference <b id="wlandVal">12</b></label><input type="range" id="wland" min="0" max="24" value="12"></div><div class="weight"><label>Mountain focus <b id="wmountainVal">18</b></label><input id="wmountain" max="36" min="0" type="range" value="18"/></div></div><div class="buttonrow"><button class="btn dark" id="viewTop">View ranked top ideas</button><button class="btn" id="resetWeights">Reset weights</button></div><h3>Highest suitability right now</h3><div class="minilist" id="ideaTop"></div></div><div class="panel"><h2>How I would use it</h2><div class="grid3"><div><b>Research</b><p class="muted">Keep every real listing, including sea activities you don't intend to run.</p></div><div><b>Evaluate</b><p class="muted">Compare feasibility, operating season, equipment and the offer's differentiation.</p></div><div><b>Decide</b><p class="muted">Mark a shortlist. Separately check demand, transport and food regulations before investing.</p></div></div></div></section>
+<section class="view" id="data"><div class="panel"><h2>Database & publishing</h2><p class="muted">The downloadable JSON and CSV are the portable research source of truth. Add or merge real experiences here without rewriting the entire website.</p><div class="buttonrow"><button class="btn dark" id="exportDB">Export full database (.json)</button><button class="btn" id="exportCSV">Export spreadsheet (.csv)</button><button class="btn" id="importDB">Import / merge JSON</button><button class="btn" id="openAdd">Add experience</button><button class="btn" id="exportPersonal">Back up personal notes</button><button class="btn" id="restorePersonal">Restore notes</button></div><div class="notice warn"><b>Privacy:</b> This is a research database built from public operator listings. Do not enter personal property coordinates, routes, village identity or confidential business plans in records you intend to publish. Notes are local to this browser unless you deliberately export them.</div><div class="grid2" style="margin-top:18px"><div><h3>How updates work</h3><p>1. Weekly research provides new or changed listings.</p><p>2. Use <b>Import / merge JSON</b> to update this browser. Same ID or source/title records are merged rather than duplicated.</p><p>3. Export the full JSON, replace <code>data/experiences.json</code> in your GitHub repository, and push. Your public website updates from that file automatically.</p></div><div><h3>Methodology</h3><p>Published prices are starting advertised prices in EUR and can change. Per-person, per-vehicle and private group prices are explicitly distinguished. Empty price means unverified.</p><p>Original photographic thumbnails are hotlinked only for sources that were located; other cards link directly to the operator's own photo page. No stock images or AI-generated photos are represented as competitor photos.</p><p>Research checked: <b id="lastResearch">2026-11-11</b>. Some tours are seasonal, sold out, or require advance confirmation.</p></div></div><hr class="rule"><h3>Add a real experience</h3><div class="formgrid" id="addForm"><label>Experience name<input class="field" id="addTitle" placeholder="e.g. Orchard bread workshop"></label><label>Operator<input class="field" id="addOperator" placeholder="Official operator name"></label><label>Region<select class="field" id="addRegion"><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select></label><label>Village or public locality<input class="field" id="addPlace" placeholder="Public location only"></label><label>Category<select class="field" id="addCategory"></select></label><label>Terrain<select class="field" id="addTerrain"></select></label><label>Mountain relevance<select id="addMountain" class="field"><option value="Rural / mixed">Rural / mixed</option><option value="Mountain-led">Mountain-led</option><option value="Mountain-adjacent">Mountain-adjacent</option><option value="Non-mountain">Non-mountain</option></select></label><label>Advertised price in EUR (optional)<input class="field" id="addPrice" type="number" min="0" step="0.01" placeholder="Leave empty if unverified"></label><label>Price basis<select class="field" id="addBasis"><option value="person">per person</option><option value="vehicle">per vehicle</option><option value="group">per group</option><option value="tour">per tour</option><option value="pot">per item</option></select></label><label class="wide">Direct booking or source URL<input class="field" id="addURL" type="url" placeholder="https://official-operator-site.com/experience"></label><label class="wide">Original operator photo URL (optional)<input class="field" id="addPhoto" type="url" placeholder="https://...jpg"></label><label class="wide">What guests actually do<textarea class="field" id="addDescription" rows="2" placeholder="What is included and where the idea comes from"></textarea></label><label>Season<input class="field" id="addSeason" value="Year-round / check schedule"></label><label>Duration<input class="field" id="addDuration" placeholder="2 h"></label></div><div class="buttonrow"><button id="saveAdd" class="btn dark">Save to my browser database</button><button id="clearAdd" class="btn">Clear form</button></div><div id="addFeedback" class="countbar"></div></div></section><div class="footer">Crete Experience Intelligence · 2026–27 · Personal research and benchmarking tool · Not affiliated with listed operators · All competitor images belong to their respective owners.</div></div>
 <div class="detailBackdrop" id="backdrop"><aside class="detailDrawer" role="dialog" aria-modal="true" aria-label="Experience details" id="drawer"><div class="detailTop"><button class="btn" id="detailBack">← Back to results</button><span class="eyebrow" style="color:#5e8170">Research record</span><button class="btn tiny" id="detailClose">✕</button></div><div id="detailBody"></div></aside></div>
 <input id="importFile" type="file" accept=".json,application/json" hidden><input id="notesFile" type="file" accept=".json,application/json" hidden>
 <script type="application/json" id="seed-data">{
@@ -46,7 +59,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.874,
+      "latitude": 35.053,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Moires",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0002",
@@ -75,7 +94,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.874,
+      "latitude": 35.053,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Moires",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0003",
@@ -104,7 +129,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.874,
+      "latitude": 35.053,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Moires",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0004",
@@ -133,7 +164,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.874,
+      "latitude": 35.053,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Moires",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0005",
@@ -162,7 +199,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.742,
+      "latitude": 35.463,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Astrikas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0006",
@@ -191,7 +234,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.742,
+      "latitude": 35.463,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Astrikas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0007",
@@ -220,7 +269,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.742,
+      "latitude": 35.463,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Astrikas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0008",
@@ -249,7 +304,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.742,
+      "latitude": 35.463,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Astrikas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0009",
@@ -278,7 +339,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.742,
+      "latitude": 35.463,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Astrikas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0010",
@@ -307,7 +374,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.134,
+      "latitude": 35.51,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Sternes",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0011",
@@ -336,7 +409,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.134,
+      "latitude": 35.51,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Sternes",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0012",
@@ -365,7 +444,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0013",
@@ -394,7 +479,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0014",
@@ -423,7 +514,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.06,
+      "latitude": 35.409,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Drakona",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0015",
@@ -452,7 +549,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.605,
+      "latitude": 35.368,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Pigi",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0016",
@@ -481,7 +584,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0017",
@@ -510,7 +619,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0018",
@@ -539,7 +654,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0019",
@@ -568,7 +689,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0020",
@@ -597,7 +724,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0021",
@@ -626,7 +759,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0022",
@@ -655,7 +794,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0023",
@@ -684,7 +829,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.267,
+      "latitude": 35.399,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Paidochori",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0024",
@@ -713,7 +864,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.383,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Emprosneros",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0025",
@@ -742,7 +899,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0026",
@@ -771,7 +934,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0027",
@@ -800,7 +969,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0028",
@@ -829,7 +1004,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.139,
+      "latitude": 35.285,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Athanatoi",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0029",
@@ -858,7 +1039,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.139,
+      "latitude": 35.285,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Athanatoi",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0030",
@@ -887,7 +1074,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.139,
+      "latitude": 35.285,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Athanatoi",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0031",
@@ -916,7 +1109,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.139,
+      "latitude": 35.285,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Athanatoi",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0032",
@@ -945,7 +1144,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.139,
+      "latitude": 35.285,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Athanatoi",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0033",
@@ -974,7 +1179,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.996,
+      "latitude": 35.14,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agia Varvara",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0034",
@@ -1003,7 +1214,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.996,
+      "latitude": 35.14,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agia Varvara",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0035",
@@ -1032,7 +1249,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.996,
+      "latitude": 35.14,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agia Varvara",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0036",
@@ -1061,7 +1284,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.335,
+      "latitude": 35.261,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Charaso",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0037",
@@ -1090,7 +1319,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.335,
+      "latitude": 35.261,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Charaso",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0038",
@@ -1119,7 +1354,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.335,
+      "latitude": 35.261,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Charaso",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0039",
@@ -1148,7 +1389,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.335,
+      "latitude": 35.261,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Charaso",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0040",
@@ -1177,7 +1424,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.145,
+      "latitude": 35.34,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0041",
@@ -1206,7 +1459,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.145,
+      "latitude": 35.34,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0042",
@@ -1235,7 +1494,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.1,
+      "latitude": 34.99,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Asterousia",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0043",
@@ -1264,7 +1529,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.1,
+      "latitude": 34.99,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Asterousia",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0044",
@@ -1293,7 +1564,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.1,
+      "latitude": 34.99,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Asterousia",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0045",
@@ -1322,7 +1599,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.1,
+      "latitude": 34.99,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Asterousia",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0046",
@@ -1351,7 +1634,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0047",
@@ -1380,7 +1669,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0048",
@@ -1409,7 +1704,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0049",
@@ -1438,7 +1739,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0050",
@@ -1467,7 +1774,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0051",
@@ -1496,7 +1809,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0052",
@@ -1525,7 +1844,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0053",
@@ -1554,7 +1879,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0054",
@@ -1583,7 +1914,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0055",
@@ -1612,7 +1949,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0056",
@@ -1641,7 +1984,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.714,
+      "latitude": 35.192,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Agios Nikolaos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0057",
@@ -1670,7 +2019,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.473,
+      "latitude": 35.367,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Rethymno",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0058",
@@ -1699,7 +2054,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.77,
+      "latitude": 35.226,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Psiloritis",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0059",
@@ -1728,7 +2089,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.028,
+      "latitude": 35.365,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: White Mountains",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0060",
@@ -1757,7 +2124,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.408,
+      "latitude": 35.191,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Sellia",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0061",
@@ -1786,7 +2159,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.681,
+      "latitude": 35.324,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Margarites",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0062",
@@ -1815,7 +2194,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.473,
+      "latitude": 35.367,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Rethymno",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0063",
@@ -1844,7 +2229,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.473,
+      "latitude": 35.367,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Rethymno",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0064",
@@ -1873,7 +2264,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.145,
+      "latitude": 35.34,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0065",
@@ -1902,7 +2299,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.948,
+      "latitude": 35.45,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Vatolakkos",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0066",
@@ -1931,7 +2334,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.166,
+      "latitude": 35.232,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Archanes",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0067",
@@ -1960,7 +2369,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.166,
+      "latitude": 35.232,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Archanes",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0068",
@@ -1989,7 +2404,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.145,
+      "latitude": 35.34,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0069",
@@ -2018,7 +2439,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.145,
+      "latitude": 35.34,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0070",
@@ -2047,7 +2474,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.145,
+      "latitude": 35.34,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0071",
@@ -2076,7 +2509,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.462,
+      "latitude": 35.284,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Malia",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0072",
@@ -2105,7 +2544,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.462,
+      "latitude": 35.284,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Malia",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0073",
@@ -2134,7 +2579,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.285,
+      "latitude": 35.229,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Alagni",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0074",
@@ -2163,7 +2614,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.052,
+      "latitude": 35.215,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Dafnes",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0075",
@@ -2192,7 +2649,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.028,
+      "latitude": 35.365,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: White Mountains",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0076",
@@ -2221,7 +2684,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.028,
+      "latitude": 35.365,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: White Mountains",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0077",
@@ -2250,7 +2719,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.552,
+      "latitude": 35.283,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Rethymno mountains",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0078",
@@ -2279,7 +2754,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.058,
+      "latitude": 35.381,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Chania mountains",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0079",
@@ -2308,7 +2789,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.12,
+      "latitude": 35.205,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Heraklion mountains",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0080",
@@ -2337,7 +2824,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.653,
+      "latitude": 35.493,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Kissamos",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0081",
@@ -2366,7 +2859,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.653,
+      "latitude": 35.493,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Kissamos",
+      "mountain_orientation": "Mountain-adjacent",
+      "mountain_basis": "Foothill or mountain connection inferred from listing"
     },
     {
       "id": "CR-0082",
@@ -2395,7 +2894,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.653,
+      "latitude": 35.493,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Kissamos",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0083",
@@ -2424,7 +2929,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.912,
+      "latitude": 35.346,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Omalos",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0084",
@@ -2453,7 +2964,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.991,
+      "latitude": 35.403,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Theriso",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0085",
@@ -2482,7 +2999,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.653,
+      "latitude": 35.493,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Kissamos",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0086",
@@ -2511,7 +3034,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.185,
+      "latitude": 35.4,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Apokoronas",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0087",
@@ -2540,7 +3069,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.653,
+      "latitude": 35.493,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Kissamos",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0088",
@@ -2569,7 +3104,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.591,
+      "latitude": 35.584,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Balos",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0089",
@@ -2598,7 +3139,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.536,
+      "latitude": 35.271,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Elafonissi",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0090",
@@ -2627,7 +3174,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.909,
+      "latitude": 35.518,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Platanias",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0091",
@@ -2656,7 +3209,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.121,
+      "latitude": 35.446,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Malaxa",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0092",
@@ -2685,7 +3244,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.991,
+      "latitude": 35.403,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Theriso",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0093",
@@ -2714,7 +3279,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.948,
+      "latitude": 35.45,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Vatolakkos",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0094",
@@ -2743,7 +3314,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.121,
+      "latitude": 35.446,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Malaxa",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0095",
@@ -2772,7 +3349,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.121,
+      "latitude": 35.446,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Malaxa",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0096",
@@ -2801,7 +3384,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.121,
+      "latitude": 35.446,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Malaxa",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0097",
@@ -2830,7 +3419,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.97,
+      "latitude": 35.28,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Samaria Gorge",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0098",
@@ -2859,7 +3454,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.97,
+      "latitude": 35.28,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Samaria Gorge",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0099",
@@ -2888,7 +3489,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.97,
+      "latitude": 35.28,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Samaria Gorge",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0100",
@@ -2917,7 +3524,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.581,
+      "latitude": 35.249,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Patsos Gorge",
+      "mountain_orientation": "Mountain-led",
+      "mountain_basis": "Mountain/gorge setting or mountain-focused activity indicated by listing"
     },
     {
       "id": "CR-0101",
@@ -2946,7 +3559,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 23.653,
+      "latitude": 35.493,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Kissamos",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0102",
@@ -2975,7 +3594,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 25.706,
+      "latitude": 34.877,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Chrissi Island",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0103",
@@ -3004,7 +3629,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.019,
+      "latitude": 35.512,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Chania",
+      "mountain_orientation": "Non-mountain",
+      "mountain_basis": "Coast, sea, or city setting indicated by listing"
     },
     {
       "id": "CR-0104",
@@ -3033,7 +3664,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0105",
@@ -3062,7 +3699,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0106",
@@ -3091,7 +3734,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0107",
@@ -3120,7 +3769,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0108",
@@ -3149,7 +3804,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0109",
@@ -3178,7 +3839,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0110",
@@ -3207,7 +3874,13 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     },
     {
       "id": "CR-0111",
@@ -3236,34 +3909,53 @@
       "checked_at": "2026-11-11",
       "status": "research",
       "notes": "",
-      "tags": []
+      "tags": [],
+      "longitude": 24.237,
+      "latitude": 35.414,
+      "map_precision": "approximate locality",
+      "map_basis": "Approximate public locality: Xirosterni",
+      "mountain_orientation": "Rural / mixed",
+      "mountain_basis": "Rural activity; mountain character not verified from listing"
     }
   ]
 }</script>
 <script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id),seed=JSON.parse($('seed-data').textContent);let db=seed.records,activeTab='explore',detailId=null,hasPhotoOnly=false,summerOnly=false,activeChip='',mapInstance=null,mapMarkers=[],mapLoaded=false;
-const SAFEKEY='crete_experience_prefs_v1',EDITKEY='crete_experience_records_v1',NOTESKEY='crete_experience_notes_v1';
+const SAFEKEY='crete_experience_prefs_v1',EDITKEY='crete_experience_records_v1',NOTESKEY='crete_experience_notes_v1',BASEKEY='crete_research_private_base_local_v2';
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))||fallback}catch{return fallback}};
-let prefs=read(SAFEKEY,{wregion:12,wsummer:12,wland:12}),edits=read(EDITKEY,[]),notes=read(NOTESKEY,{});
-const savePrefs=()=>localStorage.setItem(SAFEKEY,JSON.stringify(prefs));const saveNotes=()=>localStorage.setItem(NOTESKEY,JSON.stringify(notes));const saveEdits=()=>localStorage.setItem(EDITKEY,JSON.stringify(edits));
+let prefs=read(SAFEKEY,{wregion:12,wsummer:12,wland:12,wmountain:18}),edits=read(EDITKEY,[]),notes=read(NOTESKEY,{}),privateBase=read(BASEKEY,null),choosingBase=false,focusMapId=null;
+const savePrefs=()=>{try{localStorage.setItem(SAFEKEY,JSON.stringify(prefs))}catch(_){}};const saveNotes=()=>{try{localStorage.setItem(NOTESKEY,JSON.stringify(notes))}catch(_){}};const saveEdits=()=>{try{localStorage.setItem(EDITKEY,JSON.stringify(edits))}catch(_){}};
 const all=()=>{const map=new Map(db.map(x=>[x.id,x]));edits.forEach(x=>map.set(x.id,x));return [...map.values()]};
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const photo=rec=>rec.photo_url&&/^https:\/\//.test(rec.photo_url)?`<img src="${esc(rec.photo_url)}" alt="Photo associated with ${esc(rec.operator)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove();this.parentElement.querySelector('.empty').style.display='block'">`:'';
+// Private base lives in localStorage only. NEVER include it in public records or exported data.
+const safePosition=r=>{let lon=Number(r.longitude),lat=Number(r.latitude);return Number.isFinite(lon)&&Number.isFinite(lat)&&lon>23&&lon<27&&lat>34&&lat<36?[lon,lat]:locFallback(r)};
+const hasBase=()=>privateBase&&Number.isFinite(privateBase.lat)&&Number.isFinite(privateBase.lon);
+const distanceKm=r=>{if(!hasBase())return null;const [lon,lat]=safePosition(r),toRad=Math.PI/180,dLat=(lat-privateBase.lat)*toRad,dLon=(lon-privateBase.lon)*toRad,a=Math.sin(dLat/2)**2+Math.cos(privateBase.lat*toRad)*Math.cos(lat*toRad)*Math.sin(dLon/2)**2;return 6371*2*Math.atan2(Math.sqrt(a),Math.sqrt(Math.max(0,1-a)))};
+const distanceText=r=>{let d=distanceKm(r);return d===null?'Set private base':(d<10?d.toFixed(1):Math.round(d))+' km from my base · air distance'};
+const distanceHTML=r=>'<span class="distance-pill">'+esc(distanceText(r))+'</span>';
+const mountainLevel=r=>r.mountain_orientation||(['Mountain'].includes(r.terrain)?'Mountain-led':r.terrain==='Foothills'?'Mountain-adjacent':['Sea','Coast','City'].includes(r.terrain)?'Non-mountain':'Rural / mixed');
+const mountainClass=r=>mountainLevel(r)==='Mountain-led'?'mt-core':mountainLevel(r)==='Mountain-adjacent'?'mt-near':mountainLevel(r)==='Rural / mixed'?'mt-rural':'mt-other';
+const mountainHTML=r=>'<span class="mountain-chip '+mountainClass(r)+'">'+esc(mountainLevel(r))+'</span>';
+const mountainOrder=r=>({'Mountain-led':0,'Mountain-adjacent':1,'Rural / mixed':2,'Non-mountain':3}[mountainLevel(r)]??4);
+const matchesMountain=(r,filter)=>!filter||filter==='mountain-any'?( !filter||['Mountain-led','Mountain-adjacent'].includes(mountainLevel(r))):mountainLevel(r)===filter;
+const placePrecision=r=>r.map_precision||r.location_precision||'regional estimate';
+const publicMapURL=r=>{const [lon,lat]=safePosition(r);return 'https://www.openstreetmap.org/?mlat='+lat+'&mlon='+lon+'#map=12/'+lat+'/'+lon};
+const photo=rec=>rec.photo_url&&/^https:\/\//.test(rec.photo_url)?`<img src="${esc(rec.photo_url)}" alt="Photo associated with ${esc(rec.operator)}" loading="lazy" referrerpolicy="no-referrer" onerror="const host=this.parentElement;this.remove();if(host){const fallback=host.querySelector('.empty');if(fallback)fallback.style.display='block'}">`:'';
 const icons={'Food & cooking':'🍲','Olive & farm':'🫒','Honey & nature':'🐝','Mountain & 4x4':'⛰️','Wine & tasting':'🍇','Crafts & culture':'🏺','Cycling':'🚴','Hiking':'🥾','Horse riding':'🐎','Sea & boats':'⛵'};
 const money=r=>r.price_eur===null||r.price_eur===undefined?'Price unverified':`€${Number(r.price_eur).toLocaleString('en-GB',{maximumFractionDigits:2})}`;
 const shortBasis=r=>r.price_eur===null?'Check operator':({'person':'per person','vehicle':'per vehicle','vehicle up to 6':'for up to 6','group minimum':'minimum group charge','pot':'per pot','tour':'per tour','2 people':'for 2 people','person + VAT':'per person + VAT'}[r.price_basis]||r.price_basis||'basis to verify');
 const currentNote=id=>notes[id]||{status:'unreviewed',favorite:false,note:''};
 const score=r=>{let s=Number(r.starting_fit)||50;let wr=(Number(prefs.wregion)||0)-12, ws=(Number(prefs.wsummer)||0)-12,wl=(Number(prefs.wland)||0)-12;
- s+=r.region==='Chania'?wr:(r.region==='Rethymno'?Math.round(-wr/3):Math.round(-wr/2));s+=r.summer_relevant?ws:Math.round(-ws*.7);s+=['Olive grove','Farm','Mountain','Village','Foothills'].includes(r.terrain)?wl:Math.round(-wl*.6);return Math.max(1,Math.min(99,Math.round(s)))};
-const sorters={fit:(a,b)=>score(b)-score(a)||a.title.localeCompare(b.title),new:(a,b)=>(b.checked_at||'').localeCompare(a.checked_at||''),price:(a,b)=>(a.price_eur??1e8)-(b.price_eur??1e8),title:(a,b)=>a.title.localeCompare(b.title)};
-const card=r=>{let n=currentNote(r.id);return `<article class="card"><div class="photo">${photo(r)}<div class="empty" style="display:${r.photo_url?'none':'block'}"><span class="emoji">${icons[r.category]||'🌿'}</span>Original photo available on operator website<br><a href="${esc(r.source_url)}" target="_blank" rel="noopener">See source gallery ↗</a></div><span class="tag">${esc(r.region)} · ${esc(r.terrain)}</span><button class="heart ${n.favorite?'sel':''}" data-star="${esc(r.id)}" aria-label="Toggle favourite">${n.favorite?'♥':'♡'}</button></div><div class="body"><div class="overline">${esc(r.operator)}</div><h3><button data-detail="${esc(r.id)}">${esc(r.title)}</button></h3><div class="desc">${esc(r.description)}</div><div class="facts"><span>📍 ${esc(r.place)}</span><span>${esc(r.category)}</span>${r.duration?`<span>${esc(r.duration)}</span>`:''}</div></div><div class="card-bottom"><div class="price">${money(r)}<small>${esc(shortBasis(r))}</small></div><div class="score">${score(r)}%<small>Personal fit</small></div></div><div style="padding:0 14px 12px;display:flex;gap:7px;align-items:center;justify-content:space-between"><button class="btn tiny" data-detail="${esc(r.id)}">Research details</button><a class="btn tiny" href="${esc(r.source_url)}" target="_blank" rel="noopener">Operator ↗</a></div></article>`};
-const chips=[['','All experiences'],['region-Chania','Chania only'],['category-Food & cooking','Cooking'],['terrain-Olive grove','Olive groves'],['terrain-Mountain','Mountain'],['price-70','€70 or less'],['nosea','Exclude sea']];
+ s+=r.region==='Chania'?wr:(r.region==='Rethymno'?Math.round(-wr/3):Math.round(-wr/2));s+=r.summer_relevant?ws:Math.round(-ws*.7);s+=['Olive grove','Farm','Mountain','Village','Foothills'].includes(r.terrain)?wl:Math.round(-wl*.6);let wm=Number(prefs.wmountain??18);s+=mountainLevel(r)==='Mountain-led'?Math.round(wm*.55):mountainLevel(r)==='Mountain-adjacent'?Math.round(wm*.28):mountainLevel(r)==='Non-mountain'?Math.round(-wm*.33):0;return Math.max(1,Math.min(99,Math.round(s)))};
+const sorters={mountain:(a,b)=>mountainOrder(a)-mountainOrder(b)||score(b)-score(a),distance:(a,b)=>(distanceKm(a)??1e8)-(distanceKm(b)??1e8)||score(b)-score(a),fit:(a,b)=>score(b)-score(a)||a.title.localeCompare(b.title),new:(a,b)=>(b.checked_at||'').localeCompare(a.checked_at||''),price:(a,b)=>(a.price_eur??1e8)-(b.price_eur??1e8),title:(a,b)=>a.title.localeCompare(b.title)};
+const card=r=>{let n=currentNote(r.id);return `<article class="card"><div class="photo">${photo(r)}<div class="empty" style="display:${r.photo_url?'none':'block'}"><span class="emoji">${icons[r.category]||'🌿'}</span>Original photo available on operator website<br><a href="${esc(r.source_url)}" target="_blank" rel="noopener">See source gallery ↗</a></div><span class="tag">${esc(r.region)} · ${esc(r.terrain)}</span><button class="heart ${n.favorite?'sel':''}" data-star="${esc(r.id)}" aria-label="Toggle favourite">${n.favorite?'♥':'♡'}</button></div><div class="body"><div class="overline">${esc(r.operator)}</div><h3><button data-detail="${esc(r.id)}">${esc(r.title)}</button></h3><div class="desc">${esc(r.description)}</div><div class="facts"><span>📍 ${esc(r.place)}</span>${mountainHTML(r)}<span>${esc(r.category)}</span>${r.duration?`<span>${esc(r.duration)}</span>`:''}</div></div><div class="record-location" style="padding:0 14px;margin:0 0 8px">${distanceHTML(r)}<span class="map-label">${esc(placePrecision(r))}</span></div><div class="card-bottom"><div class="price">${money(r)}<small>${esc(shortBasis(r))}</small></div><div class="score">${score(r)}%<small>Personal fit</small></div></div><div style="padding:0 14px 12px;display:flex;gap:7px;align-items:center;justify-content:space-between"><button class="btn tiny" data-detail="${esc(r.id)}">Details</button><button class="btn tiny" data-mapfocus="${esc(r.id)}">📍 Map</button><a class="btn tiny" href="${esc(r.source_url)}" target="_blank" rel="noopener">Operator ↗</a></div></article>`};
+const chips=[['','All experiences'],['region-Chania','Chania only'],['category-Food & cooking','Cooking'],['terrain-Olive grove','Olive groves'],['mountain-Mountain-led','⛰️ Mountain-led'],['price-70','€70 or less'],['nosea','Exclude sea']];
 $('chips').innerHTML=chips.map(([k,t])=>`<button class="chip ${!k?'on':''}" data-chip="${esc(k)}">${esc(t)}</button>`).join('');
 const cats=[...new Set(db.map(x=>x.category))].sort(),terrains=[...new Set(db.map(x=>x.terrain))].sort();cats.forEach(c=>{$('category').add(new Option(c,c));$('mapCat').add(new Option(c,c));$('addCategory').add(new Option(c,c))});terrains.forEach(t=>{$('terrain').add(new Option(t,t));$('addTerrain').add(new Option(t,t))});
-const filterData=(opt={})=>{let set=all(),query=($('search').value||'').trim().toLowerCase();let region=opt.region??$('region').value,cat=opt.category??$('category').value,terrain=opt.terrain??$('terrain').value,price=opt.price??$('price').value;return set.filter(r=>{
+const filterData=(opt={})=>{let set=all(),query=($('search').value||'').trim().toLowerCase();let region=opt.region??$('region').value,cat=opt.category??$('category').value,terrain=opt.terrain??$('terrain').value,price=opt.price??$('price').value,orient=opt.mountain??$('mountainFilter').value;return set.filter(r=>{
 if(query&&!`${r.title} ${r.operator} ${r.place} ${r.category} ${r.description} ${r.region}`.toLowerCase().includes(query))return false;
-if(region&&r.region!==region||cat&&r.category!==cat||terrain&&r.terrain!==terrain)return false;
+if(region&&r.region!==region||cat&&r.category!==cat||terrain&&r.terrain!==terrain||!matchesMountain(r,orient))return false;
 if(price==='unknown'&&r.price_eur!==null)return false;if(price&&price!=='unknown'&&(r.price_eur===null||r.price_eur>Number(price)))return false;
 if(hasPhotoOnly&&!r.photo_url||summerOnly&&!r.summer_relevant||activeChip==='nosea'&&r.category==='Sea & boats')return false;
 return true}).sort(sorters[$('sort').value]||sorters.fit)};
@@ -3272,47 +3964,62 @@ function render(){let list=filterData();$('countText').textContent=`${list.lengt
 function renderMini(){let set=all();let sl=set.filter(r=>currentNote(r.id).status==='shortlisted').sort(sorters.fit);$('shortList').innerHTML=sl.length?sl.map(r=>mini(r)).join(''):'<p class="muted">No experiences shortlisted yet. Open an experience, set status to “Shortlisted”, then compare it here.</p>';
 let review=set.filter(r=>currentNote(r.id).status==='unreviewed').sort(sorters.fit).slice(0,60);$('reviewList').innerHTML=review.length?review.map(mini).join(''):'<p class="muted">Nothing left to review.</p>';
 $('ideaTop').innerHTML=set.filter(r=>r.category!=='Sea & boats').sort(sorters.fit).slice(0,18).map(mini).join('')}
-const mini=r=>`<div class="minicard"><div><strong>${esc(r.title)}</strong><small>${esc(r.operator)} · ${esc(r.place)} · ${money(r)} ${esc(shortBasis(r))}</small><small>${esc(currentNote(r.id).status)} · ${esc(r.terrain)}</small></div><div style="text-align:right;min-width:65px"><b class="score">${score(r)}%</b><button class="btn tiny" data-detail="${esc(r.id)}">View</button></div></div>`;
+const mini=r=>`<div class="minicard"><div><strong>${esc(r.title)}</strong><small>${esc(r.operator)} · ${esc(r.place)} · ${money(r)} ${esc(shortBasis(r))}</small><small>${esc(currentNote(r.id).status)} · ${esc(r.terrain)}</small><div class="badge-list">${mountainHTML(r)}${distanceHTML(r)}</div></div><div style="text-align:right;min-width:65px"><b class="score">${score(r)}%</b><button class="btn tiny" data-detail="${esc(r.id)}">View</button></div></div>`;
 function showTab(tab,push=true){activeTab=tab;document.querySelectorAll('.view').forEach(x=>x.classList.toggle('active',x.id===tab));document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('active',x.dataset.tab===tab));if(push)history.pushState({page:tab},'',`#${tab}`);if(tab==='map')setTimeout(()=>renderMap(),50);if(['shortlist','inbox','ideas'].includes(tab))renderMini();window.scrollTo(0,0)}
-function openDetail(id,push=true){let r=all().find(x=>x.id===id);if(!r)return;detailId=id;let n=currentNote(id);$('detailBody').innerHTML=`${r.photo_url?`<img class="detailHero" alt="Original linked image of ${esc(r.operator)}" src="${esc(r.photo_url)}" onerror="this.style.display='none'">`:'<div class="panel" style="margin:14px">Original photograph not yet indexed. <a href="'+esc(r.source_url)+'" target="_blank" rel="noopener">Open the operator’s photos ↗</a></div>'}<div class="detailInner"><div class="overline">${esc(r.operator)} · ${esc(r.region)}</div><h2>${esc(r.title)}</h2><p>${esc(r.description)}</p><div class="keyfacts"><div><b>${money(r)}</b><small>${esc(shortBasis(r))}</small></div><div><b>${score(r)}% fit</b><small>Business suitability estimate</small></div><div><b>${esc(r.place)}</b><small>Public area only; ${esc(r.location_precision)}</small></div><div><b>${esc(r.terrain)}</b><small>${esc(r.duration||'Duration not published')}</small></div><div><b>${esc(r.season)}</b><small>Published or indicative season</small></div><div><b>${esc(r.price_status)}</b><small>Price status · checked ${esc(r.checked_at)}</small></div></div><div class="buttonrow"><a class="btn dark" href="${esc(r.source_url)}" target="_blank" rel="noopener">Open operator / booking page ↗</a><button class="btn" data-star="${esc(r.id)}">${n.favorite?'♥ Saved favourite':'♡ Add favourite'}</button></div><hr class="rule"><b>My decision</b><p class="muted">These notes live only in this browser, unless you export them.</p><select id="detailStatus" class="field" style="width:100%"><option value="unreviewed">Unreviewed</option><option value="researching">Researching</option><option value="shortlisted">Shortlisted — potential business idea</option><option value="inspiration">Inspiration only</option><option value="rejected">Not suitable</option><option value="checked">Checked / benchmarked</option></select><label style="display:block;margin-top:12px"><b>Notes and brainstorm</b><textarea id="detailNote" class="notearea" placeholder="What could I learn, adapt or combine? Risks, partners, business model…">${esc(n.note||'')}</textarea></label><div class="buttonrow"><button class="btn dark" id="saveDetail">Save assessment</button></div><hr class="rule"><p class="photoCredit">Research/source: ${esc(r.source_type)} · ${esc(r.source_url)}. Thumbnail, if shown, is an externally linked photo credited to its original source; it is not owned or hosted by this website.</p></div>`;
+function openDetail(id,push=true){let r=all().find(x=>x.id===id);if(!r)return;detailId=id;let n=currentNote(id);$('detailBody').innerHTML=`${r.photo_url?`<img class="detailHero" alt="Original linked image of ${esc(r.operator)}" src="${esc(r.photo_url)}" onerror="this.style.display='none'">`:'<div class="panel" style="margin:14px">Original photograph not yet indexed. <a href="'+esc(r.source_url)+'" target="_blank" rel="noopener">Open the operator’s photos ↗</a></div>'}<div class="detailInner"><div class="overline">${esc(r.operator)} · ${esc(r.region)}</div><h2>${esc(r.title)}</h2><p>${esc(r.description)}</p><div class="keyfacts"><div><b>${money(r)}</b><small>${esc(shortBasis(r))}</small></div><div><b>${score(r)}% fit</b><small>Business suitability estimate</small></div><div><b>${esc(r.place)}</b><small>Public locality: ${esc(placePrecision(r))}</small></div><div><b>${mountainHTML(r)}</b><small>${esc(r.mountain_basis||'Mountain status inferred; verify')}</small></div><div><b>${esc(r.terrain)}</b><small>${esc(r.duration||'Duration not published')}</small></div><div><b>${distanceText(r)}</b><small>From private base; straight-line estimate</small></div><div><b>${esc(r.season)}</b><small>Published or indicative season</small></div><div><b>${esc(r.price_status)}</b><small>Price status · checked ${esc(r.checked_at)}</small></div></div><div class="buttonrow"><a class="btn dark" href="${esc(r.source_url)}" target="_blank" rel="noopener">Open operator / booking page ↗</a><button class="btn" data-mapfocus="${esc(r.id)}">📍 Show on map</button><a class="btn" href="${esc(publicMapURL(r))}" target="_blank" rel="noopener">Public map ↗</a><button class="btn" data-star="${esc(r.id)}">${n.favorite?'♥ Saved favourite':'♡ Add favourite'}</button></div><hr class="rule"><b>My decision</b><p class="muted">These notes live only in this browser, unless you export them.</p><select id="detailStatus" class="field" style="width:100%"><option value="unreviewed">Unreviewed</option><option value="researching">Researching</option><option value="shortlisted">Shortlisted — potential business idea</option><option value="inspiration">Inspiration only</option><option value="rejected">Not suitable</option><option value="checked">Checked / benchmarked</option></select><label style="display:block;margin-top:12px"><b>Notes and brainstorm</b><textarea id="detailNote" class="notearea" placeholder="What could I learn, adapt or combine? Risks, partners, business model…">${esc(n.note||'')}</textarea></label><div class="buttonrow"><button class="btn dark" id="saveDetail">Save assessment</button></div><hr class="rule"><p class="photoCredit">Research/source: ${esc(r.source_type)} · ${esc(r.source_url)}. Thumbnail, if shown, is an externally linked photo credited to its original source; it is not owned or hosted by this website.</p></div>`;
 $('detailStatus').value=n.status||'unreviewed';$('backdrop').classList.add('open');document.body.style.overflow='hidden';$('drawer').scrollTop=0;if(push)history.pushState({page:activeTab,detail:id},'',`#experience-${id}`)}
 function closeDetail(goBack=true){if(!detailId)return;detailId=null;$('backdrop').classList.remove('open');document.body.style.overflow='';if(goBack&&history.state?.detail)history.back()}
 function applyHash(){let h=decodeURIComponent(location.hash.slice(1));if(h.startsWith('experience-')){let id=h.slice(11);openDetail(id,false);return}if(detailId)closeDetail(false);showTab(['explore','map','shortlist','inbox','ideas','data'].includes(h)?h:'explore',false)}
 // Server JSON overrides embedded copy on GitHub Pages; file:// falls back to embedded data.
 async function loadNetworkDB(){if(location.protocol==='file:')return;try{let r=await fetch('./data/experiences.json',{cache:'no-store'});if(!r.ok)throw Error(r.status);let o=await r.json();if(o.records?.length){db=o.records;fillOptions();render();renderMini();if(activeTab==='map')renderMap()}}catch(e){console.info('Using embedded offline database:',e.message)}}
 function fillOptions(){const cat=new Set(db.map(x=>x.category)),tr=new Set(db.map(x=>x.terrain));for(let [id,values] of [['category',cat],['mapCat',cat],['addCategory',cat],['terrain',tr],['addTerrain',tr]]){let x=$(id);for(let value of [...values].sort())if(![...x.options].some(y=>y.value===value))x.add(new Option(value,value))}}
-const geo=[
-['Moires',24.874,35.053],['Astrikas',23.742,35.463],['Sternes',24.134,35.510],['Litsarda',24.220,35.406],['Kalyves',24.182,35.453],['Drakona',24.060,35.409],['Pigi',24.605,35.368],['Xirosterni',24.237,35.414],['Apokoronas',24.185,35.400],['Vamos',24.192,35.410],['Emprosneros',24.185,35.383],['Paidochori',24.267,35.399],['Athanatoi',25.139,35.285],['Agia Varvara',24.996,35.140],['Charaso',25.335,35.261],['Asterousia',25.100,34.990],['Agios Nikolaos',25.714,35.192],['Elounda',25.728,35.258],['Heraklion',25.145,35.340],['Sellia',24.408,35.191],['Psiloritis',24.770,35.226],['Margarites',24.681,35.324],['Rethymno',24.473,35.367],['Lakki',23.943,35.397],['Vatolakkos',23.948,35.450],['Alagni',25.285,35.229],['Archanes',25.166,35.232],['Dafnes',25.052,35.215],['Malia',25.462,35.284],['White Mountains',24.028,35.365],['Chania mountains',24.058,35.381],['Rethymno mountains',24.552,35.283],['Heraklion mountains',25.120,35.205],['Omalos',23.912,35.346],['Samaria Gorge',23.970,35.280],['Patsos Gorge',24.581,35.249],['Kissamos',23.653,35.493],['Balos',23.591,35.584],['Elafonissi',23.536,35.271],['Sfinari',23.560,35.421],['Theriso',23.991,35.403],['Malaxa',24.121,35.446],['Aptera',24.140,35.465],['Platanias',23.909,35.518],['Agia Lake',23.958,35.483],['Tripiti',25.108,34.952],['Ierapetra',25.738,35.011],['Chrissi Island',25.706,34.877],['Chania',24.019,35.512]];
-function loc(r){let p=r.place.toLowerCase();for(let [k,lon,lat] of [...geo].sort((a,b)=>b[0].length-a[0].length)){if(p.includes(k.toLowerCase()))return [lon,lat]}return {Chania:[24.019,35.512],Rethymno:[24.473,35.367],Heraklion:[25.145,35.340],Lasithi:[25.714,35.192]}[r.region]}
-function renderMap(){let set=all().filter(r=>(!$('mapRegion').value||r.region===$('mapRegion').value)&&(!$('mapCat').value||r.category===$('mapCat').value)).sort(sorters.fit);$('mapCount').textContent=set.length+' published operator experiences';$('mapList').innerHTML=set.map(r=>`<div class="maplist"><b>${esc(r.title)}</b><span class="muted">${esc(r.place)} · ${esc(r.region)} · ${money(r)}</span><div><button data-detail="${esc(r.id)}">Research details</button></div></div>`).join('');if(!window.maplibregl){$('map').innerHTML='<div class="mapblank">Map library could not load here. Try reopening on GitHub Pages with internet. The complete location list is available to the right.</div>';return}
-if(!mapInstance){$('map').innerHTML='';mapInstance=new maplibregl.Map({container:'map',style:'https://tiles.openfreemap.org/styles/liberty',center:[24.65,35.25],zoom:7.3});mapInstance.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-right');mapInstance.on('load',()=>{mapLoaded=true;hideSmallPlaceLabels();renderMapMarkers(set)});mapInstance.on('error',()=>{if(!mapLoaded)$('map').setAttribute('aria-label','Live map tile network error; see location list')})}else{mapInstance.resize();if(mapLoaded)renderMapMarkers(set)}}
-function hideSmallPlaceLabels(){// Keep cities/towns, roads and terrain, but suppress generic village/hamlet labels. All researched public venues have their own clickable markers.
-for(let l of mapInstance.getStyle().layers){if(l.type==='symbol'&&/village|hamlet|locality|suburb|neighbourhood|settlement[-_ ]?(minor|small)|place[-_ ]?(minor|small)/i.test(l.id)){try{mapInstance.setLayoutProperty(l.id,'visibility','none')}catch{}}}}
-function renderMapMarkers(set){mapMarkers.forEach(m=>m.remove());mapMarkers=[];const bounds=new maplibregl.LngLatBounds();for(let r of set){let pos=loc(r),node=document.createElement('div');node.className='thumbmark';node.textContent=icons[r.category]||'•';node.title=r.title+' — '+r.place;const pop=document.createElement('div');pop.innerHTML=`<div class="popname">${esc(r.title)}</div><div>${esc(r.operator)} · ${esc(r.place)}</div><div class="mapbadge">${money(r)} · ${score(r)}% fit</div><a class="poplink" href="${esc(r.source_url)}" target="_blank" rel="noopener">View operator ↗</a>`;let m=new maplibregl.Marker({element:node}).setLngLat(pos).setPopup(new maplibregl.Popup({offset:14,maxWidth:'260px'}).setDOMContent(pop)).addTo(mapInstance);mapMarkers.push(m);bounds.extend(pos)}if(set.length&&$('mapRegion').value)mapInstance.fitBounds(bounds,{padding:55,maxZoom:10,duration:400})}
+// Public geolocation fallbacks: only public villages / regions, no personal property coordinates.
+const geo=[["Heraklion mountains",25.12,35.205],["Rethymno mountains",24.552,35.283],["Chania mountains",24.058,35.381],["White Mountains",24.028,35.365],["Agios Nikolaos",25.714,35.192],["Chrissi Island",25.706,34.877],["Samaria Gorge",23.97,35.28],["Agia Varvara",24.996,35.14],["Patsos Gorge",24.581,35.249],["Emprosneros",24.185,35.383],["Xirosterni",24.237,35.414],["Apokoronas",24.185,35.4],["Paidochori",24.267,35.399],["Asterousia",25.1,34.99],["Psiloritis",24.77,35.226],["Margarites",24.681,35.324],["Vatolakkos",23.948,35.45],["Elafonissi",23.536,35.271],["Athanatoi",25.139,35.285],["Heraklion",25.145,35.34],["Platanias",23.909,35.518],["Agia Lake",23.958,35.483],["Ierapetra",25.738,35.011],["Astrikas",23.742,35.463],["Litsarda",24.22,35.406],["Rethymno",24.473,35.367],["Archanes",25.166,35.232],["Kissamos",23.653,35.493],["Sternes",24.134,35.51],["Kalyves",24.182,35.453],["Drakona",24.06,35.409],["Charaso",25.335,35.261],["Elounda",25.728,35.258],["Sfinari",23.56,35.421],["Theriso",23.991,35.403],["Tripiti",25.108,34.952],["Moires",24.874,35.053],["Sellia",24.408,35.191],["Alagni",25.285,35.229],["Dafnes",25.052,35.215],["Omalos",23.912,35.346],["Malaxa",24.121,35.446],["Aptera",24.14,35.465],["Chania",24.019,35.512],["Vamos",24.192,35.41],["Lakki",23.943,35.397],["Malia",25.462,35.284],["Balos",23.591,35.584],["Pigi",24.605,35.368]];
+function locFallback(r){let p=String(r.place||'').toLowerCase();for(let [name,lon,lat] of geo){if(p.includes(name.toLowerCase()))return [lon,lat]}return {Chania:[24.019,35.512],Rethymno:[24.473,35.367],Heraklion:[25.145,35.340],Lasithi:[25.714,35.192]}[r.region]||[24.65,35.25]}
+function loc(r){return safePosition(r)}
+function groupsFor(set){const grouped=new Map();for(const r of set){const p=loc(r),key=p.map(x=>x.toFixed(4)).join(',');if(!grouped.has(key))grouped.set(key,{point:p,items:[]});grouped.get(key).items.push(r)}return [...grouped.values()]}
+function renderMap(){
+ const filter=$('mapMountain').value;
+ let set=all().filter(r=>(!$('mapRegion').value||r.region===$('mapRegion').value)&&(!$('mapCat').value||r.category===$('mapCat').value)&&matchesMountain(r,filter)).sort(sorters.fit);
+ $('mapCount').textContent=set.length+' experience records · '+groupsFor(set).length+' public locality markers';
+ $('mapList').innerHTML=set.map(r=>`<div class="maplist"><b>${esc(r.title)}</b><div class="badge-list">${mountainHTML(r)}${distanceHTML(r)}</div><span class="muted">${esc(r.place)} · ${esc(r.region)} · ${money(r)}</span><div class="map-label">${esc(placePrecision(r))}</div><div class="buttonrow"><button data-detail="${esc(r.id)}">Details</button> <button data-mapfocus="${esc(r.id)}">Center map</button></div></div>`).join('');
+ if(!window.maplibregl){$('mapCanvas').innerHTML='<div class="mapblank">Online map requires internet and MapLibre. All 111 research records still have publicly described locations in the list. Use the external public maps links in their details.</div>';return}
+ if(!mapInstance){$('mapCanvas').innerHTML='';mapInstance=new maplibregl.Map({container:'mapCanvas',style:'https://tiles.openfreemap.org/styles/liberty',center:[24.65,35.25],zoom:7.3});mapInstance.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-right');mapInstance.on('load',()=>{mapLoaded=true;hideSmallPlaceLabels();renderMapMarkers(set);if(focusMapId)focusOnMap(focusMapId)});mapInstance.on('click',e=>{if(!choosingBase)return;choosingBase=false;savePrivateBase(e.lngLat.lat,e.lngLat.lng);$('pickBase').textContent='Choose on map';});mapInstance.on('error',()=>{if(!mapLoaded)$('mapCanvas').setAttribute('aria-label','Map network error; research location list remains available')})}
+ else{mapInstance.resize();if(mapLoaded){renderMapMarkers(set);if(focusMapId)focusOnMap(focusMapId)}}
+}
+function hideSmallPlaceLabels(){// Suppress automatically supplied tiny hamlet/village labels. Public researched place names remain in marker and list data; no private village name is embedded.
+ for(const layer of mapInstance.getStyle().layers){if(layer.type==='symbol'&&/village|hamlet|locality|suburb|neighbourhood|settlement[-_ ]?(minor|small)|place[-_ ]?(minor|small)/i.test(layer.id)){try{mapInstance.setLayoutProperty(layer.id,'visibility','none')}catch(_){}}}
+}
+function popupFor(group){const container=document.createElement('div');container.className='placeList';const first=group.items[0];container.innerHTML='<b>Public locality: '+esc(first.place)+'</b><div class="map-label">'+esc(placePrecision(first))+' · '+group.items.length+' experience(s)</div>'+group.items.map(r=>`<article><b>${esc(r.title)}</b><div class="badge-list">${mountainHTML(r)}${distanceHTML(r)}</div><div class="map-label">${esc(r.operator)} · ${money(r)} · ${score(r)}% suitability</div><a href="${esc(r.source_url)}" target="_blank" rel="noopener">Operator ↗</a> · <a href="${esc(publicMapURL(r))}" target="_blank" rel="noopener">Public map ↗</a></article>`).join('');return container}
+function renderMapMarkers(set){mapMarkers.forEach(m=>m.remove());mapMarkers=[];const bounds=new maplibregl.LngLatBounds();for(const group of groupsFor(set)){let node=document.createElement('button');node.type='button';node.className='thumbmark';node.textContent=group.items.length>1?String(group.items.length):icons[group.items[0].category]||'•';node.title=group.items.length+' experience(s) in '+group.items[0].place;node.style.cursor='pointer';node.style.background=group.items.some(r=>mountainLevel(r)==='Mountain-led')?'#9e642f':'#176d57';let marker=new maplibregl.Marker({element:node}).setLngLat(group.point).setPopup(new maplibregl.Popup({offset:20,maxWidth:'310px'}).setDOMContent(popupFor(group))).addTo(mapInstance);mapMarkers.push(marker);bounds.extend(group.point)}if(set.length&&$('mapRegion').value)mapInstance.fitBounds(bounds,{padding:55,maxZoom:10,duration:400})}
+function focusOnMap(id){if(!mapLoaded||!mapInstance)return;const r=all().find(x=>x.id===id);if(!r)return;let pos=loc(r);mapInstance.flyTo({center:pos,zoom:Math.max(mapInstance.getZoom(),10),essential:true});const related=groupsFor(all().filter(x=>loc(x).every((v,i)=>Math.abs(v-pos[i])<0.0001))).find(g=>g.items.some(x=>x.id===id));if(related){new maplibregl.Popup({offset:25,maxWidth:'310px'}).setLngLat(pos).setDOMContent(popupFor(related)).addTo(mapInstance)}focusMapId=null}
+function showRecordOnMap(id){focusMapId=id;if(detailId)closeDetail(false);showTab('map');$('mapRegion').value='';$('mapCat').value='';$('mapMountain').value='';renderMap()}
+function savePrivateBase(lat,lon){lat=Number(lat);lon=Number(lon);if(!Number.isFinite(lat)||!Number.isFinite(lon)||lat<=34||lat>=36||lon<=23||lon>=27){$('baseStatus').textContent='Invalid Crete coordinates. Check latitude and longitude.';return}privateBase={lat,lon};try{localStorage.setItem(BASEKEY,JSON.stringify(privateBase))}catch(e){$('baseStatus').textContent='Browser storage unavailable; base will work for this session only.';render();renderMini();if(activeTab==='map')renderMap();return}showBaseStatus();render();renderMini();if(activeTab==='map')renderMap()}
+function showBaseStatus(){if(hasBase()){$('baseStatus').textContent='Private base saved only on this device. Distances updated across listings. Coordinates never displayed in the public Atlas.';$('baseLat').value='';$('baseLon').value=''}else{$('baseStatus').textContent='No private base saved. Add it privately to compare distances from every experience.'}}
 const download=(s,name,mime)=>{let u=URL.createObjectURL(new Blob([s],{type:mime})),a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),3000)};
 function exportDatabase(){download(JSON.stringify({schema:'crete-experience-db/v1',last_researched:new Date().toISOString().slice(0,10),records:all()},null,2),'experiences.json','application/json')}
 function exportCSV(){let set=all(),keys=Object.keys(set[0]),escCSV=s=>'"'+String(s??'').replace(/"/g,'""')+'"';let lines=[keys.map(escCSV).join(',')];set.forEach(r=>lines.push(keys.map(k=>escCSV(k==='tags'?JSON.stringify(r[k]):r[k])).join(',')));download('\ufeff'+lines.join('\r\n'),'crete_experiences.csv','text/csv')}
 function exportDecisions(){download(JSON.stringify({type:'crete-research-personal',notes,prefs,exported_at:new Date().toISOString()},null,2),'my_crete_research_notes.json','application/json')}
-function importRecords(file){let reader=new FileReader();reader.onload=()=>{try{let parsed=JSON.parse(reader.result),incoming=Array.isArray(parsed)?parsed:parsed.records;if(!Array.isArray(incoming))throw Error('Expected array of records');let ids=new Map(all().map(x=>[x.id,x]));let byURL=new Map(all().map(x=>[`${x.source_url}|${x.title}`.toLowerCase(),x.id]));let changes=0;for(let x of incoming){if(!x.title||!x.source_url||!/^https:\/\//i.test(x.source_url)||!['Chania','Heraklion','Rethymno','Lasithi'].includes(x.region))continue;let id=x.id&&ids.has(x.id)?x.id:byURL.get(`${x.source_url}|${x.title}`.toLowerCase())||x.id||'CR-USER-'+Date.now()+'-'+changes;let old=ids.get(id)||{};let merged={...old,...x,id};ids.set(id,merged);edits=edits.filter(z=>z.id!==id);edits.push(merged);changes++}saveEdits();fillOptions();render();renderMini();alert(`Imported ${changes} valid record(s). Export a new database JSON to publish changes to GitHub.`)}catch(e){alert('Could not import database: '+e.message)}};reader.readAsText(file)}
+function importRecords(file){let reader=new FileReader();reader.onload=()=>{try{let parsed=JSON.parse(reader.result),incoming=Array.isArray(parsed)?parsed:parsed.records;if(!Array.isArray(incoming))throw Error('Expected array of records');let ids=new Map(all().map(x=>[x.id,x]));let byURL=new Map(all().map(x=>[`${x.source_url}|${x.title}`.toLowerCase(),x.id]));let changes=0;for(let x of incoming){if(!x.title||!x.source_url||!/^https:\/\//i.test(x.source_url)||!['Chania','Heraklion','Rethymno','Lasithi'].includes(x.region))continue;let id=x.id&&ids.has(x.id)?x.id:byURL.get(`${x.source_url}|${x.title}`.toLowerCase())||x.id||'CR-USER-'+Date.now()+'-'+changes;let old=ids.get(id)||{};let merged={...old,...x,id}; if(merged.latitude===undefined||merged.longitude===undefined){const pos=locFallback(merged);merged.longitude=pos[0];merged.latitude=pos[1];merged.map_precision='regional estimate';merged.map_basis='User import: approximate locality / region';} ids.set(id,merged);edits=edits.filter(z=>z.id!==id);edits.push(merged);changes++}saveEdits();fillOptions();render();renderMini();alert(`Imported ${changes} valid record(s). Export a new database JSON to publish changes to GitHub.`)}catch(e){alert('Could not import database: '+e.message)}};reader.readAsText(file)}
 function importNotes(file){let rd=new FileReader();rd.onload=()=>{try{let j=JSON.parse(rd.result);if(j.type!=='crete-research-personal'||typeof j.notes!=='object')throw Error('Invalid backup');notes={...notes,...j.notes};prefs={...prefs,...(j.prefs||{})};saveNotes();savePrefs();applyWeights();render();alert('Personal notes restored')}catch(e){alert(e.message)}};rd.readAsText(file)}
-function saveNew(){let title=$('addTitle').value.trim(),url=$('addURL').value.trim();if(!title||!/^https:\/\//i.test(url)){ $('addFeedback').textContent='Please enter a name and a valid HTTPS source URL';return }let num=$('addPrice').value.trim(),region=$('addRegion').value,cat=$('addCategory').value,ter=$('addTerrain').value;let r={id:'CR-USER-'+Date.now(),title,operator:$('addOperator').value.trim()||'Unidentified operator',region,place:$('addPlace').value.trim()||region,category:cat,terrain:ter,price_eur:num===''?null:Number(num),price_basis:$('addBasis').value,price_status:num===''?'unverified':'published',currency:'EUR',duration:$('addDuration').value,season:$('addSeason').value,summer_relevant:true,setup_complexity:'Medium',starting_fit:75,description:$('addDescription').value,source_url:url,photo_url:$('addPhoto').value,photo_credit:'Linked original operator photo',photo_source_url:url,location_precision:'area',source_type:'user added - source not independently checked',checked_at:new Date().toISOString().slice(0,10),status:'research',notes:'',tags:[]};edits.push(r);saveEdits();render();$('addFeedback').textContent='Saved to this browser. Export database JSON to share or publish.';document.querySelectorAll('#addForm input,#addForm textarea').forEach(e=>{if(e.id!=='addSeason')e.value=''})}
-function applyWeights(){for(let id of ['wregion','wsummer','wland']){if(prefs[id]===undefined)prefs[id]=12;$(id).value=prefs[id];$(id+'Val').textContent=prefs[id]}render();renderMini()}
+function saveNew(){let title=$('addTitle').value.trim(),url=$('addURL').value.trim();if(!title||!/^https:\/\//i.test(url)){ $('addFeedback').textContent='Please enter a name and a valid HTTPS source URL';return }let num=$('addPrice').value.trim(),region=$('addRegion').value,cat=$('addCategory').value,ter=$('addTerrain').value;let r={id:'CR-USER-'+Date.now(),title,operator:$('addOperator').value.trim()||'Unidentified operator',region,place:$('addPlace').value.trim()||region,category:cat,terrain:ter,mountain_orientation:($('addMountain')?.value||'Rural / mixed'),mountain_basis:'User-provided provisional classification',longitude:locFallback({place:$('addPlace').value.trim()||region,region})[0],latitude:locFallback({place:$('addPlace').value.trim()||region,region})[1],map_precision:'regional estimate',map_basis:'User-added listing: public venue coordinates not independently located',price_eur:num===''?null:Number(num),price_basis:$('addBasis').value,price_status:num===''?'unverified':'published',currency:'EUR',duration:$('addDuration').value,season:$('addSeason').value,summer_relevant:true,setup_complexity:'Medium',starting_fit:75,description:$('addDescription').value,source_url:url,photo_url:$('addPhoto').value,photo_credit:'Linked original operator photo',photo_source_url:url,location_precision:'area',source_type:'user added - source not independently checked',checked_at:new Date().toISOString().slice(0,10),status:'research',notes:'',tags:[]};edits.push(r);saveEdits();render();$('addFeedback').textContent='Saved to this browser. Export database JSON to share or publish.';document.querySelectorAll('#addForm input,#addForm textarea').forEach(e=>{if(e.id!=='addSeason')e.value=''})}
+function applyWeights(){for(let id of ['wregion','wsummer','wland','wmountain']){if(prefs[id]===undefined)prefs[id]=id==='wmountain'?18:12;$(id).value=prefs[id];$(id+'Val').textContent=prefs[id]}render();renderMini()}
 // Click routing and browser back navigation, without intercepting the browser at the main page.
-document.body.addEventListener('click',e=>{let t=e.target.closest('[data-detail],[data-star],[data-tab],[data-chip]');if(!t)return;
-if(t.dataset.detail){openDetail(t.dataset.detail);return}if(t.dataset.star){let n=currentNote(t.dataset.star);notes[t.dataset.star]={...n,favorite:!n.favorite};saveNotes();render();renderMini();if(detailId)openDetail(detailId,false);return}if(t.dataset.tab){showTab(t.dataset.tab);return}if(t.dataset.chip!==undefined){let k=t.dataset.chip;activeChip=k;$('region').value=k.startsWith('region-')?k.slice(7):'';$('category').value=k.startsWith('category-')?k.slice(9):'';$('terrain').value=k.startsWith('terrain-')?k.slice(8):'';$('price').value=k.startsWith('price-')?k.slice(6):'';document.querySelectorAll('[data-chip]').forEach(x=>x.classList.toggle('on',x.dataset.chip===k));render()}});
-for(let k of ['search','region','category','terrain','price','sort'])$(k).addEventListener(k==='search'?'input':'change',()=>{activeChip='';render()});
+document.body.addEventListener('click',e=>{let t=e.target.closest('[data-detail],[data-star],[data-tab],[data-chip],[data-mapfocus]');if(!t)return;
+if(t.dataset.mapfocus){showRecordOnMap(t.dataset.mapfocus);return}if(t.dataset.detail){openDetail(t.dataset.detail);return}if(t.dataset.star){let n=currentNote(t.dataset.star);notes[t.dataset.star]={...n,favorite:!n.favorite};saveNotes();render();renderMini();if(detailId)openDetail(detailId,false);return}if(t.dataset.tab){showTab(t.dataset.tab);return}if(t.dataset.chip!==undefined){let k=t.dataset.chip;activeChip=k;$('region').value=k.startsWith('region-')?k.slice(7):'';$('category').value=k.startsWith('category-')?k.slice(9):'';$('terrain').value=k.startsWith('terrain-')?k.slice(8):'';$('price').value=k.startsWith('price-')?k.slice(6):'';$('mountainFilter').value=k.startsWith('mountain-')?k.slice(9):'';document.querySelectorAll('[data-chip]').forEach(x=>x.classList.toggle('on',x.dataset.chip===k));render()}});
+for(let k of ['search','region','category','terrain','mountainFilter','price','sort'])$(k).addEventListener(k==='search'?'input':'change',()=>{activeChip='';render()});
 $('photosToggle').onclick=()=>{hasPhotoOnly=!hasPhotoOnly;$('photosToggle').classList.toggle('soft',hasPhotoOnly);render()};$('summerToggle').onclick=()=>{summerOnly=!summerOnly;$('summerToggle').classList.toggle('soft',summerOnly);render()};
 $('detailBack').onclick=()=>closeDetail();$('detailClose').onclick=()=>closeDetail();$('backdrop').onclick=e=>{if(e.target===$('backdrop'))closeDetail()};
 $('detailBody').addEventListener('click',e=>{if(e.target.id==='saveDetail'){notes[detailId]={...currentNote(detailId),status:$('detailStatus').value,note:$('detailNote').value};saveNotes();render();renderMini();closeDetail()}});
-for(let id of ['wregion','wsummer','wland'])$(id).oninput=e=>{prefs[id]=Number(e.target.value);$(id+'Val').textContent=prefs[id];savePrefs();render();renderMini()};
-$('resetWeights').onclick=()=>{prefs={wregion:12,wsummer:12,wland:12};savePrefs();applyWeights()};$('viewTop').onclick=()=>{showTab('explore');$('sort').value='fit';$('category').value='';render()};
+for(let id of ['wregion','wsummer','wland','wmountain'])$(id).oninput=e=>{prefs[id]=Number(e.target.value);$(id+'Val').textContent=prefs[id];savePrefs();render();renderMini()};
+$('resetWeights').onclick=()=>{prefs={wregion:12,wsummer:12,wland:12,wmountain:18};savePrefs();applyWeights()};$('viewTop').onclick=()=>{showTab('explore');$('sort').value='fit';$('category').value='';render()};
 $('quickAdd').onclick=()=>{showTab('data');$('addTitle').focus()};$('openAdd').onclick=()=>$('addTitle').focus();
 $('saveAdd').onclick=saveNew;$('clearAdd').onclick=()=>{document.querySelectorAll('#addForm input,#addForm textarea').forEach(e=>e.value='');$('addSeason').value='Year-round / check schedule'};
 $('quickExport').onclick=$('exportDB').onclick=exportDatabase;$('exportCSV').onclick=exportCSV;$('exportNotes').onclick=$('exportPersonal').onclick=exportDecisions;
 $('importDB').onclick=$('importInbox').onclick=()=>$('importFile').click();$('importFile').onchange=e=>{if(e.target.files[0])importRecords(e.target.files[0]);e.target.value=''};
 $('restorePersonal').onclick=()=>$('notesFile').click();$('notesFile').onchange=e=>{if(e.target.files[0])importNotes(e.target.files[0]);e.target.value=''};
 $('showUnreviewed').onclick=()=>{showTab('explore');$('sort').value='fit';render()};
-$('mapRegion').onchange=$('mapCat').onchange=()=>renderMap();$('mapReset').onclick=()=>{if(mapInstance)mapInstance.flyTo({center:[24.65,35.25],zoom:7.3})};
+$('mapRegion').onchange=$('mapCat').onchange=$('mapMountain').onchange=()=>renderMap();$('mapReset').onclick=()=>{if(mapInstance)mapInstance.flyTo({center:[24.65,35.25],zoom:7.3})};$('saveBase').onclick=()=>savePrivateBase($('baseLat').value,$('baseLon').value);$('clearBase').onclick=()=>{privateBase=null;try{localStorage.removeItem(BASEKEY)}catch(_){ }showBaseStatus();render();renderMini();if(activeTab==='map')renderMap()};$('pickBase').onclick=()=>{choosingBase=!choosingBase;$('pickBase').textContent=choosingBase?'Tap exact location on map…':'Choose on map';if(!mapInstance){showTab('map');}};showBaseStatus();
 window.addEventListener('popstate',applyHash);window.addEventListener('hashchange',()=>{if(!history.state)applyHash()});
 if(!location.hash)history.replaceState({page:'explore'},'','#explore');applyWeights();render();applyHash();if(!location.hash||location.hash==='#explore')setTimeout(()=>window.scrollTo(0,0),160);loadNetworkDB();
 // Add external map runtime only on map tab, to keep first load lightweight.
