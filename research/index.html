@@ -28,11 +28,29 @@
 .place-search-result .buttonrow{margin:9px 0 0}
 .place-search-privacy{font-size:11px;color:#698075;margin:10px 0 0;line-height:1.45}
 @media(max-width:560px){.place-search{padding:13px}.place-search-row .btn{flex:1 1 auto}.place-search-row input{flex-basis:100%}}
+
+/* v4: save the base once, then keep all setup controls minimized above the map. */
+[hidden]{display:none!important}
+.base-compact{background:#e6f3eb;border:1px solid #b6d6c4;border-radius:13px;margin:12px 0;padding:11px 13px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:9px}
+.base-compact-label{display:flex;align-items:flex-start;gap:9px;min-width:0;flex:1 1 230px}
+.base-compact-icon{font-size:20px;line-height:1.1}
+.base-compact-label b{font-size:14px;color:#12533c;display:block}
+.base-compact-label small{font-size:11px;line-height:1.45;color:#4b6b5d;display:block;margin-top:2px}
+.base-compact-actions{display:flex;align-items:center;flex-wrap:wrap;gap:7px}
+.base-setup-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:5px 2px 0;color:#60796e;font-size:12px}
+.base-setup-heading .btn{margin-left:auto}
+@media(max-width:560px){.base-compact{padding:11px;gap:10px}.base-compact-actions{width:100%;display:grid;grid-template-columns:1fr 1fr}.base-compact-actions .btn{white-space:normal}.base-setup-heading{font-size:11px}}
 </style></head><body>
 <header><div class="brandline"><div class="eyebrow">Crete · Experience Intelligence · Research workspace</div><div class="buttonrow"><button class="btn ghost tiny" id="quickExport">↓ Export database</button><button class="btn ghost tiny" id="quickAdd">＋ Add experience</button></div></div><h1>Discover more. Build better.</h1><p>Real experiences across Crete, catalogued with operators, published prices, locations, original photo sources and suitability for mountain and rural concepts. Explore, compare, shortlist and brainstorm.</p><div class="hero-stats"><div class="stat"><b id="totalMetric">—</b><span>Real listings</span></div><div class="stat"><b id="regionsMetric">4</b><span>Crete regions</span></div><div class="stat"><b id="pricedMetric">—</b><span>Published prices</span></div><div class="stat"><b id="shortMetric">0</b><span>Your shortlist</span></div><div class="stat"><b>Weekly</b><span>Discovery research</span></div></div></header>
 <div class="wrap"><nav class="tabs" aria-label="Views"><button data-tab="explore" class="active">Explore database</button><button data-tab="map">Map & locations</button><button data-tab="shortlist">My shortlist</button><button data-tab="inbox">Weekly review</button><button data-tab="ideas">Idea lab & ranking</button><button data-tab="data">Data & updates</button></nav>
 <section class="view active" id="explore"><div class="toolbar"><input class="field search" id="search" type="search" placeholder="Search experience, operator, village, activity…"><select class="field" id="region"><option value="">All Crete</option><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select><select class="field" id="category"><option value="">Every activity</option></select><select class="field" id="terrain"><option value="">All landscapes</option></select><select class="field" id="mountainFilter" aria-label="Mountain orientation"><option value="">Every mountain type</option><option value="Mountain-led">⛰️ Mountain-led</option><option value="Mountain-adjacent">🏞️ Mountain-adjacent</option><option value="Rural / mixed">🌿 Rural / mixed</option><option value="Non-mountain">🏙️ Non-mountain</option><option value="mountain-any">Mountain-led + adjacent</option></select><select class="field" id="price"><option value="">Any price</option><option value="40">Up to €40</option><option value="70">Up to €70</option><option value="100">Up to €100</option><option value="150">Up to €150</option><option value="unknown">Unpriced</option></select><select class="field" id="sort"><option value="fit">Highest suitability</option><option value="mountain">Most mountain-oriented</option><option value="distance">Nearest to my private base</option><option value="new">Recently checked</option><option value="price">Cheapest published price</option><option value="title">Name A–Z</option></select></div><div class="chipline" id="chips"></div><div class="summary"><span id="countText">Loading experiences…</span><div class="buttonrow"><button id="photosToggle" class="btn tiny">Original photos only</button><button id="summerToggle" class="btn tiny">Summer-ready only</button></div></div><div class="cards" id="cards"></div></section>
-<section class="view" id="map"><div class="panel"><h2>Crete-wide experience map</h2><p class="muted">Actual road/terrain map with public activity locations. Every listing is georeferenced to its public venue locality when known, otherwise to a clearly marked regional estimate. Shared area pins group experiences so overlapping listings stay accessible. No private base location is embedded in the website.</p><div class="toolbar"><select id="mapRegion" class="field"><option value="">All Crete</option><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select><select class="field" id="mapCat"><option value="">All activities</option></select><select class="field" id="mapMountain"><option value="">All landscapes</option><option value="Mountain-led">Mountain-led</option><option value="Mountain-adjacent">Mountain-adjacent</option><option value="mountain-any">Mountain + foothills</option></select><button class="btn tiny" id="mapReset">Fit all public locations</button></div><div class="place-search" aria-label="Search for a place in Crete">
+<section class="view" id="map"><div class="panel"><h2>Crete-wide experience map</h2><p class="muted">Actual road/terrain map with public activity locations. Every listing is georeferenced to its public venue locality when known, otherwise to a clearly marked regional estimate. Shared area pins group experiences so overlapping listings stay accessible. No private base location is embedded in the website.</p><div class="toolbar"><select id="mapRegion" class="field"><option value="">All Crete</option><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select><select class="field" id="mapCat"><option value="">All activities</option></select><select class="field" id="mapMountain"><option value="">All landscapes</option><option value="Mountain-led">Mountain-led</option><option value="Mountain-adjacent">Mountain-adjacent</option><option value="mountain-any">Mountain + foothills</option></select><button class="btn tiny" id="mapReset">Fit all public locations</button></div><div class="base-compact" id="baseCompact" hidden aria-label="Saved private base controls">
+ <div class="base-compact-label"><span class="base-compact-icon" aria-hidden="true">🔒</span><span><b>Private comparison base set</b><small id="baseCompactStatus">Straight-line distance comparison active · saved in this browser</small></span></div>
+ <div class="base-compact-actions"><button class="btn tiny" id="expandBase" type="button">Change base</button><button class="btn dark tiny" id="openMapSearch" type="button">Search another place</button></div>
+ </div>
+ <div id="baseSetup" class="base-setup">
+ <div class="base-setup-heading"><span>Set your reference location once to compare distances to every experience.</span><button class="btn tiny" id="minimizeBase" type="button" hidden>Done · Minimize</button></div>
+ <div class="place-search" id="mapPlaceSearch" aria-label="Search for a place in Crete">
 <h3>Find any place in Crete</h3>
 <p class="muted search-explainer">Search a village, town or landmark to locate it on the map. Select a result to zoom in, or use it as your private comparison base.</p>
 <form id="placeSearchForm" class="place-search-form" autocomplete="off">
@@ -43,10 +61,10 @@
 <div id="placeSearchResults" class="place-search-results" aria-label="Location search results"></div>
 <p class="place-search-privacy">Private by design: no saved search or private point is included in the public site, GitHub files or database exports. Searches you submit are sent to OpenStreetMap's Nominatim geocoding service; avoid confidential addresses. The comparison base, if saved, stays in this browser.</p>
 </div>
-<div class="base-panel"><h3>Compare everything with my private base</h3>
+<div class="base-panel" id="baseEditor"><h3>Compare everything with my private base</h3>
 <p class="muted" style="margin:0 0 10px">Enter coordinates from your own map or use the map selection tool. Saved <b>only in this browser</b>; excluded from the published database, notes exports and shared map markers. Distances are straight-line estimates, never driving times.</p>
-<div class="base-tools"><input class="field" id="baseLat" type="number" step="any" min="34" max="36" placeholder="Latitude (34–36)" aria-label="Private latitude"><input class="field" id="baseLon" type="number" step="any" min="23" max="27" placeholder="Longitude (23–27)" aria-label="Private longitude"><button class="btn dark tiny" id="saveBase">Save privately</button><button class="btn tiny" id="pickBase">Choose on map</button><button class="btn tiny" id="clearBase">Forget base</button></div>
-<div id="baseStatus" class="base-status" role="status">No private base saved on this device.</div></div>
+<div class="base-tools"><input class="field" id="baseLat" type="number" step="any" min="34" max="36" placeholder="Latitude (34–36)" aria-label="Private latitude"><input class="field" id="baseLon" type="number" step="any" min="23" max="27" placeholder="Longitude (23–27)" aria-label="Private longitude"><button class="btn dark tiny" id="saveBase">Save coordinates as my base</button><button class="btn tiny" id="pickBase">Choose on map</button><button class="btn tiny" id="clearBase">Forget base</button></div>
+<div id="baseStatus" class="base-status" role="status">No private base saved on this device.</div></div></div>
 <div class="map-layout"><div class="maparea" id="mapCanvas"><div class="mapblank">Interactive map loads when connected to the internet. All public listings remain accessible in the directory alongside it.</div></div><div class="panel mapinfo" style="margin:0"><h3 style="margin-top:0">All experiences / public map locations</h3><p class="map-label">Tap a cluster or grouped locality to choose among overlapping experiences. Locations marked “regional estimate” are not verified venue coordinates.</p><div class="countbar" id="mapCount"></div><div id="mapList"></div></div></div><p class="photoCredit">Map tiles © OpenStreetMap contributors, via OpenFreeMap. Markers intentionally indicate approximate public localities. The map requires internet.</p></div></section>
 <section class="view" id="shortlist"><div class="panel"><h2>Your shortlist</h2><p class="muted">Your own decisions are saved in this browser only. They are not published to GitHub or sent to the operators. Export your work regularly.</p><div class="minilist" id="shortList"></div></div></section>
 <section class="view" id="inbox"><div class="panel"><h2>Weekly review inbox</h2><p class="muted">Every Tuesday the research check looks for new Crete experiences, listing changes and price signals. Import the new JSON records here, inspect them, then move them into your shortlist.</p><div class="buttonrow"><button class="btn dark" id="importInbox">Import weekly JSON</button><button class="btn" id="showUnreviewed">Review all unchecked listings</button><button class="btn" id="exportNotes">Export notes & decisions</button></div><div class="notice">The scheduled research sends findings in ChatGPT. This static GitHub Pages site cannot change its shared database automatically without an authorized GitHub update. Imports change your browser copy; export/commit to publish.</div><h3>To review</h3><div class="minilist" id="reviewList"></div></div></section>
@@ -4020,8 +4038,44 @@ function popupFor(group){const container=document.createElement('div');container
 function renderMapMarkers(set){mapMarkers.forEach(m=>m.remove());mapMarkers=[];const bounds=new maplibregl.LngLatBounds();for(const group of groupsFor(set)){let node=document.createElement('button');node.type='button';node.className='thumbmark';node.textContent=group.items.length>1?String(group.items.length):icons[group.items[0].category]||'•';node.title=group.items.length+' experience(s) in '+group.items[0].place;node.style.cursor='pointer';node.style.background=group.items.some(r=>mountainLevel(r)==='Mountain-led')?'#9e642f':'#176d57';let marker=new maplibregl.Marker({element:node}).setLngLat(group.point).setPopup(new maplibregl.Popup({offset:20,maxWidth:'310px'}).setDOMContent(popupFor(group))).addTo(mapInstance);mapMarkers.push(marker);bounds.extend(group.point)}if(set.length&&$('mapRegion').value)mapInstance.fitBounds(bounds,{padding:55,maxZoom:10,duration:400})}
 function focusOnMap(id){if(!mapLoaded||!mapInstance)return;const r=all().find(x=>x.id===id);if(!r)return;let pos=loc(r);mapInstance.flyTo({center:pos,zoom:Math.max(mapInstance.getZoom(),10),essential:true});const related=groupsFor(all().filter(x=>loc(x).every((v,i)=>Math.abs(v-pos[i])<0.0001))).find(g=>g.items.some(x=>x.id===id));if(related){new maplibregl.Popup({offset:25,maxWidth:'310px'}).setLngLat(pos).setDOMContent(popupFor(related)).addTo(mapInstance)}focusMapId=null}
 function showRecordOnMap(id){focusMapId=id;if(detailId)closeDetail(false);showTab('map');$('mapRegion').value='';$('mapCat').value='';$('mapMountain').value='';renderMap()}
-function savePrivateBase(lat,lon){lat=Number(lat);lon=Number(lon);if(!Number.isFinite(lat)||!Number.isFinite(lon)||lat<=34||lat>=36||lon<=23||lon>=27){$('baseStatus').textContent='Invalid Crete coordinates. Check latitude and longitude.';return}privateBase={lat,lon};try{localStorage.setItem(BASEKEY,JSON.stringify(privateBase))}catch(e){$('baseStatus').textContent='Browser storage unavailable; base will work for this session only.';render();renderMini();if(activeTab==='map')renderMap();return}showBaseStatus();render();renderMini();if(activeTab==='map')renderMap()}
-function showBaseStatus(){if(hasBase()){$('baseStatus').textContent='Private base saved only on this device. Distances updated across listings. Coordinates never displayed in the public Atlas.';$('baseLat').value='';$('baseLon').value=''}else{$('baseStatus').textContent='No private base saved. Add it privately to compare distances from every experience.'}}
+// Only manual input, map clicks, and explicit "Use as my base" save a private point.
+// Searches do not silently change the base. This UI state is not exported or published.
+let baseStorageOK=true;
+function setBaseSetupMode(mode){
+  if(!hasBase())mode='edit';
+  const compact=mode==='compact'&&hasBase();
+  $('baseCompact').hidden=!compact;
+  $('baseSetup').hidden=compact;
+  $('baseEditor').hidden=(mode==='search'&&hasBase());
+  $('minimizeBase').hidden=!hasBase();
+}
+function showBaseStatus(){
+  if(hasBase()){
+    $('baseStatus').textContent=baseStorageOK?'Base saved on this device. Approximate air distances are now active.':'Storage unavailable: base works for this visit only.';
+    $('baseCompactStatus').textContent=baseStorageOK?'Air distances active · saved in this browser only':'Air distances active · session only (storage unavailable)';
+    $('baseLat').value='';$('baseLon').value='';
+  }else{
+    $('baseStatus').textContent='No private base saved. Search a place or enter coordinates to compare experiences.';
+    $('baseCompactStatus').textContent='No private base is set';
+  }
+}
+function savePrivateBase(lat,lon){
+  lat=Number(lat);lon=Number(lon);
+  if(!Number.isFinite(lat)||!Number.isFinite(lon)||lat<=34||lat>=36||lon<=23||lon>=27){
+    $('baseStatus').textContent='Invalid Crete coordinates. Check latitude and longitude.';
+    setBaseSetupMode('edit');return;
+  }
+  privateBase={lat,lon};baseStorageOK=true;
+  try{localStorage.setItem(BASEKEY,JSON.stringify(privateBase))}
+  catch(e){baseStorageOK=false}
+  choosingBase=false;$('pickBase').textContent='Choose on map';
+  showBaseStatus();setBaseSetupMode('compact');
+  render();renderMini();
+  if(activeTab==='map'){
+    renderMap();
+    requestAnimationFrame(()=>$('mapCanvas').scrollIntoView({behavior:'smooth',block:'center'}));
+  }
+}
 const download=(s,name,mime)=>{let u=URL.createObjectURL(new Blob([s],{type:mime})),a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),3000)};
 function exportDatabase(){download(JSON.stringify({schema:'crete-experience-db/v1',last_researched:new Date().toISOString().slice(0,10),records:all()},null,2),'experiences.json','application/json')}
 function exportCSV(){let set=all(),keys=Object.keys(set[0]),escCSV=s=>'"'+String(s??'').replace(/"/g,'""')+'"';let lines=[keys.map(escCSV).join(',')];set.forEach(r=>lines.push(keys.map(k=>escCSV(k==='tags'?JSON.stringify(r[k]):r[k])).join(',')));download('\ufeff'+lines.join('\r\n'),'crete_experiences.csv','text/csv')}
@@ -4045,7 +4099,16 @@ $('quickExport').onclick=$('exportDB').onclick=exportDatabase;$('exportCSV').onc
 $('importDB').onclick=$('importInbox').onclick=()=>$('importFile').click();$('importFile').onchange=e=>{if(e.target.files[0])importRecords(e.target.files[0]);e.target.value=''};
 $('restorePersonal').onclick=()=>$('notesFile').click();$('notesFile').onchange=e=>{if(e.target.files[0])importNotes(e.target.files[0]);e.target.value=''};
 $('showUnreviewed').onclick=()=>{showTab('explore');$('sort').value='fit';render()};
-$('mapRegion').onchange=$('mapCat').onchange=$('mapMountain').onchange=()=>renderMap();$('mapReset').onclick=()=>{if(mapInstance)mapInstance.flyTo({center:[24.65,35.25],zoom:7.3})};$('saveBase').onclick=()=>savePrivateBase($('baseLat').value,$('baseLon').value);$('clearBase').onclick=()=>{privateBase=null;try{localStorage.removeItem(BASEKEY)}catch(_){ }showBaseStatus();render();renderMini();if(activeTab==='map')renderMap()};$('pickBase').onclick=()=>{choosingBase=!choosingBase;$('pickBase').textContent=choosingBase?'Tap exact location on map…':'Choose on map';if(!mapInstance){showTab('map');}};
+$('mapRegion').onchange=$('mapCat').onchange=$('mapMountain').onchange=()=>renderMap();
+$('mapReset').onclick=()=>{if(mapInstance)mapInstance.flyTo({center:[24.65,35.25],zoom:7.3})};
+$('saveBase').onclick=()=>savePrivateBase($('baseLat').value,$('baseLon').value);
+$('expandBase').onclick=()=>setBaseSetupMode('edit');
+$('openMapSearch').onclick=()=>{setBaseSetupMode('search');$('placeSearchInput').focus()};
+$('minimizeBase').onclick=()=>{choosingBase=false;$('pickBase').textContent='Choose on map';setBaseSetupMode('compact')};
+$('clearBase').onclick=()=>{privateBase=null;baseStorageOK=true;choosingBase=false;
+  try{localStorage.removeItem(BASEKEY)}catch(_){ }
+  showBaseStatus();setBaseSetupMode('edit');render();renderMini();if(activeTab==='map')renderMap()};
+$('pickBase').onclick=()=>{choosingBase=!choosingBase;$('pickBase').textContent=choosingBase?'Tap exact location on map…':'Choose on map';if(!mapInstance){showTab('map')}};
 // One user-initiated geocoding request at a time; never autocomplete or bulk geocode.
 // No village name, home coordinates, or search history is embedded in the public HTML.
 let searchCandidates=[],searchMarker=null,pendingSearchPoint=null,searchPending=false,lastSearchTime=0;
@@ -4102,7 +4165,7 @@ $('placeSearchResults').addEventListener('click',e=>{
   placeStatus('Selected place saved as your private comparison base in this browser. Distances are straight-line estimates; the village centre is not your house.');
  }
 });
-showBaseStatus();
+showBaseStatus();setBaseSetupMode(hasBase()?'compact':'edit');
 window.addEventListener('popstate',applyHash);window.addEventListener('hashchange',()=>{if(!history.state)applyHash()});
 if(!location.hash)history.replaceState({page:'explore'},'','#explore');applyWeights();render();applyHash();if(!location.hash||location.hash==='#explore')setTimeout(()=>window.scrollTo(0,0),160);loadNetworkDB();
 // Add external map runtime only on map tab, to keep first load lightweight.
