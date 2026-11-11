@@ -1,13 +1,5 @@
-# Crete Experience Research — v2
+# Crete Experience Research v3 — Location Search
 
-Static GitHub Pages website: upload the `research` folder to your existing public repository.
+Open `research/index.html` or publish the `research/` folder on GitHub Pages. The geocoding search (Map & locations) sends explicit, user-submitted place names to OpenStreetMap Nominatim. It does not autocomplete. Search choices are temporary; selecting **Use as my base** saves only latitude/longitude to this browser's localStorage to calculate straight-line distances from the base to public locality estimates. It is **not** the private home address unless you select that location. Neither searches nor local private-base coordinates are embedded in code, exported with the research data, or committed to Git. External map servers receive map-tile requests for locations viewed, as with other online maps.
 
-- Dataset: `research/data/experiences.json` (111 individual public listings)
-- Search/filter for mountain-led and mountain-adjacent experiences; score weights adjustable
-- Every entry has a map location (approximate locality or regional placeholder; location precision labeled)
-- Private base is set only in the browser and never published, exported, pinned, or built into source code
-- Distance is straight-line, not driving distance. No exact venue coordinates are claimed when unavailable
-- Published prices & linked operator photos are original source links; external hosts may block images
-- Research automation results must be imported and pushed to GitHub manually
-
-Do not add personal data, private address, exact location, or land coordinates to the committed JSON file.
+Operators and experience records: 111 (unchanged from v2). Map uses OpenFreeMap and MapLibre for live tiles. Offline data view remains available when the map service is unavailable.
