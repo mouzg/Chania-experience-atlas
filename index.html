@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#122924"><title>Chania Experience Atlas 2027 · v6 | Public Edition</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#122924"><title>Chania Experience Atlas 2027 · v7 | Public Destinations Map</title>
 <style>
 :root{--bg:#f4f3ee;--ink:#17332c;--mid:#53675f;--surface:#fffefa;--line:#dae0d6;--forest:#183e32;--lime:#dff1df;--mint:#0e775d;--gold:#d48a47;--soft:#edf4ed}
 *{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:var(--bg);font:15px/1.52 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink)}button,input,select,textarea{font:inherit}button{cursor:pointer}a{color:#08725a}a:hover{text-decoration:underline}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #e4a561;outline-offset:2px}.hidden{display:none!important}
@@ -17,15 +17,56 @@
 .card-main img, .detail img {color:transparent}
 
 
-</style></head><body>
-<header class="hero"><div class="top"><span class="eyebrow">CHAnIA · PRIVATE TOURISM STRATEGY · 2027</span><div><button id="export" class="hbtn">Export notes</button> <button id="portable" class="hbtn">Save portable copy</button></div></div><h1 class="headline">The Experience <em>Atlas.</em></h1><p class="intro">35 real-world-inspired opportunities for your independent tourist office in Chania. Click any idea to see real competitor examples, photographs, operating details and your personal plan.</p><div class="metrics"><div class="metric"><b>35</b><span>ranked ideas</span></div><div class="metric"><b id="favcount">0</b><span>favourites</span></div><div class="metric"><b>2027</b><span>summer launch</span></div><div class="metric"><b>4×4</b><span>6 guests + driver</span></div></div></header>
-<main class="wrap"><nav class="nav"><button data-tab="ideas" class="active">All 35 experiences</button><button data-tab="numbers">Tour calculator</button><button data-tab="roadmap">Launch roadmap</button><button data-tab="about">Your plan / backups</button></nav>
+
+/* Public destination map: never mark, derive distance from, or give directions to private property. */
+.public-lead{background:linear-gradient(124deg,#102f2a,#1b5240);color:white;padding:21px 23px;border-radius:16px;margin-bottom:16px}
+.public-lead h2{font:normal clamp(25px,4vw,35px)/1.15 Georgia,serif;margin:0 0 9px}
+.public-lead p{color:#cee3d7;font-size:13px;max-width:860px;margin:4px 0}
+.public-map-shell{background:#10362f;border-radius:16px;padding:13px;box-shadow:0 12px 32px #132f2812}
+.public-map-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:9px;padding:6px 8px 12px;color:#e9f1ea}
+.public-map-head h3{margin:0;font:normal 22px Georgia,serif}
+.public-map-head span{font-size:12px;color:#a9d1b9}
+#publicMap{height:clamp(310px,55vw,515px);background:radial-gradient(circle at 40% 48%,#255b50,#113a34);border:1px solid #ffffff24;border-radius:10px;overflow:hidden;position:relative}
+#publicMap svg{display:block;width:100%;height:100%}
+#publicMap .leaflet-container{height:100%;width:100%;font-family:inherit}
+#publicMap .leaflet-popup-content{margin:11px 15px;font-size:13px;line-height:1.55}
+#publicMap .leaflet-popup-content a{color:#0c6953;font-weight:700}
+.pub-legend{display:flex;flex-wrap:wrap;gap:9px 15px;color:#d7e8dc;font-size:11px;padding:12px 7px 5px}
+.pub-legend span{display:inline-flex;gap:6px;align-items:center}
+.pub-dot{display:inline-block;width:9px;height:9px;border-radius:100%;background:#f0bc74;border:1px solid white}
+.pub-dot.mountain{background:#e1ba80}.pub-dot.foothill{background:#96d4aa}.pub-dot.valley{background:#a2dce5}.pub-dot.coast{background:#83b8f6}
+.pub-note{font-size:12px;color:#5d7268;padding:12px 5px;line-height:1.6}
+.pub-dest-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:15px 0}
+.pub-dest-card{border:1px solid #dce8df;border-radius:14px;background:#fffefa;padding:16px;display:flex;flex-direction:column;gap:8px}
+.pub-dest-top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.pub-dest-card h3{font:normal 21px/1.2 Georgia,serif;margin:4px 0 0;color:#183d32}
+.pub-dest-card p{font-size:13px;color:#5e7166;margin:0;flex-grow:1}
+.pub-tag{border-radius:30px;background:#e7f1e9;color:#245b46;font-size:11px;padding:5px 9px;white-space:nowrap}
+.pub-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:3px}
+.pub-actions a,.pub-actions button{background:#eff6ed;border:1px solid #d6e6d9;border-radius:8px;color:#19604d;font-size:12px;padding:9px 11px;text-decoration:none;font-weight:750}
+.pub-actions button{cursor:pointer}
+.pub-private{padding:13px 16px;border-radius:11px;background:#edf5ed;border:1px solid #dceada;color:#355d48;font-size:13px;margin-top:15px}
+@media(max-width:720px){.pub-dest-grid{grid-template-columns:1fr}.public-lead{padding:17px}.public-map-shell{padding:9px}#publicMap{height:380px}.pub-dest-card{padding:15px}}
+</style><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" media="all"></head><body>
+<header class="hero"><div class="top"><span class="eyebrow">CHANIA · TOURISM EXPERIENCE IDEAS · 2027</span><div><button id="export" class="hbtn">Export notes</button> <button id="portable" class="hbtn">Save portable copy</button></div></div><h1 class="headline">The Experience <em>Atlas.</em></h1><p class="intro">35 real-world-inspired opportunities for your independent tourist office in Chania. Click any idea to see real competitor examples, photographs, operating details and your personal plan.</p><div class="metrics"><div class="metric"><b>35</b><span>ranked ideas</span></div><div class="metric"><b id="favcount">0</b><span>favourites</span></div><div class="metric"><b>2027</b><span>summer launch</span></div><div class="metric"><b>4×4</b><span>6 guests + driver</span></div></div></header>
+<main class="wrap"><nav class="nav"><button data-tab="ideas" class="active">All 35 experiences</button><button data-tab="destinations">Public places map</button><button data-tab="numbers">Tour calculator</button><button data-tab="roadmap">Launch roadmap</button><button data-tab="about">Your plan / backups</button></nav>
 <section id="ideasPanel"><div class="actions"><input class="control search" id="search" type="search" placeholder="Search excursion or activity…"><select class="control" id="category"><option value="all">All categories</option></select><select class="control" id="sort"><option value="rank">Highest fit first</option><option value="name">Name A–Z</option><option value="cost">Cheapest setup first</option></select></div><div class="chips"><button class="chip selected" data-filter="all">Everything</button><button class="chip" data-filter="summer">Summer launch</button><button class="chip" data-filter="top">Top 85%+</button><button class="chip" data-filter="favorites">★ Favourites</button><button class="chip" data-filter="shortlist">Shortlisted</button></div><div class="count"><span id="count">Showing 35 experiences</span><span>Tap an image or title to explore ↗</span></div><div class="cards" id="cards"></div></section>
 
+
+<section class="hidden" id="destinationsPanel">
+ <div class="public-lead"><h2>Explore public places across Chania</h2><p>Landscape, food, wine and outdoor-tour inspiration for the strongest Atlas ideas. Every pin represents a <b>public destination</b>, not a private host venue or visitor pickup point.</p></div>
+ <div class="public-map-shell"><div class="public-map-head"><h3>Destination map</h3><span>Tap pins for details · Live roads when online</span></div>
+  <div id="publicMap" role="region" aria-label="Map of public tourist destinations in Chania"></div>
+  <div class="pub-legend"><span><i class="pub-dot mountain"></i> Mountain / gorge</span><span><i class="pub-dot foothill"></i> Winery / foothills</span><span><i class="pub-dot valley"></i> Village / valley</span><span><i class="pub-dot coast"></i> Coast / town</span></div>
+ </div>
+ <p class="pub-note">Pins indicate public places or approximate public meeting areas, not exact trailheads or venue entrances. The map does not calculate routes or distances from any private property. Live map tiles need internet; a basic map remains visible offline.</p>
+ <div class="pub-dest-grid" id="publicDestCards"></div>
+ <div class="pub-private"><b>Location privacy:</b> No house, private olive trees, land parcel, access road, private coordinates or personal map links appear here. On-property experiences intentionally have no map marker. Confirm permissions, safety and partner arrangements before advertising a tour.</div>
+</section>
 <section class="hidden" id="numbersPanel"><div class="surface"><h2 class="subhead">Tour contribution calculator</h2><p class="muted">Test gross sales, commission, variable costs and monthly vehicle repayments. All values are editable assumptions, not profits or guaranteed bookings.</p><div class="numbers"><div><label class="field">Experience<select id="calcExp"></select></label><label class="field">Guests (maximum 6)<input type="number" id="calcGuests" min="1" max="6" value="6"></label><label class="field">Selling price (€)<input type="number" id="calcPrice" min="0"></label><label class="field">Marketplace commission (%)<input type="number" id="calcCommission" min="0" max="100" value="25"></label></div><div><label class="field">Variable cost per guest (€)<input type="number" id="calcVariable" min="0" value="20"></label><label class="field">Fixed costs per tour (€)<input type="number" id="calcTrip" min="0" value="70"></label><label class="field">Tours per month<input type="number" id="calcTours" min="0" value="8"></label><label class="field">Monthly car-loan payment (€)<input type="number" id="calcLoan" min="0" value="650"></label></div></div><div class="result" id="calcResult"></div><p class="small muted">Before VAT, income tax, your own wage, commercial insurance, maintenance beyond assumed costs, accountant, permits and other overheads.</p></div></section>
 <section class="hidden" id="roadmapPanel"><div class="surface"><h2 class="subhead">May–December 2027</h2><p class="muted">Your tourist office is independent and unnamed. Your future olive-harvest venture remains a separate business idea.</p><div id="steps"></div></div></section>
-<section class="hidden" id="aboutPanel"><div class="surface"><h2 class="subhead">Your saved planning workspace</h2><p class="warning"><b>Location privacy:</b> This public edition does not contain private property pins, coordinates, driving directions to the property, or the address of the house or groves. Meeting-point details should be shared privately only after booking.</p><p>Starting position: independent tourist office in Chania; rural venue and olive-growing experience in the Chania region; self-operated excursions; legal 7-seat 4×4, financed if approved; first tourism business distinct from the future olive venture.</p><div class="warning"><b>Original operator photos require internet.</b> The website tries to show genuine published tour images and keeps a link to each photo source. If an image host blocks loading or you are offline, the website automatically shows a clearly labelled illustrative fallback photo embedded in this file. These fallback photos are not photos of the operators or exact excursions.</div><p>Android/browser Back now returns to earlier Atlas screens and has a protective home history entry. If you press Back on the main list, the Atlas stays open in browsers that respect webpage history. Some in-app file viewers intercept the phone Back gesture before the website can handle it; in those viewers, use the visible “Back to list” button.</p><div class="links"><button class="button" id="export2">Export notes as JSON</button><button class="button" id="portable2">Save portable HTML</button><button class="button" id="import">Import notes JSON</button><input class="hidden" type="file" accept="application/json,.json" id="importfile"><button class="button" id="clear">Clear local notes</button></div><h3>Evidence and caveats</h3><p class="small muted">All 35 original scores and order are preserved. Links lead to real example operators or comparable tours; where the example is not identical, it is labelled as such. Suggested prices are your proposed test prices, not verified competitor rates. Tour-provider websites can change or stop selling experiences. This version is privacy-reduced for public sharing; rankings and estimated prices remain planning assumptions. Do not enter private addresses or GPS coordinates in notes you might later publish.</p></div></section>
-<p class="foot">Chania Experience Atlas 2027 · v4 · 35 ideas · Original photo links + embedded illustrated fallbacks · Public edition · 11 November 2026</p></main>
+<section class="hidden" id="aboutPanel"><div class="surface"><h2 class="subhead">Your saved planning workspace</h2><p class="warning"><b>Location privacy:</b> The public destinations map contains only public attraction and town pins. It does not contain private property pins, coordinates, driving directions to private land, or the address of the house or groves. Meeting-point details should be shared privately only after booking.</p><p>Starting position: independent tourist office in Chania; rural venue and olive-growing experience in the Chania region; self-operated excursions; legal 7-seat 4×4, financed if approved; first tourism business distinct from the future olive venture.</p><div class="warning"><b>Original operator photos require internet.</b> The website tries to show genuine published tour images and keeps a link to each photo source. If an image host blocks loading or you are offline, the website automatically shows a clearly labelled illustrative fallback photo embedded in this file. These fallback photos are not photos of the operators or exact excursions.</div><p>Android/browser Back now returns to earlier Atlas screens and has a protective home history entry. If you press Back on the main list, the Atlas stays open in browsers that respect webpage history. Some in-app file viewers intercept the phone Back gesture before the website can handle it; in those viewers, use the visible “Back to list” button.</p><div class="links"><button class="button" id="export2">Export notes as JSON</button><button class="button" id="portable2">Save portable HTML</button><button class="button" id="import">Import notes JSON</button><input class="hidden" type="file" accept="application/json,.json" id="importfile"><button class="button" id="clear">Clear local notes</button></div><h3>Evidence and caveats</h3><p class="small muted">All 35 original scores and order are preserved. Links lead to real example operators or comparable tours; where the example is not identical, it is labelled as such. Suggested prices are your proposed test prices, not verified competitor rates. Tour-provider websites can change or stop selling experiences. This version is privacy-reduced for public sharing; rankings and estimated prices remain planning assumptions. Do not enter private addresses or GPS coordinates in notes you might later publish.</p></div></section>
+<p class="foot">Chania Experience Atlas 2027 · v4 · 35 ideas · Original photo links + embedded illustrated fallbacks · Public map edition · 11 November 2026</p></main>
 <section class="view" id="detailView" aria-label="Experience details"><div class="detailtop"><button id="goBack">← Back to list</button><span class="eyebrow" style="color:#4c705c" id="detailPosition"></span><button id="closeDetail" aria-label="Close detail">×</button></div><div class="detail" id="detailContent"></div></section>
 <div id="homeToast" role="status" aria-live="polite">You’re already at the Atlas home screen</div>
 <script type="application/json" id="embedded-state">{}</script><script>
@@ -57,6 +98,49 @@ document.addEventListener('error', function(event) {
 }, true);
 
 
+
+const PUBLIC_DESTINATIONS = [{"id":"chania","name":"Chania Old Harbour","label":"Chania Harbour","lat":35.5175,"lon":24.0179,"kind":"Coast / heritage","tag":"coast","idea":11,"why":"City pickup, history, photography and an alternative urban starting point.","url":"https://www.visitgreece.gr/en/islands/Creta/Chania"},{"id":"manousakis","name":"Manousakis Winery · Vatolakkos","label":"Manousakis Winery","lat":35.44953,"lon":23.88764,"kind":"Winery / foothills","tag":"foothill","idea":5,"why":"A genuine winery offering tours and tastings; a partnership would require approval.","url":"https://www.manousakiswinery.com/visit"},{"id":"botanical","name":"Botanical Park & Gardens of Crete","label":"Botanical Park","lat":35.41833,"lon":23.93944,"kind":"Nature / foothills","tag":"foothill","idea":11,"why":"Public visitor attraction for plants, food and guided nature experiences.","url":"https://www.botanical-park.com/how-to-come/"},{"id":"kydoni","name":"Kydoni Gorge · Karanou","label":"Kydoni Gorge","lat":35.40064,"lon":23.91717,"kind":"Gorge / mountain","tag":"mountain","idea":10,"why":"A documented gorge walk near a public mountain village; confirm trail conditions.","url":"https://visitchania.gr/en/places-to-visit/kydoni-gorge/"},{"id":"lakkoi","name":"Lakkoi village","label":"Lakkoi","lat":35.39704,"lon":23.94087,"kind":"Village / mountain","tag":"mountain","idea":11,"why":"Mountain village and surrounding landscape for landscape or culture tours.","url":"https://mapcarta.com/12863018"},{"id":"meskla","name":"Meskla village","label":"Meskla","lat":35.40314,"lon":23.95608,"kind":"Village / valley","tag":"valley","idea":10,"why":"Foothill village suitable for hiking and countryside itineraries.","url":"https://mapcarta.com/12860080"},{"id":"sarakina","name":"Sarakina Gorge · Meskla","label":"Sarakina Gorge","lat":35.39619,"lon":23.96093,"kind":"Gorge / mountain","tag":"mountain","idea":10,"why":"Outdoor terrain option; validate trail access, difficulty and safety first.","url":"https://mapcarta.com/N4961357841"},{"id":"omalos","name":"Omalos Plateau","label":"Omalos","lat":35.34388,"lon":23.90454,"kind":"Plateau / high mountain","tag":"mountain","idea":10,"why":"Mountain scenery and a larger half-day or full-day route possibility.","url":"https://mapcarta.com/12858284"}];
+let publicMapInstance=null, publicMapLoading=false, publicMapRendered=false;
+function publicLink(p){return 'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.name+', Chania, Crete, Greece')}
+function renderPublicDestinations(){
+ if(publicMapRendered)return;
+ publicMapRendered=true;
+ document.getElementById('publicDestCards').innerHTML=PUBLIC_DESTINATIONS.map(p=>`<article class="pub-dest-card"><div class="pub-dest-top"><h3>${esc(p.name)}</h3><span class="pub-tag">${esc(p.kind)}</span></div><p>${esc(p.why)}</p><div class="pub-actions"><a href="${esc(publicLink(p))}" target="_blank" rel="noopener noreferrer">View in Google Maps ↗</a><a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">Source ↗</a><button data-idea-map="${p.idea}">Related Atlas idea</button></div></article>`).join('');
+ document.querySelectorAll('[data-idea-map]').forEach(b=>b.onclick=()=>navigateIdea(Number(b.dataset.ideaMap)));
+ // Use an offline schematic immediately; never insert a private location or a reference origin.
+ const minLon=23.855,maxLon=24.055,minLat=35.315,maxLat=35.542;
+ function xy(p){return [66+(p.lon-minLon)/(maxLon-minLon)*622,35+(maxLat-p.lat)/(maxLat-minLat)*376]}
+ const dots=PUBLIC_DESTINATIONS.map(p=>{const [x,y]=xy(p);const color={mountain:'#e1ba80',foothill:'#96d4aa',valley:'#a2dce5',coast:'#83b8f6'}[p.tag]||'#f0bc74';return `<a href="${esc(publicLink(p))}" target="_blank" rel="noopener noreferrer"><title>${esc(p.name)} — public location</title><circle cx="${x}" cy="${y}" r="9" fill="${color}" stroke="#ffffff" stroke-width="2"/></a>`}).join('');
+ document.getElementById('publicMap').innerHTML=`<svg viewBox="0 0 760 450" role="img" aria-label="Public destinations in Chania; schematic fallback map" xmlns="http://www.w3.org/2000/svg"><g stroke="#ffffff25" stroke-width="1"><path d="M70 90H700M70 180H700M70 270H700M70 360H700M140 30V425M280 30V425M420 30V425M560 30V425M700 30V425"/></g><text x="26" y="25" fill="#cae8da" font-size="18" font-weight="700">Western Crete · public attractions</text><text x="692" y="25" fill="#cae8da" font-size="16">N ↑</text>${dots}<text x="20" y="440" fill="#b9d9c8" font-size="13">Tap a dot to open a public destination · schematic fallback</text></svg>`;
+}
+function loadPublicMap(){
+ renderPublicDestinations();
+ if(publicMapInstance){requestAnimationFrame(()=>publicMapInstance.invalidateSize());return;}
+ if(publicMapLoading)return;
+ publicMapLoading=true;
+ const ready=()=>{
+  if(typeof window.L==='undefined'){publicMapLoading=false;return}
+  try{
+   const el=document.getElementById('publicMap');
+   el.innerHTML='';
+   const map=L.map(el,{scrollWheelZoom:false,zoomControl:true}).setView([35.435,23.966],10);
+   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+   const bounds=[];
+   PUBLIC_DESTINATIONS.forEach(p=>{
+    const color={mountain:'#bb7a31',foothill:'#198e68',valley:'#297a94',coast:'#316da6'}[p.tag]||'#1b8058';
+    const marker=L.circleMarker([p.lat,p.lon],{radius:8,color:'#ffffff',weight:2,fillColor:color,fillOpacity:1}).addTo(map);
+    marker.bindPopup(`<b>${esc(p.name)}</b><br>${esc(p.kind)}<br><a href="${esc(publicLink(p))}" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a>`);
+    marker.bindTooltip(p.label);bounds.push([p.lat,p.lon]);
+   });
+   map.fitBounds(bounds,{padding:[38,38],maxZoom:11});publicMapInstance=map;
+   requestAnimationFrame(()=>map.invalidateSize());
+  }catch(e){publicMapInstance=null;publicMapRendered=false;renderPublicDestinations()}
+  publicMapLoading=false;
+ };
+ if(typeof window.L!=='undefined'){ready();return}
+ const script=document.createElement('script');script.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';script.onload=ready;script.onerror=()=>{publicMapLoading=false};document.head.appendChild(script);
+}
+
 const KEY='chania-atlas-v2';let state={favorites:[],notes:{},statuses:{},checks:{}};
 try{const p=JSON.parse(document.getElementById('embedded-state').textContent);if(p&&typeof p==='object')state={...state,...p}}catch(e){}
 try{const p=JSON.parse(localStorage.getItem(KEY));if(p&&typeof p==='object')state={...state,...p}}catch(e){}
@@ -80,7 +164,7 @@ function drawDetail(n){const i=IDEAS.find(x=>x.rank===n);if(!i)return;rank=n;$('
 // Preserve a browser-history guard below the Atlas home screen.
 // Hardware Back returns through routes and is re-armed at root so it does not leave the document.
 function routeFromHash(){let h=decodeURIComponent(location.hash||'#ideas'),m=h.match(/^#idea-(\d+)$/);if(m&&Number(m[1])>=1&&Number(m[1])<=35){let n=Number(m[1]);if(rank===null)lastListScroll=window.scrollY;drawDetail(n);$('detailView').classList.add('active');document.body.style.overflow='hidden';$('detailView').scrollTop=0;return}
- $('detailView').classList.remove('active');rank=null;document.body.style.overflow='';let t=h.startsWith('#tab-')?h.slice(5):'ideas';if(!['ideas','numbers','roadmap','about'].includes(t))t='ideas';tab=t;document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===t));['ideas','numbers','roadmap','about'].forEach(x=>$(x+'Panel').classList.toggle('hidden',x!==t));if(t==='ideas')window.scrollTo(0,lastListScroll);else window.scrollTo(0,0);}
+ $('detailView').classList.remove('active');rank=null;document.body.style.overflow='';let t=h.startsWith('#tab-')?h.slice(5):'ideas';if(!['ideas','destinations','numbers','roadmap','about'].includes(t))t='ideas';tab=t;document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===t));['ideas','destinations','numbers','roadmap','about'].forEach(x=>$(x+'Panel').classList.toggle('hidden',x!==t));if(t==='ideas')window.scrollTo(0,lastListScroll);else window.scrollTo(0,0);if(t==='destinations')loadPublicMap();}
 let atlasHistoryEnabled=false;
 function seedAtlasHistory(){
  const first=location.hash||'#ideas';
@@ -105,7 +189,7 @@ function goTab(t){nav(t==='ideas'?'#ideas':'#tab-'+t)}
 function back(){
  if(rank!==null){
   const steps=Number(history.state?.depth)||0;
-  if(atlasHistoryEnabled && steps>0) history.go(-steps);
+  if(atlasHistoryEnabled && steps>0) history.back();
   else nav('#ideas');
   return;
  }
