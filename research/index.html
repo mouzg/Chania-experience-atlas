@@ -51,10 +51,15 @@
 .age-badge.unknown{background:#f1f2f1;color:#75807a;font-weight:500}
 .age-panel{margin:12px 0;padding:13px;border:1px solid #dae0ee;background:#f6f8fc;border-radius:11px}
 .age-panel h3{margin:0 0 7px;font-size:16px}.age-panel p{margin:7px 0;font-size:13px}.age-panel small{display:block;color:#586d7b}
+
+/* Start small planner: visual hierarchy harmonized with existing research database */
+.launch-hero{background:linear-gradient(120deg,#eef6ed,#fffefa);border-color:#c6e2cd;padding:23px}.launch-eyebrow{font-size:11px;letter-spacing:.12em;color:#31705a;text-transform:uppercase;font-weight:850}.launch-hero h2{font-size:clamp(28px,4vw,42px);line-height:1.08;margin:8px 0 12px}.launch-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:18px 0}.launch-kpis>div{background:#ffffffb8;border:1px solid #d6e3d8;border-radius:11px;padding:12px}.launch-kpis b{display:block;font-size:23px}.launch-kpis span{font-size:11px;color:#6c7b71}.launch-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:12px}.launch-step{background:#fff;border:1px solid var(--border);border-radius:13px;padding:17px}.launch-step h3{font-size:17px;margin:11px 0 6px}.launch-step p{color:#5d746b;font-size:13px}.launch-step small{color:#196950;font-weight:650}.phase-pill{font-size:11px;font-weight:850;color:#1b6d57;background:#e2f2e8;padding:6px 9px;border-radius:30px}.launch-note p{margin-bottom:0}.launch-rowhead{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:20px 0 14px}.launch-rowhead h2{font:normal 27px Georgia,serif;margin:0 0 5px}.launch-rowhead p{margin:0;max-width:850px}.launch-concepts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:20px}.launch-concept{background:#fff;border:1px solid var(--border);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}.launch-concept.primary{border-color:#9bcbb5;background:#fbfffb}.launch-concept h3{font-size:18px;line-height:1.26;margin:0}.launch-concept p{font-size:13px;color:#5a7168;margin:0}.launch-concept .launch-meta{display:flex;flex-wrap:wrap;gap:6px;font-size:11px}.launch-meta span{border:1px solid #d8e5db;border-radius:8px;background:#f1f8f2;padding:5px 8px;color:#2e6955;font-weight:730}.launch-concept .launch-stepsdetail{font-size:12px;color:#5c7167;border-top:1px solid #e5ece7;padding-top:9px}.launch-concept .buttonrow{margin-top:auto;padding-top:9px}.launch-ref{border-bottom:1px solid #edf0eb;display:flex;gap:12px;justify-content:space-between;align-items:flex-start;padding:12px 0}.launch-ref strong{display:block}.launch-ref small{display:block;color:#6d8376}.launch-ref .btn{max-width:120px}.launch-ref .launch-value{font-weight:900;color:#126c4e;white-space:nowrap}.launch-form{display:grid;grid-template-columns:0.95fr 1.15fr;gap:20px}.launch-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-content:start}.launch-controls label{display:flex;flex-direction:column;gap:5px;font-size:12px;font-weight:750}.launch-controls label:first-child{grid-column:1 / -1}.launch-results{background:#f5faf6;border:1px solid #d6e4dc;border-radius:12px;padding:15px;min-width:0}.launch-outputgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.launch-outputgrid>div{background:white;border:1px solid #e2e9e4;border-radius:9px;padding:10px}.launch-outputgrid small{display:block;color:#6b7d73;font-size:11px}.launch-outputgrid b{display:block;font-size:24px;color:#145b48}.launch-outputgrid b.negative{color:#b34836}.launch-kpis-note{margin:12px 0;background:white;border-left:3px solid #1a745a;padding:12px;border-radius:7px;font-size:13px}.launch-table-scroll{overflow:auto}.launch-table{width:100%;border-collapse:collapse;font-size:12px;white-space:nowrap}.launch-table th,.launch-table td{padding:8px;text-align:right;border-bottom:1px solid #dbe7dd}.launch-table th:first-child,.launch-table td:first-child{text-align:left}.launch-table tr.current{background:#e2f3e8;font-weight:800}.launch-checks{display:grid;gap:10px;margin:12px 0}.launch-checks label{display:flex;gap:9px;align-items:flex-start;color:#466457;font-size:13px}.launch-checks input{accent-color:#15735c;margin-top:3px}.launch-banner{color:#255743;padding:10px 12px;background:#e9f4ed;border-radius:10px;border:1px solid #cddfd2;font-size:12px;margin-top:12px}.launch-chip{background:#edf5ec;color:#176b51;border-radius:8px;padding:4px 7px;font-size:11px;font-weight:800;display:inline-block}.launch-chip.later{background:#fff4e2;color:#905c22}
+@media(max-width:980px){.launch-concepts{grid-template-columns:repeat(2,minmax(0,1fr))}.launch-steps{grid-template-columns:1fr 1fr}.launch-form{grid-template-columns:1fr}}
+@media(max-width:660px){.launch-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.launch-concepts{grid-template-columns:1fr}.launch-steps{grid-template-columns:1fr}.launch-controls{grid-template-columns:1fr 1fr}.launch-outputgrid b{font-size:21px}.launch-hero{padding:16px}.launch-rowhead{margin-top:16px}}
 </style></head><body>
 <header><div class="brandline"><div class="eyebrow">Crete · Experience Intelligence · Research workspace</div><div class="buttonrow"><button class="btn ghost tiny" id="quickExport">↓ Export database</button><button class="btn ghost tiny" id="quickAdd">＋ Add experience</button></div></div><h1>Discover more. Build better.</h1><p>Real experiences across Crete, catalogued with operators, published prices, locations, original photo sources and suitability for mountain and rural concepts. Explore, compare, shortlist and brainstorm.</p><div class="hero-stats"><div class="stat"><b id="totalMetric">—</b><span>Real listings</span></div><div class="stat"><b id="regionsMetric">4</b><span>Crete regions</span></div><div class="stat"><b id="pricedMetric">—</b><span>Published prices</span></div><div class="stat"><b id="shortMetric">0</b><span>Your shortlist</span></div><div class="stat"><b>Weekly</b><span>Discovery research</span></div></div></header>
-<div class="wrap"><nav class="tabs" aria-label="Views"><button data-tab="explore" class="active">Explore database</button><button data-tab="map">Map & locations</button><button data-tab="shortlist">My shortlist</button><button data-tab="inbox">Weekly review</button><button data-tab="ideas">Idea lab & ranking</button><button data-tab="data">Data & updates</button></nav>
-<section class="view active" id="explore"><div class="toolbar"><input class="field search" id="search" type="search" placeholder="Search experience, operator, village, activity…"><select class="field" id="region"><option value="">All Crete</option><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select><select class="field" id="category"><option value="">Every activity</option></select><select class="field" id="terrain"><option value="">All landscapes</option></select><select class="field" id="mountainFilter" aria-label="Mountain orientation"><option value="">Every mountain type</option><option value="Mountain-led">⛰️ Mountain-led</option><option value="Mountain-adjacent">🏞️ Mountain-adjacent</option><option value="Rural / mixed">🌿 Rural / mixed</option><option value="Non-mountain">🏙️ Non-mountain</option><option value="mountain-any">Mountain-led + adjacent</option></select><select class="field" id="price"><option value="">Any price</option><option value="40">Up to €40</option><option value="70">Up to €70</option><option value="100">Up to €100</option><option value="150">Up to €150</option><option value="unknown">Unpriced</option></select><select class="field" id="popFilter" aria-label="Popularity evidence"><option value="">Any popularity evidence</option><option value="experience">Reviews of this exact tour</option><option value="operator">Operator / venue reviews</option><option value="unknown">No verified count</option></select><select class="field" id="ageFilter" aria-label="Business age evidence"><option value="">Any company age</option><option value="5">5+ years</option><option value="10">10+ years</option><option value="20">20+ years</option><option value="unknown">Unknown business age</option><option value="tour-known">Known tourism start</option></select><select class="field" id="sort"><option value="fit">Highest suitability</option><option value="mountain">Most mountain-oriented</option><option value="popularity">Most reviewed (experience first)</option><option value="oldest">Oldest confirmed business</option><option value="youngest">Youngest confirmed business</option><option value="distance">Nearest to my private base</option><option value="new">Recently checked</option><option value="price">Cheapest published price</option><option value="title">Name A–Z</option></select></div><p id="popSummary" class="pop-summary"></p><div class="chipline" id="chips"></div><div class="summary"><span id="countText">Loading experiences…</span><div class="buttonrow"><button id="photosToggle" class="btn tiny">Original photos only</button><button id="summerToggle" class="btn tiny">Summer-ready only</button></div></div><div class="cards" id="cards"></div></section>
+<div class="wrap"><nav class="tabs" aria-label="Views"><button data-tab="explore" class="active">Explore database</button><button data-tab="launch">🌱 Start small · profit first</button><button data-tab="map">Map & locations</button><button data-tab="shortlist">My shortlist</button><button data-tab="inbox">Weekly review</button><button data-tab="ideas">Idea lab & ranking</button><button data-tab="data">Data & updates</button></nav>
+<section class="view active" id="explore"><div class="toolbar"><input class="field search" id="search" type="search" placeholder="Search experience, operator, village, activity…"><select class="field" id="region"><option value="">All Crete</option><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select><select class="field" id="category"><option value="">Every activity</option></select><select class="field" id="terrain"><option value="">All landscapes</option></select><select class="field" id="mountainFilter" aria-label="Mountain orientation"><option value="">Every mountain type</option><option value="Mountain-led">⛰️ Mountain-led</option><option value="Mountain-adjacent">🏞️ Mountain-adjacent</option><option value="Rural / mixed">🌿 Rural / mixed</option><option value="Non-mountain">🏙️ Non-mountain</option><option value="mountain-any">Mountain-led + adjacent</option></select><select class="field" id="price"><option value="">Any price</option><option value="40">Up to €40</option><option value="70">Up to €70</option><option value="100">Up to €100</option><option value="150">Up to €150</option><option value="unknown">Unpriced</option></select><select class="field" id="popFilter" aria-label="Popularity evidence"><option value="">Any popularity evidence</option><option value="experience">Reviews of this exact tour</option><option value="operator">Operator / venue reviews</option><option value="unknown">No verified count</option></select><select class="field" id="ageFilter" aria-label="Business age evidence"><option value="">Any company age</option><option value="5">5+ years</option><option value="10">10+ years</option><option value="20">20+ years</option><option value="unknown">Unknown business age</option><option value="tour-known">Known tourism start</option></select><select class="field" id="startupFilter"><option value="">Any startup difficulty</option><option value="First">Simple first options</option><option value="Pilot">Pilot with checks</option><option value="Seasonal">Seasonal only</option><option value="Partner">Needs a partner</option><option value="Later">Later investment</option></select><select class="field" id="sort"><option value="launch">Easiest to launch first</option><option value="fit">Highest suitability</option><option value="mountain">Most mountain-oriented</option><option value="popularity">Most reviewed (experience first)</option><option value="oldest">Oldest confirmed business</option><option value="youngest">Youngest confirmed business</option><option value="distance">Nearest to my private base</option><option value="new">Recently checked</option><option value="price">Cheapest published price</option><option value="title">Name A–Z</option></select></div><p id="popSummary" class="pop-summary"></p><div class="chipline" id="chips"></div><div class="summary"><span id="countText">Loading experiences…</span><div class="buttonrow"><button id="photosToggle" class="btn tiny">Original photos only</button><button id="summerToggle" class="btn tiny">Summer-ready only</button></div></div><div class="cards" id="cards"></div></section>
 <section class="view" id="map"><div class="panel"><h2>Crete-wide experience map</h2><p class="muted">Actual road/terrain map with public activity locations. Every listing is georeferenced to its public venue locality when known, otherwise to a clearly marked regional estimate. Shared area pins group experiences so overlapping listings stay accessible. No private base location is embedded in the website.</p><div class="toolbar"><select id="mapRegion" class="field"><option value="">All Crete</option><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select><select class="field" id="mapCat"><option value="">All activities</option></select><select class="field" id="mapMountain"><option value="">All landscapes</option><option value="Mountain-led">Mountain-led</option><option value="Mountain-adjacent">Mountain-adjacent</option><option value="mountain-any">Mountain + foothills</option></select><button class="btn tiny" id="mapReset">Fit all public locations</button></div><div class="base-compact" id="baseCompact" hidden aria-label="Saved private base controls">
  <div class="base-compact-label"><span class="base-compact-icon" aria-hidden="true">🔒</span><span><b>Private comparison base set</b><small id="baseCompactStatus">Straight-line distance comparison active · saved in this browser</small></span></div>
  <div class="base-compact-actions"><button class="btn tiny" id="expandBase" type="button">Change base</button><button class="btn dark tiny" id="openMapSearch" type="button">Search another place</button></div>
@@ -79,6 +84,30 @@
 <div class="map-layout"><div class="maparea" id="mapCanvas"><div class="mapblank">Interactive map loads when connected to the internet. All public listings remain accessible in the directory alongside it.</div></div><div class="panel mapinfo" style="margin:0"><h3 style="margin-top:0">All experiences / public map locations</h3><p class="map-label">Tap a cluster or grouped locality to choose among overlapping experiences. Locations marked “regional estimate” are not verified venue coordinates.</p><div class="countbar" id="mapCount"></div><div id="mapList"></div></div></div><p class="photoCredit">Map tiles © OpenStreetMap contributors, via OpenFreeMap. Markers intentionally indicate approximate public localities. The map requires internet.</p></div></section>
 <section class="view" id="shortlist"><div class="panel"><h2>Your shortlist</h2><p class="muted">Your own decisions are saved in this browser only. They are not published to GitHub or sent to the operators. Export your work regularly.</p><div class="minilist" id="shortList"></div></div></section>
 <section class="view" id="inbox"><div class="panel"><h2>Weekly review inbox</h2><p class="muted">Every Tuesday the research check looks for new Crete experiences, listing changes and price signals. Import the new JSON records here, inspect them, then move them into your shortlist.</p><div class="buttonrow"><button class="btn dark" id="importInbox">Import weekly JSON</button><button class="btn" id="showUnreviewed">Review all unchecked listings</button><button class="btn" id="exportNotes">Export notes & decisions</button></div><div class="notice">The scheduled research sends findings in ChatGPT. This static GitHub Pages site cannot change its shared database automatically without an authorized GitHub update. Imports change your browser copy; export/commit to publish.</div><h3>To review</h3><div class="minilist" id="reviewList"></div></div></section>
+
+<section id="launch" class="view" aria-label="Launch with low capital">
+  <div class="launch-hero panel">
+    <div class="launch-eyebrow">PRIVATE BUSINESS BRAINSTORMING · SUMMER-FIRST</div>
+    <h2>Start with the land. Earn before you renovate.</h2>
+    <p class="muted">Develop a small, profitable, 2–6 person experience without needing animals, a restaurant, large buildings or expensive equipment. Test demand first; use contributions to improve the site later. The vehicle is the main financial decision—not a reason to rush renovation.</p>
+    <div class="launch-kpis"><div><b id="launchFirstCount">—</b><span>Simple reference ideas</span></div><div><b>6</b><span>Guest limit</span></div><div><b>1–2</b><span>Hosts</span></div><div><b>€0</b><span>Renovation assumed at launch</span></div></div>
+    <div class="buttonrow"><button class="btn dark" id="launchJumpIdeas">Explore low-cost ideas</button><button class="btn" id="launchJumpCalc">Test break-even</button><button class="btn" id="launchShowRefs">Show simple competitor models</button></div>
+  </div>
+  <div class="launch-steps">
+    <div class="launch-step"><span class="phase-pill">1 · Prove demand</span><h3>Simple outdoor formats</h3><p>Olive-grove walk, seasonal farm stories, outdoor tasting (when compliant), landscape/nature, a photography or sunset stop. Avoid any promise of a renovated venue.</p><small>Goal: paid pilots, real feedback, measured costs</small></div>
+    <div class="launch-step"><span class="phase-pill">2 · Make the car pay</span><h3>Repeatable tours</h3><p>Offer two fixed days a week, a minimum viable private price, partner referrals, and safe transport only via a lawful arrangement. Add small food activities after requirements are confirmed.</p><small>Goal: monthly contribution above vehicle and fixed costs</small></div>
+    <div class="launch-step"><span class="phase-pill">3 · Invest from cash flow</span><h3>House and gathering space</h3><p>Improve toilets, seating, food prep and shade safety before expanding into longer family feasts, traditional oven experiences and music/history sessions.</p><small>Goal: improvements funded by proven demand</small></div>
+  </div>
+  <div class="panel launch-note"><b>What you have / what you do not need yet</b><p>Existing olive trees, mountain environment, family heritage, and an old outdoor gathering place can provide themes; they are <em>not</em> assumed to be guest-ready. No livestock, beehives, cooking school, hired chef or new building is assumed. Historic instruments and footage can be included later if appropriate.</p></div>
+  <div class="launch-rowhead" id="launchIdeasAnchor"><div><h2>Low-capital ideas to test</h2><p class="muted">Our hypothetical product versions, linked to real competitors in your 111-entry database. Startup equipment ranges are rough planning envelopes <b>excluding</b> vehicle, permits, insurance, professional fees, guest facilities and tax.</p></div><select class="field" id="launchStageFilter" aria-label="Filter trial stage"><option value="">All phases</option><option value="first">Possible first tests</option><option value="pilot">Next pilots</option><option value="later">After upgrades / partnership</option></select></div>
+  <div id="launchConceptCards" class="launch-concepts"></div>
+  <div class="panel" id="launchReferences"><div class="launch-rowhead"><div><h2>Closest real competitor formats</h2><p class="muted">Ranked by how practical it could be to build an <em>adaptation</em> with your current resources. This is not a measure of each operator's profit or equipment cost.</p></div><select id="launchRefFilter" class="field"><option value="all">All stages</option><option value="First">First-stage</option><option value="Pilot">Pilot</option><option value="Seasonal">Seasonal</option></select></div><div id="launchRefsList" class="launch-refs"></div><div class="buttonrow"><button class="btn dark" id="launchAllReferences">See all 111 in database</button></div></div>
+  <div class="panel" id="launchCalcAnchor"><div class="launch-rowhead"><div><h2>Will the vehicle and tour pay for themselves?</h2><p class="muted">Edit your assumptions. The result is <strong>contribution before taxes and other unmodeled costs</strong>, not net profit. Figures save only in this browser.</p></div><button class="btn tiny" id="launchResetCalc">Reset example</button></div>
+  <div class="launch-form"><div class="launch-controls"><label>Example concept<select id="calcConcept" class="field"></select></label><label>Price per guest (€)<input id="calcPricePerGuest" type="number" min="0" max="9999" step="5" class="field"></label><label>Booked guests (max 6)<input id="calcBookedGuests" type="number" min="1" max="6" step="1" class="field"></label><label>Booking commission (%)<input id="calcFeeRate" type="number" min="0" max="100" step="1" class="field"></label><label>Variable costs per guest (€)<input id="calcVariableCost" type="number" min="0" max="9999" step="1" class="field"></label><label>Cost per departure (€), e.g. fuel &amp; cleaning<input id="calcTripCost" type="number" min="0" step="5" class="field"></label><label>Host labour allowance per departure (€)<input id="calcHostCost" type="number" min="0" step="10" class="field"></label><label>Vehicle loan/lease per month (€)<input id="calcVehicleLoan" type="number" min="0" step="25" class="field"></label><label>Monthly insurance &amp; upkeep reserve (€)<input id="calcVehicleOther" type="number" min="0" step="10" class="field"></label><label>Departures per month<input id="calcTripsMonth" type="number" min="0" max="100" step="1" class="field"></label></div>
+    <div class="launch-results" aria-live="polite"><div class="launch-outputgrid"><div><small>Gross customer sales / departure</small><b id="calcGross">—</b></div><div><small>After commissions / departure</small><b id="calcAfterFee">—</b></div><div><small>Contribution / departure</small><b id="calcContrib">—</b></div><div><small>Monthly, after vehicle fixed costs*</small><b id="calcMonthly">—</b></div></div><div class="launch-kpis-note" id="calcThresholds"></div><h3>Sensitivity: guest count</h3><div class="launch-table-scroll"><table class="launch-table"><thead><tr><th>Guests</th><th>Sales</th><th>Contribution / tour</th><th>Monthly after vehicle</th></tr></thead><tbody id="calcSensitivity"></tbody></table></div><p class="muted" style="font-size:12px">*Assumes the same guest count for each monthly departure. Excludes VAT/income tax, depreciation, licenses, accounting, breakdowns beyond reserve, cancellations, property upgrades, and any unmodeled costs. Confirm treatment of VAT with a professional. Your own labour is included only via the allowance you enter.</p></div>
+  </div></div>
+  <div class="panel"><h2>Before taking payment: four go/no-go checks</h2><div class="launch-checks"><label><input type="checkbox" data-launch-check="route"> Safe guest route, weather plan and emergency procedures tested</label><label><input type="checkbox" data-launch-check="transport"> Paid passenger transport, vehicle, road access and insurance confirmed with the appropriate authorities</label><label><input type="checkbox" data-launch-check="food"> Food/tasting and visitor facilities approved for the exact activity offered</label><label><input type="checkbox" data-launch-check="numbers"> Minimum group price covers trip cost, host labour and allocated vehicle cost</label></div><p class="muted" style="font-size:12px">These are personal planning checkboxes, not legal approval. <a href="https://mitos.gov.gr/index.php/ΔΔ:Αναγγελία_Άσκησης_Δραστηριότητας_Εκμίσθωσης_ΕΙΧ_Αυτοκινήτων_με_Οδηγό" target="_blank" rel="noopener">Official Greek ΕΙΧ-with-driver process ↗</a>. A private 4×4 purchase alone does not authorize commercial passenger transportation. Spring water also requires testing if served to guests. Checklist is saved only in this browser.</p></div>
+</section>
 <section class="view" id="ideas"><div class="panel"><h2>Mountain-first brainstorming</h2><p class="muted">Adjust weights to prioritize a small, summer-oriented, land-based business anywhere on Crete. Mountain-led, mountain-adjacent, rural and non-mountain entries are distinguished independently of their activity category. Rankings are editable research heuristics, <b>not</b> verified elevation, operator ratings, financial forecasts, or permit approvals. Actual competitor price is separate.</p><div class="weights"><div class="weight"><label>Chania / West preference <b id="wregionVal">12</b></label><input type="range" id="wregion" min="0" max="24" value="12"></div><div class="weight"><label>Summer relevance <b id="wsummerVal">12</b></label><input type="range" id="wsummer" min="0" max="24" value="12"></div><div class="weight"><label>Land & rural preference <b id="wlandVal">12</b></label><input type="range" id="wland" min="0" max="24" value="12"></div><div class="weight"><label>Mountain focus <b id="wmountainVal">18</b></label><input id="wmountain" max="36" min="0" type="range" value="18"/></div></div><div class="buttonrow"><button class="btn dark" id="viewTop">View ranked top ideas</button><button class="btn" id="resetWeights">Reset weights</button></div><h3>Highest suitability right now</h3><div class="minilist" id="ideaTop"></div></div><div class="panel"><h2>How I would use it</h2><div class="grid3"><div><b>Research</b><p class="muted">Keep every real listing, including sea activities you don't intend to run.</p></div><div><b>Evaluate</b><p class="muted">Compare feasibility, operating season, equipment and the offer's differentiation.</p></div><div><b>Decide</b><p class="muted">Mark a shortlist. Separately check demand, transport and food regulations before investing.</p></div></div></div></section>
 <section class="view" id="data"><div class="panel"><h2>Database & publishing</h2><p class="muted">The downloadable JSON and CSV are the portable research source of truth. Add or merge real experiences here without rewriting the entire website.</p><div class="buttonrow"><button class="btn dark" id="exportDB">Export full database (.json)</button><button class="btn" id="exportCSV">Export spreadsheet (.csv)</button><button class="btn" id="importDB">Import / merge JSON</button><button class="btn" id="openAdd">Add experience</button><button class="btn" id="exportPersonal">Back up personal notes</button><button class="btn" id="restorePersonal">Restore notes</button></div><div class="notice warn"><b>Privacy:</b> This is a research database built from public operator listings. Do not enter personal property coordinates, routes, village identity or confidential business plans in records you intend to publish. Notes are local to this browser unless you deliberately export them.</div><div class="grid2" style="margin-top:18px"><div><h3>How updates work</h3><p>1. Weekly research provides new or changed listings.</p><p>2. Use <b>Import / merge JSON</b> to update this browser. Same ID or source/title records are merged rather than duplicated.</p><p>3. Export the full JSON, replace <code>data/experiences.json</code> in your GitHub repository, and push. Your public website updates from that file automatically.</p></div><div><h3>Methodology</h3><p>Published prices are starting advertised prices in EUR and can change. Per-person, per-vehicle and private group prices are explicitly distinguished. Empty price means unverified.</p><p>Original photographic thumbnails are hotlinked only for sources that were located; other cards link directly to the operator's own photo page. No stock images or AI-generated photos are represented as competitor photos.</p><p>Research checked: <b id="lastResearch">2026-11-11</b>. Some tours are seasonal, sold out, or require advance confirmation.</p></div></div><hr class="rule"><h3>Add a real experience</h3><div class="formgrid" id="addForm"><label>Experience name<input class="field" id="addTitle" placeholder="e.g. Orchard bread workshop"></label><label>Operator<input class="field" id="addOperator" placeholder="Official operator name"></label><label>Region<select class="field" id="addRegion"><option>Chania</option><option>Rethymno</option><option>Heraklion</option><option>Lasithi</option></select></label><label>Village or public locality<input class="field" id="addPlace" placeholder="Public location only"></label><label>Category<select class="field" id="addCategory"></select></label><label>Terrain<select class="field" id="addTerrain"></select></label><label>Mountain relevance<select id="addMountain" class="field"><option value="Rural / mixed">Rural / mixed</option><option value="Mountain-led">Mountain-led</option><option value="Mountain-adjacent">Mountain-adjacent</option><option value="Non-mountain">Non-mountain</option></select></label><label>Advertised price in EUR (optional)<input class="field" id="addPrice" type="number" min="0" step="0.01" placeholder="Leave empty if unverified"></label><label>Price basis<select class="field" id="addBasis"><option value="person">per person</option><option value="vehicle">per vehicle</option><option value="group">per group</option><option value="tour">per tour</option><option value="pot">per item</option></select></label><label class="wide">Direct booking or source URL<input class="field" id="addURL" type="url" placeholder="https://official-operator-site.com/experience"></label><label class="wide">Original operator photo URL (optional)<input class="field" id="addPhoto" type="url" placeholder="https://...jpg"></label><label class="wide">What guests actually do<textarea class="field" id="addDescription" rows="2" placeholder="What is included and where the idea comes from"></textarea></label><label>Season<input class="field" id="addSeason" value="Year-round / check schedule"></label><label>Duration<input class="field" id="addDuration" placeholder="2 h"></label></div><div class="buttonrow"><button id="saveAdd" class="btn dark">Save to my browser database</button><button id="clearAdd" class="btn">Clear form</button></div><div id="addFeedback" class="countbar"></div></div></section><div class="footer">Crete Experience Intelligence · 2026–27 · Personal research and benchmarking tool · Not affiliated with listed operators · All competitor images belong to their respective owners.</div></div>
 <div class="detailBackdrop" id="backdrop"><aside class="detailDrawer" role="dialog" aria-modal="true" aria-label="Experience details" id="drawer"><div class="detailTop"><button class="btn" id="detailBack">← Back to results</button><span class="eyebrow" style="color:#5e8170">Research record</span><button class="btn tiny" id="detailClose">✕</button></div><div id="detailBody"></div></aside></div>
@@ -140,7 +169,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 89,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0002",
@@ -195,7 +230,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 27,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0003",
@@ -250,7 +291,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 62,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Specialist food or animal-dependent programme; consider external partners.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0004",
@@ -305,7 +352,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 98,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0005",
@@ -360,7 +413,13 @@
       "operator_age_confidence": "third-party sector directory",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 66,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "Yes",
+      "launch_reason": "Do not assume access to an existing olive mill or processing equipment.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0006",
@@ -415,7 +474,13 @@
       "operator_age_confidence": "third-party sector directory",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 98,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0007",
@@ -470,7 +535,13 @@
       "operator_age_confidence": "third-party sector directory",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "High hospitality preparation and facility expectations; better after site improvements.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0008",
@@ -525,7 +596,13 @@
       "operator_age_confidence": "third-party sector directory",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "High hospitality preparation and facility expectations; better after site improvements.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0009",
@@ -580,7 +657,13 @@
       "operator_age_confidence": "third-party sector directory",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "High hospitality preparation and facility expectations; better after site improvements.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0010",
@@ -635,7 +718,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": 2019,
       "experience_age_years": 7,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 66,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "Yes",
+      "launch_reason": "Do not assume access to an existing olive mill or processing equipment.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0011",
@@ -690,7 +779,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": 2019,
       "experience_age_years": 7,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 62,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "Yes",
+      "launch_reason": "Do not assume access to an existing olive mill or processing equipment.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0012",
@@ -745,7 +840,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 89,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements. Fire and oven safety must be checked."
     },
     {
       "id": "CR-0013",
@@ -800,7 +901,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 58,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Specialist food or animal-dependent programme; consider external partners.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0014",
@@ -855,7 +962,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0015",
@@ -910,7 +1023,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements. Fire and oven safety must be checked."
     },
     {
       "id": "CR-0016",
@@ -964,7 +1083,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Seasonal",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Autumn olive harvest is not a summer activity.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0017",
@@ -1018,7 +1143,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements. Fire and oven safety must be checked."
     },
     {
       "id": "CR-0018",
@@ -1072,7 +1203,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0019",
@@ -1126,7 +1263,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 58,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "High hospitality preparation and facility expectations; better after site improvements.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0020",
@@ -1181,7 +1324,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 88,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Guided outdoor nature and mountain interpretation can use existing scenery.",
+      "launch_legal_gate": "Check route, weather, insurance, plant-identification safety and walking difficulty."
     },
     {
       "id": "CR-0021",
@@ -1235,7 +1384,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Could build around locally known traditions, but specialist workshops need skill and materials.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0022",
@@ -1290,7 +1445,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0023",
@@ -1345,7 +1506,13 @@
       "operator_age_confidence": "operator team biography",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 83,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Guided outdoor nature and mountain interpretation can use existing scenery.",
+      "launch_legal_gate": "Check route, weather, insurance, plant-identification safety and walking difficulty."
     },
     {
       "id": "CR-0024",
@@ -1400,7 +1567,13 @@
       "operator_age_confidence": "operator team biography",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 20,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0025",
@@ -1455,7 +1628,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0026",
@@ -1510,7 +1689,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements. Fire and oven safety must be checked."
     },
     {
       "id": "CR-0027",
@@ -1564,7 +1749,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Could build around locally known traditions, but specialist workshops need skill and materials.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0028",
@@ -1619,7 +1810,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 23,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "No hives or beekeeping operation yet.",
+      "launch_legal_gate": "Check route, weather, insurance, plant-identification safety and walking difficulty."
     },
     {
       "id": "CR-0029",
@@ -1674,7 +1871,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0030",
@@ -1729,7 +1932,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0031",
@@ -1783,7 +1992,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 57,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Could build around locally known traditions, but specialist workshops need skill and materials.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0032",
@@ -1838,7 +2053,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Seasonal",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Autumn olive harvest is not a summer activity.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0033",
@@ -1893,7 +2114,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 98,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0034",
@@ -1948,7 +2175,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 98,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0035",
@@ -2003,7 +2236,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0036",
@@ -2058,7 +2297,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 91,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0037",
@@ -2113,7 +2358,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 66,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "Yes",
+      "launch_reason": "Do not assume access to an existing olive mill or processing equipment.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0038",
@@ -2168,7 +2419,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0039",
@@ -2223,7 +2480,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0040",
@@ -2277,7 +2540,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0041",
@@ -2331,7 +2600,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 94,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0042",
@@ -2386,7 +2661,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Seasonal",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Autumn olive harvest is not a summer activity.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0043",
@@ -2441,7 +2722,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Seasonal",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Autumn olive harvest is not a summer activity.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0044",
@@ -2495,7 +2782,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 52,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0045",
@@ -2549,7 +2842,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 57,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Could build around locally known traditions, but specialist workshops need skill and materials.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0046",
@@ -2604,7 +2903,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 62,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "Yes",
+      "launch_reason": "Do not assume access to an existing olive mill or processing equipment.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0047",
@@ -2659,7 +2964,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 62,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "Yes",
+      "launch_reason": "Do not assume access to an existing olive mill or processing equipment.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0048",
@@ -2714,7 +3025,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 20,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0049",
@@ -2768,7 +3085,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0050",
@@ -2822,7 +3145,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0051",
@@ -2876,7 +3205,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 58,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Specialist food or animal-dependent programme; consider external partners.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0052",
@@ -2930,7 +3265,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 50,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Specialist food or animal-dependent programme; consider external partners.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0053",
@@ -2985,7 +3326,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 20,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0054",
@@ -3039,7 +3386,13 @@
       "operator_age_confidence": "operator workshop page",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 31,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "Maybe",
+      "launch_reason": "Pottery wheel and teaching skills not currently established.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0055",
@@ -3093,7 +3446,13 @@
       "operator_age_confidence": "operator workshop page",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 31,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "Maybe",
+      "launch_reason": "Pottery wheel and teaching skills not currently established.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0056",
@@ -3147,7 +3506,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0057",
@@ -3202,7 +3567,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 25,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0058",
@@ -3257,7 +3628,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 25,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0059",
@@ -3312,7 +3689,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 25,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0060",
@@ -3367,7 +3750,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 20,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0061",
@@ -3421,7 +3810,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 31,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "Maybe",
+      "launch_reason": "Pottery wheel and teaching skills not currently established.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0062",
@@ -3475,7 +3870,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 34,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Could build around locally known traditions, but specialist workshops need skill and materials.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0063",
@@ -3530,7 +3931,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 23,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "No hives or beekeeping operation yet.",
+      "launch_legal_gate": "Check route, weather, insurance, plant-identification safety and walking difficulty."
     },
     {
       "id": "CR-0064",
@@ -3585,7 +3992,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 52,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0065",
@@ -3639,7 +4052,13 @@
       "operator_age_confidence": "wine association history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0066",
@@ -3693,7 +4112,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0067",
@@ -3747,7 +4172,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0068",
@@ -3801,7 +4232,13 @@
       "operator_age_confidence": "operator history, disputed founding year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0069",
@@ -3855,7 +4292,13 @@
       "operator_age_confidence": "operator history, disputed founding year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0070",
@@ -3909,7 +4352,13 @@
       "operator_age_confidence": "operator history, disputed founding year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0071",
@@ -3963,7 +4412,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0072",
@@ -4017,7 +4472,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0073",
@@ -4071,7 +4532,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0074",
@@ -4125,7 +4592,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0075",
@@ -4179,7 +4652,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 52,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0076",
@@ -4233,7 +4712,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": 2013,
       "experience_age_years": 13,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 59,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0077",
@@ -4287,7 +4772,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 59,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0078",
@@ -4341,7 +4832,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 59,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0079",
@@ -4395,7 +4892,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 59,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0080",
@@ -4449,7 +4952,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0081",
@@ -4503,7 +5012,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0082",
@@ -4557,7 +5072,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0083",
@@ -4611,7 +5132,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0084",
@@ -4665,7 +5192,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0085",
@@ -4719,7 +5252,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0086",
@@ -4773,7 +5312,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0087",
@@ -4827,7 +5372,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0088",
@@ -4881,7 +5432,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0089",
@@ -4935,7 +5492,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0090",
@@ -4989,7 +5552,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0091",
@@ -5043,7 +5612,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0092",
@@ -5097,7 +5672,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0093",
@@ -5151,7 +5732,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0094",
@@ -5205,7 +5792,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 9,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "No horses or stable operation available.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0095",
@@ -5259,7 +5852,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 9,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "No horses or stable operation available.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0096",
@@ -5313,7 +5912,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 9,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "No horses or stable operation available.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0097",
@@ -5367,7 +5972,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 48,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low",
+      "launch_solo": "Maybe",
+      "launch_reason": "Long and physically demanding itinerary beyond a first hosted property experience.",
+      "launch_legal_gate": "Check route rights, access, guide requirements, weather, insurance and emergency plan."
     },
     {
       "id": "CR-0098",
@@ -5421,7 +6032,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 48,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low",
+      "launch_solo": "Maybe",
+      "launch_reason": "Long and physically demanding itinerary beyond a first hosted property experience.",
+      "launch_legal_gate": "Check route rights, access, guide requirements, weather, insurance and emergency plan."
     },
     {
       "id": "CR-0099",
@@ -5475,7 +6092,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 48,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low",
+      "launch_solo": "Maybe",
+      "launch_reason": "Long and physically demanding itinerary beyond a first hosted property experience.",
+      "launch_legal_gate": "Check route rights, access, guide requirements, weather, insurance and emergency plan."
     },
     {
       "id": "CR-0100",
@@ -5529,7 +6152,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low",
+      "launch_solo": "Maybe",
+      "launch_reason": "Walking is capital-light but route risk, heat and guest fitness matter.",
+      "launch_legal_gate": "Check route rights, access, guide requirements, weather, insurance and emergency plan."
     },
     {
       "id": "CR-0101",
@@ -5583,7 +6212,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 2,
+      "launch_stage": "Not fit",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Sea excursion is outside the intended land/mountain business.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0102",
@@ -5637,7 +6272,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 2,
+      "launch_stage": "Not fit",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Sea excursion is outside the intended land/mountain business.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0103",
@@ -5691,7 +6332,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 2,
+      "launch_stage": "Not fit",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Sea excursion is outside the intended land/mountain business.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0104",
@@ -5746,7 +6393,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements. Fire and oven safety must be checked."
     },
     {
       "id": "CR-0105",
@@ -5801,7 +6454,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 98,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0106",
@@ -5855,7 +6514,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0107",
@@ -5910,7 +6575,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 58,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Specialist food or animal-dependent programme; consider external partners.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0108",
@@ -5965,7 +6636,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 23,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "No hives or beekeeping operation yet.",
+      "launch_legal_gate": "Check route, weather, insurance, plant-identification safety and walking difficulty."
     },
     {
       "id": "CR-0109",
@@ -6019,7 +6696,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Could build around locally known traditions, but specialist workshops need skill and materials.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0110",
@@ -6074,7 +6757,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 58,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Specialist food or animal-dependent programme; consider external partners.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0111",
@@ -6129,7 +6818,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements. Fire and oven safety must be checked."
     }
   ],
   "suitability_assumptions": {
@@ -6142,7 +6837,21 @@
   "popularity_researched_at": "2026-11-11",
   "popularity_methodology": "Reviews are public proxies for visibility/satisfaction, NOT bookings or revenue. Prefer individual experience evidence to venue totals. Unknown is not zero. Count and source are snapshots, not live feeds.",
   "business_age_researched_at": "2026-11-11",
-  "business_age_methodology": "Year founded / production start is different from first visitor programme and a particular activity launch. Company duration is not the number of years an activity has received ratings. Unknowns remain null; dates shown reflect source-specific milestones; years calculated as 2026 minus stated year."
+  "business_age_methodology": "Year founded / production start is different from first visitor programme and a particular activity launch. Company duration is not the number of years an activity has received ratings. Unknowns remain null; dates shown reflect source-specific milestones; years calculated as 2026 minus stated year.",
+  "startup_model": {
+    "updated": "2026-11-11",
+    "scope": "Hypothetical small operator with a max-six guest mountain/olive focus; operator entries are competitors, not business assets.",
+    "cost_definition": "Cost bands are qualitative planning estimates for adapting the idea, NOT actual competitor startup costs or legally approved operations.",
+    "stages": [
+      "First",
+      "Pilot",
+      "Seasonal",
+      "Partner",
+      "Later",
+      "Not fit"
+    ],
+    "caveat": "Investment excludes vehicle purchase/finance, premises upgrades, licensing, taxes and labour. Local compliance must be verified."
+  }
 }</script>
 <script>
 (()=>{'use strict';
@@ -6184,8 +6893,8 @@ const popularitySort=(a,b)=>{
  const order=r=>r.pop_scope==='experience'?0:r.pop_scope==='operator'?1:r.pop_scope==='operator_self_reported'?2:r.pop_scope==='restaurant'?3:4;
  return order(a)-order(b)||(b.pop_reviews??-1)-(a.pop_reviews??-1)||score(b)-score(a)
 };
-const sorters={oldest:(a,b)=>(a.operator_started_year??1e8)-(b.operator_started_year??1e8)||score(b)-score(a),youngest:(a,b)=>(b.operator_started_year??-1)-(a.operator_started_year??-1)||score(b)-score(a),popularity:popularitySort,mountain:(a,b)=>mountainOrder(a)-mountainOrder(b)||score(b)-score(a),distance:(a,b)=>(distanceKm(a)??1e8)-(distanceKm(b)??1e8)||score(b)-score(a),fit:(a,b)=>score(b)-score(a)||a.title.localeCompare(b.title),new:(a,b)=>(b.checked_at||'').localeCompare(a.checked_at||''),price:(a,b)=>(a.price_eur??1e8)-(b.price_eur??1e8),title:(a,b)=>a.title.localeCompare(b.title)};
-const card=r=>{let n=currentNote(r.id);return `<article class="card"><div class="photo">${photo(r)}<div class="empty" style="display:${r.photo_url?'none':'block'}"><span class="emoji">${icons[r.category]||'🌿'}</span>Original photo available on operator website<br><a href="${esc(r.source_url)}" target="_blank" rel="noopener">See source gallery ↗</a></div><span class="tag">${esc(r.region)} · ${esc(r.terrain)}</span><button class="heart ${n.favorite?'sel':''}" data-star="${esc(r.id)}" aria-label="Toggle favourite">${n.favorite?'♥':'♡'}</button></div><div class="body"><div class="overline">${esc(r.operator)}</div><h3><button data-detail="${esc(r.id)}">${esc(r.title)}</button></h3><div class="desc">${esc(r.description)}</div><div class="facts"><span>📍 ${esc(r.place)}</span>${mountainHTML(r)}<span>${esc(r.category)}</span>${r.duration?`<span>${esc(r.duration)}</span>`:''}</div></div><div class="record-location" style="padding:0 14px;margin:0 0 8px">${popBadge(r)}${ageBadge(r)}${distanceHTML(r)}<span class="map-label">${esc(placePrecision(r))}</span></div><div class="card-bottom"><div class="price">${money(r)}<small>${esc(shortBasis(r))}</small></div><div class="score">${score(r)}%<small>Personal fit</small></div></div><div style="padding:0 14px 12px;display:flex;gap:7px;align-items:center;justify-content:space-between"><button class="btn tiny" data-detail="${esc(r.id)}">Details</button><button class="btn tiny" data-mapfocus="${esc(r.id)}">📍 Map</button><a class="btn tiny" href="${esc(r.source_url)}" target="_blank" rel="noopener">Operator ↗</a></div></article>`};
+const sorters={launch:(a,b)=>(b.launch_score||0)-(a.launch_score||0)||score(b)-score(a),oldest:(a,b)=>(a.operator_started_year??1e8)-(b.operator_started_year??1e8)||score(b)-score(a),youngest:(a,b)=>(b.operator_started_year??-1)-(a.operator_started_year??-1)||score(b)-score(a),popularity:popularitySort,mountain:(a,b)=>mountainOrder(a)-mountainOrder(b)||score(b)-score(a),distance:(a,b)=>(distanceKm(a)??1e8)-(distanceKm(b)??1e8)||score(b)-score(a),fit:(a,b)=>score(b)-score(a)||a.title.localeCompare(b.title),new:(a,b)=>(b.checked_at||'').localeCompare(a.checked_at||''),price:(a,b)=>(a.price_eur??1e8)-(b.price_eur??1e8),title:(a,b)=>a.title.localeCompare(b.title)};
+const card=r=>{let n=currentNote(r.id);return `<article class="card"><div class="photo">${photo(r)}<div class="empty" style="display:${r.photo_url?'none':'block'}"><span class="emoji">${icons[r.category]||'🌿'}</span>Original photo available on operator website<br><a href="${esc(r.source_url)}" target="_blank" rel="noopener">See source gallery ↗</a></div><span class="tag">${esc(r.region)} · ${esc(r.terrain)}</span><button class="heart ${n.favorite?'sel':''}" data-star="${esc(r.id)}" aria-label="Toggle favourite">${n.favorite?'♥':'♡'}</button></div><div class="body"><div class="overline">${esc(r.operator)}</div><h3><button data-detail="${esc(r.id)}">${esc(r.title)}</button></h3><div class="desc">${esc(r.description)}</div><div class="facts"><span>📍 ${esc(r.place)}</span>${mountainHTML(r)}<span>${esc(r.category)}</span>${r.duration?`<span>${esc(r.duration)}</span>`:''}</div></div><div class="record-location" style="padding:0 14px;margin:0 0 8px">${popBadge(r)}${ageBadge(r)}<span class="launch-chip ${r.launch_stage==='Later'||r.launch_stage==='Partner'?'later':''}">Startability ${esc(String(r.launch_score??'?'))}/100 · ${esc(r.launch_stage||'Research')}</span>${distanceHTML(r)}<span class="map-label">${esc(placePrecision(r))}</span></div><div class="card-bottom"><div class="price">${money(r)}<small>${esc(shortBasis(r))}</small></div><div class="score">${score(r)}%<small>Personal fit</small></div></div><div style="padding:0 14px 12px;display:flex;gap:7px;align-items:center;justify-content:space-between"><button class="btn tiny" data-detail="${esc(r.id)}">Details</button><button class="btn tiny" data-mapfocus="${esc(r.id)}">📍 Map</button><a class="btn tiny" href="${esc(r.source_url)}" target="_blank" rel="noopener">Operator ↗</a></div></article>`};
 const chips=[['','All experiences'],['region-Chania','Chania only'],['category-Food & cooking','Cooking'],['terrain-Olive grove','Olive groves'],['mountain-Mountain-led','⛰️ Mountain-led'],['price-70','€70 or less'],['nosea','Exclude sea']];
 $('chips').innerHTML=chips.map(([k,t])=>`<button class="chip ${!k?'on':''}" data-chip="${esc(k)}">${esc(t)}</button>`).join('');
 const cats=[...new Set(db.map(x=>x.category))].sort(),terrains=[...new Set(db.map(x=>x.terrain))].sort();cats.forEach(c=>{$('category').add(new Option(c,c));$('mapCat').add(new Option(c,c));$('addCategory').add(new Option(c,c))});terrains.forEach(t=>{$('terrain').add(new Option(t,t));$('addTerrain').add(new Option(t,t))});
@@ -6194,7 +6903,7 @@ if(query&&!`${r.title} ${r.operator} ${r.place} ${r.category} ${r.description} $
 if(region&&r.region!==region||cat&&r.category!==cat||terrain&&r.terrain!==terrain||!matchesMountain(r,orient))return false;
 let ageNeed=$('ageFilter').value;if(ageNeed==='unknown'&&r.operator_started_year!=null)return false;if(ageNeed==='tour-known'&&r.experience_started_year==null)return false;if(ageNeed&&/^\d+$/.test(ageNeed)&&(businessAge(r)==null||businessAge(r)<Number(ageNeed)))return false;
 let popNeed=$('popFilter').value;if(popNeed==='experience'&&r.pop_scope!=='experience')return false;if(popNeed==='operator'&&!['operator','restaurant','operator_self_reported'].includes(r.pop_scope))return false;if(popNeed==='unknown'&&r.pop_reviews!=null)return false;
-if(price==='unknown'&&r.price_eur!==null)return false;if(price&&price!=='unknown'&&(r.price_eur===null||r.price_eur>Number(price)))return false;
+if($('startupFilter').value&&r.launch_stage!==$('startupFilter').value)return false;if(price==='unknown'&&r.price_eur!==null)return false;if(price&&price!=='unknown'&&(r.price_eur===null||r.price_eur>Number(price)))return false;
 if(hasPhotoOnly&&!r.photo_url||summerOnly&&!r.summer_relevant||activeChip==='nosea'&&r.category==='Sea & boats')return false;
 return true}).sort(sorters[$('sort').value]||sorters.fit)};
 function updateMetrics(){let set=all();$('totalMetric').textContent=set.length;$('pricedMetric').textContent=set.filter(r=>r.price_eur!==null).length;$('shortMetric').textContent=set.filter(r=>currentNote(r.id).status==='shortlisted').length;let dates=set.map(r=>r.checked_at).filter(Boolean);$('lastResearch').textContent=dates.sort().reverse()[0]||'—'}
@@ -6203,13 +6912,13 @@ function renderMini(){let set=all();let sl=set.filter(r=>currentNote(r.id).statu
 let review=set.filter(r=>currentNote(r.id).status==='unreviewed').sort(sorters.fit).slice(0,60);$('reviewList').innerHTML=review.length?review.map(mini).join(''):'<p class="muted">Nothing left to review.</p>';
 $('ideaTop').innerHTML=set.filter(r=>r.category!=='Sea & boats').sort(sorters.fit).slice(0,18).map(mini).join('')}
 const mini=r=>`<div class="minicard"><div><strong>${esc(r.title)}</strong><small>${esc(r.operator)} · ${esc(r.place)} · ${money(r)} ${esc(shortBasis(r))}</small><small>${esc(currentNote(r.id).status)} · ${esc(r.terrain)}</small><div class="badge-list">${mountainHTML(r)}${distanceHTML(r)}${popBadge(r)}${ageBadge(r)}</div></div><div style="text-align:right;min-width:65px"><b class="score">${score(r)}%</b><button class="btn tiny" data-detail="${esc(r.id)}">View</button></div></div>`;
-function showTab(tab,push=true){activeTab=tab;document.querySelectorAll('.view').forEach(x=>x.classList.toggle('active',x.id===tab));document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('active',x.dataset.tab===tab));if(push)history.pushState({page:tab},'',`#${tab}`);if(tab==='map')setTimeout(()=>renderMap(),50);if(['shortlist','inbox','ideas'].includes(tab))renderMini();window.scrollTo(0,0)}
-function openDetail(id,push=true){let r=all().find(x=>x.id===id);if(!r)return;detailId=id;let n=currentNote(id);$('detailBody').innerHTML=`${r.photo_url?`<img class="detailHero" alt="Original linked image of ${esc(r.operator)}" src="${esc(r.photo_url)}" onerror="this.style.display='none'">`:'<div class="panel" style="margin:14px">Original photograph not yet indexed. <a href="'+esc(r.source_url)+'" target="_blank" rel="noopener">Open the operator’s photos ↗</a></div>'}<div class="detailInner"><div class="overline">${esc(r.operator)} · ${esc(r.region)}</div><h2>${esc(r.title)}</h2><p>${esc(r.description)}</p><div class="keyfacts"><div><b>${money(r)}</b><small>${esc(shortBasis(r))}</small></div><div><b>${score(r)}% fit</b><small>Business suitability estimate</small></div><div><b>${esc(r.place)}</b><small>Public locality: ${esc(placePrecision(r))}</small></div><div><b>${mountainHTML(r)}</b><small>${esc(r.mountain_basis||'Mountain status inferred; verify')}</small></div><div><b>${esc(r.terrain)}</b><small>${esc(r.duration||'Duration not published')}</small></div><div><b>${distanceText(r)}</b><small>From private base; straight-line estimate</small></div><div><b>${esc(r.season)}</b><small>Published or indicative season</small></div><div><b>${esc(r.price_status)}</b><small>Price status · checked ${esc(r.checked_at)}</small></div></div>${popDetails(r)}${ageDetails(r)}<div class="buttonrow"><a class="btn dark" href="${esc(r.source_url)}" target="_blank" rel="noopener">Open operator / booking page ↗</a><button class="btn" data-mapfocus="${esc(r.id)}">📍 Show on map</button><a class="btn" href="${esc(publicMapURL(r))}" target="_blank" rel="noopener">Public map ↗</a><button class="btn" data-star="${esc(r.id)}">${n.favorite?'♥ Saved favourite':'♡ Add favourite'}</button></div><hr class="rule"><b>My decision</b><p class="muted">These notes live only in this browser, unless you export them.</p><select id="detailStatus" class="field" style="width:100%"><option value="unreviewed">Unreviewed</option><option value="researching">Researching</option><option value="shortlisted">Shortlisted — potential business idea</option><option value="inspiration">Inspiration only</option><option value="rejected">Not suitable</option><option value="checked">Checked / benchmarked</option></select><label style="display:block;margin-top:12px"><b>Notes and brainstorm</b><textarea id="detailNote" class="notearea" placeholder="What could I learn, adapt or combine? Risks, partners, business model…">${esc(n.note||'')}</textarea></label><div class="buttonrow"><button class="btn dark" id="saveDetail">Save assessment</button></div><hr class="rule"><p class="photoCredit">Research/source: ${esc(r.source_type)} · ${esc(r.source_url)}. Thumbnail, if shown, is an externally linked photo credited to its original source; it is not owned or hosted by this website.</p></div>`;
+function showTab(tab,push=true){activeTab=tab;document.querySelectorAll('.view').forEach(x=>x.classList.toggle('active',x.id===tab));document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('active',x.dataset.tab===tab));if(push)history.pushState({page:tab},'',`#${tab}`);if(tab==='map')setTimeout(()=>renderMap(),50);if(['shortlist','inbox','ideas'].includes(tab))renderMini();if(tab==='launch')renderLaunchRefs();window.scrollTo(0,0)}
+function openDetail(id,push=true){let r=all().find(x=>x.id===id);if(!r)return;detailId=id;let n=currentNote(id);$('detailBody').innerHTML=`${r.photo_url?`<img class="detailHero" alt="Original linked image of ${esc(r.operator)}" src="${esc(r.photo_url)}" onerror="this.style.display='none'">`:'<div class="panel" style="margin:14px">Original photograph not yet indexed. <a href="'+esc(r.source_url)+'" target="_blank" rel="noopener">Open the operator’s photos ↗</a></div>'}<div class="detailInner"><div class="overline">${esc(r.operator)} · ${esc(r.region)}</div><h2>${esc(r.title)}</h2><p>${esc(r.description)}</p><div class="keyfacts"><div><b>${money(r)}</b><small>${esc(shortBasis(r))}</small></div><div><b>${score(r)}% fit</b><small>Business suitability estimate</small></div><div><b>${esc(r.place)}</b><small>Public locality: ${esc(placePrecision(r))}</small></div><div><b>${mountainHTML(r)}</b><small>${esc(r.mountain_basis||'Mountain status inferred; verify')}</small></div><div><b>${esc(r.terrain)}</b><small>${esc(r.duration||'Duration not published')}</small></div><div><b>${distanceText(r)}</b><small>From private base; straight-line estimate</small></div><div><b>${esc(r.season)}</b><small>Published or indicative season</small></div><div><b>${esc(r.price_status)}</b><small>Price status · checked ${esc(r.checked_at)}</small></div></div>${popDetails(r)}${ageDetails(r)}<div class="notice"><b>Our low-investment adaptation:</b> ${esc(r.launch_reason||'Assess manually')} · <b>Stage:</b> ${esc(r.launch_stage||'Unknown')} · <b>Practical gate:</b> ${esc(r.launch_legal_gate||'Check local requirements')}<br><small>Hypothetical suitability for our project; not the original operator’s setup or measured profit.</small></div><div class="buttonrow"><a class="btn dark" href="${esc(r.source_url)}" target="_blank" rel="noopener">Open operator / booking page ↗</a><button class="btn" data-mapfocus="${esc(r.id)}">📍 Show on map</button><a class="btn" href="${esc(publicMapURL(r))}" target="_blank" rel="noopener">Public map ↗</a><button class="btn" data-star="${esc(r.id)}">${n.favorite?'♥ Saved favourite':'♡ Add favourite'}</button></div><hr class="rule"><b>My decision</b><p class="muted">These notes live only in this browser, unless you export them.</p><select id="detailStatus" class="field" style="width:100%"><option value="unreviewed">Unreviewed</option><option value="researching">Researching</option><option value="shortlisted">Shortlisted — potential business idea</option><option value="inspiration">Inspiration only</option><option value="rejected">Not suitable</option><option value="checked">Checked / benchmarked</option></select><label style="display:block;margin-top:12px"><b>Notes and brainstorm</b><textarea id="detailNote" class="notearea" placeholder="What could I learn, adapt or combine? Risks, partners, business model…">${esc(n.note||'')}</textarea></label><div class="buttonrow"><button class="btn dark" id="saveDetail">Save assessment</button></div><hr class="rule"><p class="photoCredit">Research/source: ${esc(r.source_type)} · ${esc(r.source_url)}. Thumbnail, if shown, is an externally linked photo credited to its original source; it is not owned or hosted by this website.</p></div>`;
 $('detailStatus').value=n.status||'unreviewed';$('backdrop').classList.add('open');document.body.style.overflow='hidden';$('drawer').scrollTop=0;if(push)history.pushState({page:activeTab,detail:id},'',`#experience-${id}`)}
 function closeDetail(goBack=true){if(!detailId)return;detailId=null;$('backdrop').classList.remove('open');document.body.style.overflow='';if(goBack&&history.state?.detail)history.back()}
-function applyHash(){let h=decodeURIComponent(location.hash.slice(1));if(h.startsWith('experience-')){let id=h.slice(11);openDetail(id,false);return}if(detailId)closeDetail(false);showTab(['explore','map','shortlist','inbox','ideas','data'].includes(h)?h:'explore',false)}
+function applyHash(){let h=decodeURIComponent(location.hash.slice(1));if(h.startsWith('experience-')){let id=h.slice(11);openDetail(id,false);return}if(detailId)closeDetail(false);showTab(['explore','map','shortlist','inbox','launch','ideas','data'].includes(h)?h:'explore',false)}
 // Server JSON overrides embedded copy on GitHub Pages; file:// falls back to embedded data.
-async function loadNetworkDB(){if(location.protocol==='file:')return;try{let r=await fetch('./data/experiences.json',{cache:'no-store'});if(!r.ok)throw Error(r.status);let o=await r.json();if(o.records?.length){db=o.records;fillOptions();render();renderMini();if(activeTab==='map')renderMap()}}catch(e){console.info('Using embedded offline database:',e.message)}}
+async function loadNetworkDB(){if(location.protocol==='file:')return;try{let r=await fetch('./data/experiences.json',{cache:'no-store'});if(!r.ok)throw Error(r.status);let o=await r.json();if(o.records?.length){db=o.records;fillOptions();render();renderMini();if(activeTab==='map')renderMap();renderLaunch()}}catch(e){console.info('Using embedded offline database:',e.message)}}
 function fillOptions(){const cat=new Set(db.map(x=>x.category)),tr=new Set(db.map(x=>x.terrain));for(let [id,values] of [['category',cat],['mapCat',cat],['addCategory',cat],['terrain',tr],['addTerrain',tr]]){let x=$(id);for(let value of [...values].sort())if(![...x.options].some(y=>y.value===value))x.add(new Option(value,value))}}
 // Public geolocation fallbacks: only public villages / regions, no personal property coordinates.
 const geo=[["Heraklion mountains",25.12,35.205],["Rethymno mountains",24.552,35.283],["Chania mountains",24.058,35.381],["White Mountains",24.028,35.365],["Agios Nikolaos",25.714,35.192],["Chrissi Island",25.706,34.877],["Samaria Gorge",23.97,35.28],["Agia Varvara",24.996,35.14],["Patsos Gorge",24.581,35.249],["Emprosneros",24.185,35.383],["Xirosterni",24.237,35.414],["Apokoronas",24.185,35.4],["Paidochori",24.267,35.399],["Asterousia",25.1,34.99],["Psiloritis",24.77,35.226],["Margarites",24.681,35.324],["Vatolakkos",23.948,35.45],["Elafonissi",23.536,35.271],["Athanatoi",25.139,35.285],["Heraklion",25.145,35.34],["Platanias",23.909,35.518],["Agia Lake",23.958,35.483],["Ierapetra",25.738,35.011],["Astrikas",23.742,35.463],["Litsarda",24.22,35.406],["Rethymno",24.473,35.367],["Archanes",25.166,35.232],["Kissamos",23.653,35.493],["Sternes",24.134,35.51],["Kalyves",24.182,35.453],["Drakona",24.06,35.409],["Charaso",25.335,35.261],["Elounda",25.728,35.258],["Sfinari",23.56,35.421],["Theriso",23.991,35.403],["Tripiti",25.108,34.952],["Moires",24.874,35.053],["Sellia",24.408,35.191],["Alagni",25.285,35.229],["Dafnes",25.052,35.215],["Omalos",23.912,35.346],["Malaxa",24.121,35.446],["Aptera",24.14,35.465],["Chania",24.019,35.512],["Vamos",24.192,35.41],["Lakki",23.943,35.397],["Malia",25.462,35.284],["Balos",23.591,35.584],["Pigi",24.605,35.368]];
@@ -6281,7 +6990,7 @@ function applyWeights(){for(let id of ['wregion','wsummer','wland','wmountain'])
 // Click routing and browser back navigation, without intercepting the browser at the main page.
 document.body.addEventListener('click',e=>{let t=e.target.closest('[data-detail],[data-star],[data-tab],[data-chip],[data-mapfocus]');if(!t)return;
 if(t.dataset.mapfocus){showRecordOnMap(t.dataset.mapfocus);return}if(t.dataset.detail){openDetail(t.dataset.detail);return}if(t.dataset.star){let n=currentNote(t.dataset.star);notes[t.dataset.star]={...n,favorite:!n.favorite};saveNotes();render();renderMini();if(detailId)openDetail(detailId,false);return}if(t.dataset.tab){showTab(t.dataset.tab);return}if(t.dataset.chip!==undefined){let k=t.dataset.chip;activeChip=k;$('region').value=k.startsWith('region-')?k.slice(7):'';$('category').value=k.startsWith('category-')?k.slice(9):'';$('terrain').value=k.startsWith('terrain-')?k.slice(8):'';$('price').value=k.startsWith('price-')?k.slice(6):'';$('mountainFilter').value=k.startsWith('mountain-')?k.slice(9):'';document.querySelectorAll('[data-chip]').forEach(x=>x.classList.toggle('on',x.dataset.chip===k));render()}});
-for(let k of ['search','region','category','terrain','mountainFilter','price','sort'])$(k).addEventListener(k==='search'?'input':'change',()=>{activeChip='';render()});
+for(let k of ['search','region','category','terrain','mountainFilter','price','startupFilter','sort'])$(k).addEventListener(k==='search'?'input':'change',()=>{activeChip='';render()});
 $('photosToggle').onclick=()=>{hasPhotoOnly=!hasPhotoOnly;$('photosToggle').classList.toggle('soft',hasPhotoOnly);render()};$('summerToggle').onclick=()=>{summerOnly=!summerOnly;$('summerToggle').classList.toggle('soft',summerOnly);render()};
 $('detailBack').onclick=()=>closeDetail();$('detailClose').onclick=()=>closeDetail();$('backdrop').onclick=e=>{if(e.target===$('backdrop'))closeDetail()};
 $('detailBody').addEventListener('click',e=>{if(e.target.id==='saveDetail'){notes[detailId]={...currentNote(detailId),status:$('detailStatus').value,note:$('detailNote').value};saveNotes();render();renderMini();closeDetail()}});
@@ -6361,7 +7070,78 @@ $('placeSearchResults').addEventListener('click',e=>{
 });
 $('popFilter').addEventListener('change',render);$('ageFilter').addEventListener('change',render);showBaseStatus();setBaseSetupMode(hasBase()?'compact':'edit');
 window.addEventListener('popstate',applyHash);window.addEventListener('hashchange',()=>{if(!history.state)applyHash()});
-if(!location.hash)history.replaceState({page:'explore'},'','#explore');applyWeights();render();applyHash();if(!location.hash||location.hash==='#explore')setTimeout(()=>window.scrollTo(0,0),160);loadNetworkDB();
+
+// START-SMALL BUSINESS LAUNCH PLANNER: hypothetical adaptations, never original operator profit or cost.
+const launchConcepts=[
+ {id:'olive',title:'Olive-grove stories & oil tasting',emoji:'🫒',wave:'first',stage:'First test',gear:'€60–220',dur:'2–3 h',host:'1 person',season:'Summer',why:'Lead a short grove walk, compare oils and explain harvesting and farming without pretending summer is harvest season.',risk:'Serving food or oil and guest access still require compliance checks.',ids:['CR-0010','CR-0005','CR-0105'],price:65,variable:8,trip:25,labor:55},
+ {id:'picnic',title:'Mountain-view picnic & local snacks',emoji:'🏔️',wave:'first',stage:'First test',gear:'€80–260',dur:'2.5–3.5 h',host:'1 person',season:'Summer',why:'Scenery, a short walk, local snacks and personal hosting. Begin at a safe, permitted public or ready-to-use site; no renovations assumed.',risk:'Food hygiene, route, shade, access and weather plan. Transport must be lawful.',ids:['CR-0004','CR-0023','CR-0043'],price:85,variable:16,trip:35,labor:60},
+ {id:'herbs',title:'Wild plants & mountain landscape walk',emoji:'🌿',wave:'first',stage:'First test',gear:'€40–180',dur:'2–3 h',host:'1 person',season:'Spring–autumn',why:'Guided landscape and herb storytelling, photography and a calm pace. No animals or specialist equipment.',risk:'Only identify plants you know; no gathering/consumption claims without expertise or permissions. Heat, uneven ground.',ids:['CR-0020','CR-0023','CR-0032'],price:65,variable:5,trip:25,labor:55},
+ {id:'sunset',title:'Private sunset & mountain photography',emoji:'🌄',wave:'first',stage:'First test',gear:'€30–150',dur:'2–3 h',host:'1 person',season:'Summer',why:'Low equipment burden, strong photographic value and small private groups.',risk:'Return before dark unless road and visitor safety are fully managed; access and transport permissions.',ids:['CR-0077','CR-0075','CR-0020'],price:75,variable:8,trip:35,labor:60},
+ {id:'dakos',title:'Dakos / simple Cretan food workshop',emoji:'🍅',wave:'pilot',stage:'After food checks',gear:'€90–300',dur:'2.5–3.5 h',host:'1–2 people',season:'Summer',why:'Hands-on, plant-based local cooking can be taught without a large kitchen if the approved setting and method allow.',risk:'Commercial food preparation, handwashing, storage and allergies must be checked before selling.',ids:['CR-0001','CR-0010','CR-0029'],price:90,variable:18,trip:30,labor:65},
+ {id:'stars',title:'Mountain stargazing & night picnic',emoji:'✨',wave:'pilot',stage:'Pilot with safety',gear:'€80–350',dur:'2–3 h',host:'1–2 people',season:'Clear evenings',why:'No telescope required for a first guided night-sky/landscape session; premium quiet setting and simple photography.',risk:'Night driving, lighting, weather, guest safety and astronomy knowledge. No guaranteed clear skies.',ids:['CR-0020','CR-0075'],price:95,variable:10,trip:40,labor:70},
+ {id:'seasonal',title:'Seasonal farm activity (no animals)',emoji:'🧺',wave:'pilot',stage:'Pilot / seasonal',gear:'€50–220',dur:'2–3 h',host:'1 person',season:'Depends on crops',why:'Vegetable or herb care, tending trees, sorting or tasting in season. Do not advertise olive harvesting for summer.',risk:'Must match real crop calendar, guest safety and farm/access requirements.',ids:['CR-0032','CR-0036','CR-0042'],price:75,variable:10,trip:30,labor:60},
+ {id:'hike',title:'Guided uphill hike to a mountain meeting point',emoji:'🥾',wave:'pilot',stage:'Pilot / active guests',gear:'€40–170',dur:'3–4 h',host:'1 person',season:'Cooler summer hours',why:'Optional 45-minute uphill walking approach may suit fit guests, reducing dependence on the off-road ride when commercially and practically appropriate.',risk:'Heat, steepness, route permissions, water and fitness; confirm whether hiking/guiding authorization applies.',ids:['CR-0100','CR-0020','CR-0097'],price:70,variable:7,trip:20,labor:70},
+ {id:'oven',title:'Rustic oven cooking & family gatherings',emoji:'🔥',wave:'later',stage:'After site upgrades',gear:'€300–1,200+',dur:'4–5 h',host:'2 people',season:'Summer',why:'Your long-term heritage advantage: a traditional gathering place and shared meal, after guests can be hosted safely.',risk:'Do not assume toilet, kitchen, water, fire protection and building access are ready or approved.',ids:['CR-0015','CR-0104','CR-0111'],price:115,variable:25,trip:45,labor:95},
+ {id:'harvest',title:'Autumn olive harvest day',emoji:'🍂',wave:'later',stage:'Autumn product',gear:'€150–500',dur:'3–5 h',host:'2 people',season:'Autumn only',why:'Potential seasonal extension after summer launch; not an experience to sell during summer.',risk:'Olive variety/harvest calendar, guest safety, tools, weather and transport.',ids:['CR-0016','CR-0042'],price:100,variable:18,trip:35,labor:90}
+];
+const STARTKEY='crete_research_launch_calc_v1',STARTCHECK='crete_research_launch_checks_v1';
+const launchDefaults={concept:'olive',price:65,guests:4,fee:15,variable:8,trip:25,labor:55,loan:450,other:170,trips:8};
+let launchCalc={...launchDefaults,...read(STARTKEY,{})};
+const euro=n=>'€'+Number(n||0).toLocaleString('en-IE',{minimumFractionDigits:0,maximumFractionDigits:0});
+const fmtSign=n=>(n<0?'−':'')+euro(Math.abs(n));
+const num=(id,min,max)=>Math.max(min,Math.min(max,Number($(id).value)||0));
+function renderLaunchConcepts(){
+ let choose=$('launchStageFilter').value;
+ let list=launchConcepts.filter(c=>!choose||c.wave===choose);
+ $('launchConceptCards').innerHTML=list.map(c=>`<article class="launch-concept ${c.wave==='first'?'primary':''}"><div class="launch-meta"><span>${esc(c.stage)}</span><span>${esc(c.season)}</span></div><h3>${c.emoji} ${esc(c.title)}</h3><p>${esc(c.why)}</p><div class="launch-meta"><span>${esc(c.dur)}</span><span>${esc(c.host)}</span><span>Gear only ${esc(c.gear)}</span></div><div class="launch-stepsdetail"><b>Before selling:</b> ${esc(c.risk)}</div><div class="buttonrow"><button class="btn dark tiny" data-launch-preset="${esc(c.id)}">Test finances</button><button class="btn tiny" data-launch-comp="${esc(c.id)}">Real competitors</button></div></article>`).join('');
+}
+function renderLaunchRefs(){
+ let f=$('launchRefFilter').value;
+ let arr=all().filter(r=>f==='all'||r.launch_stage===f).sort((a,b)=>(b.launch_score||0)-(a.launch_score||0)||score(b)-score(a)).slice(0,14);
+ $('launchFirstCount').textContent=all().filter(r=>r.launch_stage==='First').length;
+ $('launchRefsList').innerHTML=arr.map(r=>`<div class="launch-ref"><div><strong>${esc(r.title)}</strong><small>${esc(r.operator)} · ${esc(r.place)} · ${esc(r.region)} · ${esc(r.category)} · ${esc(r.launch_reason||'')}</small><small>${esc(money(r))} (${esc(shortBasis(r))}) · competitor price, not yours</small></div><div style="display:grid;justify-items:end;gap:5px"><span class="launch-value">${r.launch_score??'—'}/100</span><button class="btn tiny" data-detail="${esc(r.id)}">Open entry</button></div></div>`).join('');
+}
+function setLaunchFields(obj){for(const [key,id] of Object.entries({concept:'calcConcept',price:'calcPricePerGuest',guests:'calcBookedGuests',fee:'calcFeeRate',variable:'calcVariableCost',trip:'calcTripCost',labor:'calcHostCost',loan:'calcVehicleLoan',other:'calcVehicleOther',trips:'calcTripsMonth'}))$(id).value=String(obj[key]);}
+function readLaunchFields(){return {concept:$('calcConcept').value,price:num('calcPricePerGuest',0,9999),guests:Math.max(1,num('calcBookedGuests',1,6)),fee:num('calcFeeRate',0,100),variable:num('calcVariableCost',0,9999),trip:num('calcTripCost',0,100000),labor:num('calcHostCost',0,100000),loan:num('calcVehicleLoan',0,100000),other:num('calcVehicleOther',0,100000),trips:num('calcTripsMonth',0,1000)};}
+function calculateLaunch(){launchCalc=readLaunchFields();try{localStorage.setItem(STARTKEY,JSON.stringify(launchCalc))}catch(_){}
+ const v=launchCalc, fixed=v.loan+v.other, p=v.price*(1-v.fee/100)-v.variable;
+ const contribution=n=>n*p-v.trip-v.labor;
+ const gross=v.guests*v.price, afterFee=gross*(1-v.fee/100), c=contribution(v.guests),month=v.trips*c-fixed;
+ for(const [id,n] of [['calcGross',gross],['calcAfterFee',afterFee],['calcContrib',c],['calcMonthly',month]]){$(id).textContent=fmtSign(n);$(id).classList.toggle('negative',n<0)}
+ const minGuest=Array.from({length:6},(_,i)=>i+1).find(n=>contribution(n)>0);
+ const perTripNeeded=v.trips>0?(fixed/v.trips):Infinity;
+ const cover=Array.from({length:6},(_,i)=>i+1).find(n=>contribution(n)>=perTripNeeded && contribution(n)>0);
+ const needTrips=c>0?Math.ceil(fixed/c):Infinity;
+ $('calcThresholds').innerHTML=`<b>Trip contribution positive from:</b> ${minGuest?minGuest+' guests':'not within 6 guests'}<br><b>Monthly vehicle costs covered at this departure frequency:</b> ${cover?cover+' guests per tour':'not within 6 guests'}<br><b>Departures/month to cover vehicle costs at ${v.guests} guests:</b> ${Number.isFinite(needTrips)?needTrips:'not at these economics'}<br><small>Monthly vehicle fixed cost assumed: ${euro(fixed)}. A positive vehicle result does not equal after-tax business profit.</small>`;
+ $('calcSensitivity').innerHTML=Array.from({length:6},(_,i)=>i+1).map(n=>`<tr class="${n===v.guests?'current':''}"><td>${n}</td><td>${euro(n*v.price)}</td><td>${fmtSign(contribution(n))}</td><td>${fmtSign(v.trips*contribution(n)-fixed)}</td></tr>`).join('');
+}
+function loadLaunchPreset(key){let c=launchConcepts.find(x=>x.id===key);if(!c)return;
+ launchCalc={...readLaunchFields(),concept:c.id,price:c.price,variable:c.variable,trip:c.trip,labor:c.labor};setLaunchFields(launchCalc);calculateLaunch();showTab('launch');$('launchCalcAnchor').scrollIntoView({behavior:'smooth',block:'start'});}
+function renderLaunch(){
+ renderLaunchConcepts();renderLaunchRefs();
+ $('calcConcept').innerHTML=launchConcepts.map(c=>`<option value="${c.id}">${esc(c.title)}</option>`).join('');
+ if(!launchConcepts.some(x=>x.id===launchCalc.concept))launchCalc.concept='olive';
+ setLaunchFields(launchCalc);calculateLaunch();
+ let ck=read(STARTCHECK,{});document.querySelectorAll('[data-launch-check]').forEach(x=>x.checked=!!ck[x.dataset.launchCheck]);
+}
+$('launchStageFilter').addEventListener('change',renderLaunchConcepts);$('launchRefFilter').addEventListener('change',renderLaunchRefs);
+$('launchJumpIdeas').addEventListener('click',()=>$('launchIdeasAnchor').scrollIntoView({behavior:'smooth'}));
+$('launchJumpCalc').addEventListener('click',()=>$('launchCalcAnchor').scrollIntoView({behavior:'smooth'}));
+$('launchShowRefs').addEventListener('click',()=>$('launchReferences').scrollIntoView({behavior:'smooth'}));
+$('launchAllReferences').addEventListener('click',()=>{showTab('explore');$('startupFilter').value='';$('sort').value='launch';render();});
+$('launchResetCalc').addEventListener('click',()=>{launchCalc={...launchDefaults};setLaunchFields(launchCalc);calculateLaunch()});
+$('calcConcept').addEventListener('change',()=>loadLaunchPreset($('calcConcept').value));
+for(const id of ['calcPricePerGuest','calcBookedGuests','calcFeeRate','calcVariableCost','calcTripCost','calcHostCost','calcVehicleLoan','calcVehicleOther','calcTripsMonth'])$(id).addEventListener('input',calculateLaunch);
+document.querySelectorAll('[data-launch-check]').forEach(x=>x.addEventListener('change',()=>{let ck={};document.querySelectorAll('[data-launch-check]').forEach(y=>ck[y.dataset.launchCheck]=y.checked);try{localStorage.setItem(STARTCHECK,JSON.stringify(ck))}catch(_){}}));
+document.addEventListener('click',e=>{let btn=e.target.closest('[data-launch-preset],[data-launch-comp]');if(!btn)return;
+ if(btn.dataset.launchPreset){loadLaunchPreset(btn.dataset.launchPreset);return}
+ let c=launchConcepts.find(x=>x.id===btn.dataset.launchComp);if(!c)return;
+ $('launchRefFilter').value='all';
+ $('launchRefsList').innerHTML=c.ids.map(id=>all().find(r=>r.id===id)).filter(Boolean).map(r=>`<div class="launch-ref"><div><strong>${esc(r.title)}</strong><small>${esc(r.operator)} · ${esc(r.place)} · ${esc(money(r))} (${esc(shortBasis(r))})</small><small>Original operator listing and reviews available in record.</small></div><button class="btn tiny" data-detail="${esc(r.id)}">Open entry</button></div>`).join('');
+ $('launchReferences').scrollIntoView({behavior:'smooth',block:'start'});
+});
+
+if(!location.hash)history.replaceState({page:'explore'},'','#explore');applyWeights();render();renderLaunch();applyHash();if(!location.hash||location.hash==='#explore')setTimeout(()=>window.scrollTo(0,0),160);loadNetworkDB();
 // Add external map runtime only on map tab, to keep first load lightweight.
 const mapScript=document.createElement('script');mapScript.src='https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js';mapScript.defer=true;document.head.appendChild(mapScript);mapScript.onload=()=>{if(activeTab==='map')renderMap()};
 })();

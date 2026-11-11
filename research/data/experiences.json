@@ -55,7 +55,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 89,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0002",
@@ -110,7 +116,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 27,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0003",
@@ -165,7 +177,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 62,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Specialist food or animal-dependent programme; consider external partners.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0004",
@@ -220,7 +238,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 98,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0005",
@@ -275,7 +299,13 @@
       "operator_age_confidence": "third-party sector directory",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 66,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "Yes",
+      "launch_reason": "Do not assume access to an existing olive mill or processing equipment.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0006",
@@ -330,7 +360,13 @@
       "operator_age_confidence": "third-party sector directory",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 98,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0007",
@@ -385,7 +421,13 @@
       "operator_age_confidence": "third-party sector directory",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "High hospitality preparation and facility expectations; better after site improvements.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0008",
@@ -440,7 +482,13 @@
       "operator_age_confidence": "third-party sector directory",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "High hospitality preparation and facility expectations; better after site improvements.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0009",
@@ -495,7 +543,13 @@
       "operator_age_confidence": "third-party sector directory",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "High hospitality preparation and facility expectations; better after site improvements.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0010",
@@ -550,7 +604,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": 2019,
       "experience_age_years": 7,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 66,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "Yes",
+      "launch_reason": "Do not assume access to an existing olive mill or processing equipment.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0011",
@@ -605,7 +665,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": 2019,
       "experience_age_years": 7,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 62,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "Yes",
+      "launch_reason": "Do not assume access to an existing olive mill or processing equipment.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0012",
@@ -660,7 +726,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 89,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements. Fire and oven safety must be checked."
     },
     {
       "id": "CR-0013",
@@ -715,7 +787,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 58,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Specialist food or animal-dependent programme; consider external partners.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0014",
@@ -770,7 +848,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0015",
@@ -825,7 +909,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements. Fire and oven safety must be checked."
     },
     {
       "id": "CR-0016",
@@ -879,7 +969,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Seasonal",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Autumn olive harvest is not a summer activity.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0017",
@@ -933,7 +1029,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements. Fire and oven safety must be checked."
     },
     {
       "id": "CR-0018",
@@ -987,7 +1089,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0019",
@@ -1041,7 +1149,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 58,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "High hospitality preparation and facility expectations; better after site improvements.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0020",
@@ -1096,7 +1210,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 88,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Guided outdoor nature and mountain interpretation can use existing scenery.",
+      "launch_legal_gate": "Check route, weather, insurance, plant-identification safety and walking difficulty."
     },
     {
       "id": "CR-0021",
@@ -1150,7 +1270,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Could build around locally known traditions, but specialist workshops need skill and materials.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0022",
@@ -1205,7 +1331,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0023",
@@ -1260,7 +1392,13 @@
       "operator_age_confidence": "operator team biography",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 83,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Guided outdoor nature and mountain interpretation can use existing scenery.",
+      "launch_legal_gate": "Check route, weather, insurance, plant-identification safety and walking difficulty."
     },
     {
       "id": "CR-0024",
@@ -1315,7 +1453,13 @@
       "operator_age_confidence": "operator team biography",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 20,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0025",
@@ -1370,7 +1514,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0026",
@@ -1425,7 +1575,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements. Fire and oven safety must be checked."
     },
     {
       "id": "CR-0027",
@@ -1479,7 +1635,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Could build around locally known traditions, but specialist workshops need skill and materials.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0028",
@@ -1534,7 +1696,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 23,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "No hives or beekeeping operation yet.",
+      "launch_legal_gate": "Check route, weather, insurance, plant-identification safety and walking difficulty."
     },
     {
       "id": "CR-0029",
@@ -1589,7 +1757,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0030",
@@ -1644,7 +1818,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0031",
@@ -1698,7 +1878,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 57,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Could build around locally known traditions, but specialist workshops need skill and materials.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0032",
@@ -1753,7 +1939,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Seasonal",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Autumn olive harvest is not a summer activity.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0033",
@@ -1808,7 +2000,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 98,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0034",
@@ -1863,7 +2061,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 98,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0035",
@@ -1918,7 +2122,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0036",
@@ -1973,7 +2183,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 91,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0037",
@@ -2028,7 +2244,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 66,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "Yes",
+      "launch_reason": "Do not assume access to an existing olive mill or processing equipment.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0038",
@@ -2083,7 +2305,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0039",
@@ -2138,7 +2366,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0040",
@@ -2192,7 +2426,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0041",
@@ -2246,7 +2486,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 94,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0042",
@@ -2301,7 +2547,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Seasonal",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Autumn olive harvest is not a summer activity.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0043",
@@ -2356,7 +2608,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Seasonal",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Autumn olive harvest is not a summer activity.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0044",
@@ -2410,7 +2668,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 52,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0045",
@@ -2464,7 +2728,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 57,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Could build around locally known traditions, but specialist workshops need skill and materials.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0046",
@@ -2519,7 +2789,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 62,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "Yes",
+      "launch_reason": "Do not assume access to an existing olive mill or processing equipment.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0047",
@@ -2574,7 +2850,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 62,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "Yes",
+      "launch_reason": "Do not assume access to an existing olive mill or processing equipment.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0048",
@@ -2629,7 +2911,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 20,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0049",
@@ -2683,7 +2971,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0050",
@@ -2737,7 +3031,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0051",
@@ -2791,7 +3091,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 58,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Specialist food or animal-dependent programme; consider external partners.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0052",
@@ -2845,7 +3151,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 50,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Specialist food or animal-dependent programme; consider external partners.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0053",
@@ -2900,7 +3212,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 20,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0054",
@@ -2954,7 +3272,13 @@
       "operator_age_confidence": "operator workshop page",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 31,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "Maybe",
+      "launch_reason": "Pottery wheel and teaching skills not currently established.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0055",
@@ -3008,7 +3332,13 @@
       "operator_age_confidence": "operator workshop page",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 31,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "Maybe",
+      "launch_reason": "Pottery wheel and teaching skills not currently established.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0056",
@@ -3062,7 +3392,13 @@
       "operator_age_confidence": "operator history, inferred year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0057",
@@ -3117,7 +3453,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 25,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0058",
@@ -3172,7 +3514,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 25,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0059",
@@ -3227,7 +3575,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 25,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0060",
@@ -3282,7 +3636,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 20,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Livestock and specialist equipment are not available; only consider a local partner.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0061",
@@ -3336,7 +3696,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 31,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "Maybe",
+      "launch_reason": "Pottery wheel and teaching skills not currently established.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0062",
@@ -3390,7 +3756,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 34,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Could build around locally known traditions, but specialist workshops need skill and materials.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0063",
@@ -3445,7 +3817,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 23,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "No hives or beekeeping operation yet.",
+      "launch_legal_gate": "Check route, weather, insurance, plant-identification safety and walking difficulty."
     },
     {
       "id": "CR-0064",
@@ -3500,7 +3878,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 52,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0065",
@@ -3554,7 +3938,13 @@
       "operator_age_confidence": "wine association history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0066",
@@ -3608,7 +3998,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0067",
@@ -3662,7 +4058,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0068",
@@ -3716,7 +4118,13 @@
       "operator_age_confidence": "operator history, disputed founding year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0069",
@@ -3770,7 +4178,13 @@
       "operator_age_confidence": "operator history, disputed founding year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0070",
@@ -3824,7 +4238,13 @@
       "operator_age_confidence": "operator history, disputed founding year",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0071",
@@ -3878,7 +4298,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0072",
@@ -3932,7 +4358,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0073",
@@ -3986,7 +4418,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0074",
@@ -4040,7 +4478,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0075",
@@ -4094,7 +4538,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 52,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0076",
@@ -4148,7 +4598,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": 2013,
       "experience_age_years": 13,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 59,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0077",
@@ -4202,7 +4658,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 59,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0078",
@@ -4256,7 +4718,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 59,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0079",
@@ -4310,7 +4778,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 59,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Vehicle + compliance",
+      "launch_solo": "Yes",
+      "launch_reason": "Mountain driving matches the goal, but paid guest transport needs legal verification.",
+      "launch_legal_gate": "Verify lawful passenger transport model, compliant vehicle, insurance, road access and driver eligibility before any sale."
     },
     {
       "id": "CR-0080",
@@ -4364,7 +4838,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0081",
@@ -4418,7 +4898,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0082",
@@ -4472,7 +4958,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0083",
@@ -4526,7 +5018,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0084",
@@ -4580,7 +5078,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0085",
@@ -4634,7 +5138,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0086",
@@ -4688,7 +5198,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0087",
@@ -4742,7 +5258,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0088",
@@ -4796,7 +5318,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0089",
@@ -4850,7 +5378,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0090",
@@ -4904,7 +5438,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0091",
@@ -4958,7 +5498,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0092",
@@ -5012,7 +5558,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0093",
@@ -5066,7 +5618,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 22,
+      "launch_stage": "Later",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Bike fleet, helmets, maintenance, insurance and guiding infrastructure make this capital-heavy.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0094",
@@ -5120,7 +5678,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 9,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "No horses or stable operation available.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0095",
@@ -5174,7 +5738,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 9,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "No horses or stable operation available.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0096",
@@ -5228,7 +5798,13 @@
       "operator_age_confidence": "operator history",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 9,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "No horses or stable operation available.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0097",
@@ -5282,7 +5858,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 48,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low",
+      "launch_solo": "Maybe",
+      "launch_reason": "Long and physically demanding itinerary beyond a first hosted property experience.",
+      "launch_legal_gate": "Check route rights, access, guide requirements, weather, insurance and emergency plan."
     },
     {
       "id": "CR-0098",
@@ -5336,7 +5918,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 48,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low",
+      "launch_solo": "Maybe",
+      "launch_reason": "Long and physically demanding itinerary beyond a first hosted property experience.",
+      "launch_legal_gate": "Check route rights, access, guide requirements, weather, insurance and emergency plan."
     },
     {
       "id": "CR-0099",
@@ -5390,7 +5978,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 48,
+      "launch_stage": "Later",
+      "launch_cost_band": "Low",
+      "launch_solo": "Maybe",
+      "launch_reason": "Long and physically demanding itinerary beyond a first hosted property experience.",
+      "launch_legal_gate": "Check route rights, access, guide requirements, weather, insurance and emergency plan."
     },
     {
       "id": "CR-0100",
@@ -5444,7 +6038,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 77,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low",
+      "launch_solo": "Maybe",
+      "launch_reason": "Walking is capital-light but route risk, heat and guest fitness matter.",
+      "launch_legal_gate": "Check route rights, access, guide requirements, weather, insurance and emergency plan."
     },
     {
       "id": "CR-0101",
@@ -5498,7 +6098,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 2,
+      "launch_stage": "Not fit",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Sea excursion is outside the intended land/mountain business.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0102",
@@ -5552,7 +6158,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 2,
+      "launch_stage": "Not fit",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Sea excursion is outside the intended land/mountain business.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0103",
@@ -5606,7 +6218,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 2,
+      "launch_stage": "Not fit",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "Sea excursion is outside the intended land/mountain business.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0104",
@@ -5661,7 +6279,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements. Fire and oven safety must be checked."
     },
     {
       "id": "CR-0105",
@@ -5716,7 +6340,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 98,
+      "launch_stage": "First",
+      "launch_cost_band": "Low",
+      "launch_solo": "Yes",
+      "launch_reason": "Own olive trees and land can support simple hosted activities without animals.",
+      "launch_legal_gate": "Confirm access, liability cover and any food/tasting requirements."
     },
     {
       "id": "CR-0106",
@@ -5770,7 +6400,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 41,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Partner-dependent",
+      "launch_solo": "No",
+      "launch_reason": "Requires a winery/producer partner or stock, tasting expertise and suitable licensing.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0107",
@@ -5825,7 +6461,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 58,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Specialist food or animal-dependent programme; consider external partners.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0108",
@@ -5880,7 +6522,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 23,
+      "launch_stage": "Partner",
+      "launch_cost_band": "High",
+      "launch_solo": "No",
+      "launch_reason": "No hives or beekeeping operation yet.",
+      "launch_legal_gate": "Check route, weather, insurance, plant-identification safety and walking difficulty."
     },
     {
       "id": "CR-0109",
@@ -5934,7 +6582,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 70,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Could build around locally known traditions, but specialist workshops need skill and materials.",
+      "launch_legal_gate": "Confirm required permissions and operating conditions."
     },
     {
       "id": "CR-0110",
@@ -5989,7 +6643,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 58,
+      "launch_stage": "Partner",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Specialist food or animal-dependent programme; consider external partners.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements."
     },
     {
       "id": "CR-0111",
@@ -6044,7 +6704,13 @@
       "operator_age_confidence": "unverified",
       "experience_started_year": null,
       "experience_age_years": null,
-      "age_checked_at": "2026-11-11"
+      "age_checked_at": "2026-11-11",
+      "launch_score": 85,
+      "launch_stage": "Pilot",
+      "launch_cost_band": "Low–moderate",
+      "launch_solo": "Maybe",
+      "launch_reason": "Strong market fit, but verify a safe food area and compliant activity before accepting bookings.",
+      "launch_legal_gate": "Food preparation and paid guest catering require checking hygiene, facilities and operating requirements. Fire and oven safety must be checked."
     }
   ],
   "suitability_assumptions": {
@@ -6057,5 +6723,19 @@
   "popularity_researched_at": "2026-11-11",
   "popularity_methodology": "Reviews are public proxies for visibility/satisfaction, NOT bookings or revenue. Prefer individual experience evidence to venue totals. Unknown is not zero. Count and source are snapshots, not live feeds.",
   "business_age_researched_at": "2026-11-11",
-  "business_age_methodology": "Year founded / production start is different from first visitor programme and a particular activity launch. Company duration is not the number of years an activity has received ratings. Unknowns remain null; dates shown reflect source-specific milestones; years calculated as 2026 minus stated year."
+  "business_age_methodology": "Year founded / production start is different from first visitor programme and a particular activity launch. Company duration is not the number of years an activity has received ratings. Unknowns remain null; dates shown reflect source-specific milestones; years calculated as 2026 minus stated year.",
+  "startup_model": {
+    "updated": "2026-11-11",
+    "scope": "Hypothetical small operator with a max-six guest mountain/olive focus; operator entries are competitors, not business assets.",
+    "cost_definition": "Cost bands are qualitative planning estimates for adapting the idea, NOT actual competitor startup costs or legally approved operations.",
+    "stages": [
+      "First",
+      "Pilot",
+      "Seasonal",
+      "Partner",
+      "Later",
+      "Not fit"
+    ],
+    "caveat": "Investment excludes vehicle purchase/finance, premises upgrades, licensing, taxes and labour. Local compliance must be verified."
+  }
 }
