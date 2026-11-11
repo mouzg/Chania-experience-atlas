@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#122924"><title>Chania Experience Atlas 2027 · v8 | Privacy-Safe Mountain Village</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#122924"><title>Chania Experience Atlas 2027 · v9 | Privacy-Safe Map</title>
 <style>
 :root{--bg:#f4f3ee;--ink:#17332c;--mid:#53675f;--surface:#fffefa;--line:#dae0d6;--forest:#183e32;--lime:#dff1df;--mint:#0e775d;--gold:#d48a47;--soft:#edf4ed}
 *{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:var(--bg);font:15px/1.52 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink)}button,input,select,textarea{font:inherit}button{cursor:pointer}a{color:#08725a}a:hover{text-decoration:underline}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #e4a561;outline-offset:2px}.hidden{display:none!important}
@@ -54,8 +54,8 @@
 
 
 <section class="hidden" id="destinationsPanel">
- <div class="public-lead"><h2>Explore public places across Chania</h2><p>Landscape, food, wine and outdoor-tour inspiration for the strongest Atlas ideas. Experiences hosted in <b>Mountain Village</b> use a general placeholder name: its actual location is private and has no map pin. Every pin represents a <b>public destination</b>, not a private host venue or visitor pickup point.</p></div>
- <div class="public-map-shell"><div class="public-map-head"><h3>Destination map</h3><span>Tap pins for details · Live roads when online</span></div>
+ <div class="public-lead"><h2>Explore public places across Chania</h2><p>Landscape, food, wine and outdoor-tour inspiration for the strongest Atlas ideas. Experiences hosted in <b>Mountain Village</b> use a general placeholder name: its actual location is private and has no map pin. Every pin represents a <b>public destination</b>, not a private host venue or visitor pickup point. Background map place names are hidden.</p></div>
+ <div class="public-map-shell"><div class="public-map-head"><h3>Destination map</h3><span>Tap public pins · Background place names hidden</span></div>
   <div id="publicMap" role="region" aria-label="Map of public tourist destinations in Chania"></div>
   <div class="pub-legend"><span><i class="pub-dot mountain"></i> Mountain / gorge</span><span><i class="pub-dot foothill"></i> Winery / foothills</span><span><i class="pub-dot valley"></i> Village / valley</span><span><i class="pub-dot coast"></i> Coast / town</span></div>
  </div>
@@ -124,7 +124,7 @@ function loadPublicMap(){
    const el=document.getElementById('publicMap');
    el.innerHTML='';
    const map=L.map(el,{scrollWheelZoom:false,zoomControl:true}).setView([35.435,23.966],10);
-   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18,subdomains:'abcd',attribution:'&copy; OpenStreetMap contributors &copy; CARTO',crossOrigin:true}).addTo(map);
    const bounds=[];
    PUBLIC_DESTINATIONS.forEach(p=>{
     const color={mountain:'#bb7a31',foothill:'#198e68',valley:'#297a94',coast:'#316da6'}[p.tag]||'#1b8058';
